@@ -27,6 +27,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     Button button1;
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
+    //private final LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +61,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             return;
         }
         Location location = locationManager.getLastKnownLocation("gps");
+        //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (location != null) {
             TextView textview1 = findViewById(R.id.textView);
             TextView textview2 = findViewById(R.id.textView2);
@@ -71,7 +73,22 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         }
     }
 
-
+    protected void onResume() {
+        //locationManager.requestLocationUpdates(provider, 400, 1, this);
+        super.onResume();
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        locationManager.requestLocationUpdates("gps", 400, 1, this);
+    }
     @Override
     public void onLocationChanged(@NonNull Location location) {
         TextView textview1 = findViewById(R.id.textView);
