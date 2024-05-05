@@ -3,12 +3,14 @@ package com.example.uwtacomaguideapp;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Paint;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -29,8 +31,13 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     public static final String GPS_PROVIDER = "gps";
     //private final LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
+    //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
+    // 0.00418, -0.00508
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Paint red = new Paint();
+        red.setColor(android.graphics.Color.RED);
+        red.setStyle(Paint.Style.FILL);
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
         super.onCreate(savedInstanceState);
@@ -93,9 +100,21 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     public void onLocationChanged(@NonNull Location location) {
         TextView textview1 = findViewById(R.id.textView);
         TextView textview2 = findViewById(R.id.textView2);
-        String lat = String.valueOf(location.getLatitude());
-        String lng = String.valueOf(location.getLongitude());
+        ImageView imageView = findViewById(R.id.imageView3);
+        double lat1 = location.getLatitude();
+        double lng1 = location.getLongitude();
+        String lat = String.valueOf(lat1);
+        String lng = String.valueOf(lng1);
         textview1.setText(lat);
         textview2.setText(lng);
+        //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
+        // 0.00418, -0.00508
+        //432, 376
+        if((lng1 >= -122.44121 && lng1 <= -122.43613) && (lat1 <= 47.24676 && lat1 >= 47.24258)){
+            lat1 = Math.floor(((47.24676 - lat1) * 100000) / 432);
+            lng1 = Math.floor(((-122.43121 - lng1) * 100000) / 376);
+            imageView.setX( imageView.getX() + ((float)lat1));
+            imageView.setY( imageView.getY() + ((float)lng1));
+        }
     }
 }
