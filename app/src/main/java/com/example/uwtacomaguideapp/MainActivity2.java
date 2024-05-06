@@ -52,8 +52,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         TextView textview3 = findViewById(R.id.textView3);
         TextView textview4 = findViewById(R.id.textView4);
         ImageView imageView = (ImageView) findViewById(R.id.imageView3);
-        imageView.setX(55);
-        imageView.setY(14);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
