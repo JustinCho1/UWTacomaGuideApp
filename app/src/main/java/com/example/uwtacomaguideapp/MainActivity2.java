@@ -52,6 +52,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         TextView textview3 = findViewById(R.id.textView3);
         TextView textview4 = findViewById(R.id.textView4);
         ImageView imageView = (ImageView) findViewById(R.id.imageView3);
+        imageView.setX(604);
+        imageView.setY(962);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -100,24 +102,25 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     }
     @Override
     public void onLocationChanged(@NonNull Location location) {
-//        TextView textview1 = findViewById(R.id.textView);
-//        TextView textview2 = findViewById(R.id.textView2);
+        TextView textview1 = findViewById(R.id.textView);
+        TextView textview2 = findViewById(R.id.textView2);
         ImageView imageView = findViewById(R.id.imageView3);
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
-//        String lat = String.valueOf(lat1);
-//        String lng = String.valueOf(lng1);
-//        textview1.setText(lat);
-//        textview2.setText(lng);
+        String lat = String.valueOf(lat1);
+        String lng = String.valueOf(lng1);
+        textview1.setText(lat);
+        textview2.setText(lng);
         //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
         // 0.00418, -0.00508
         //432, 376
         if((lng1 >= -122.44121 && lng1 <= -122.43613) && (lat1 <= 47.24676 && lat1 >= 47.24258)){
-            lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
-            lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
+            lat1 = ((lat1 - 47.24258) * 100000) / 418;
+            lng1 = ((lng1 - (-122.44121)) * 100000) / 508;
+            lat1 = Math.floor(lat1 * 1000);
+            lng1 = Math.floor(lng1 * 1150);
             imageView.setX(((float)lat1));
             imageView.setY(((float)lng1)); //383
-
         }
     }
 }
