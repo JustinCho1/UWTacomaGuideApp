@@ -26,6 +26,7 @@ import com.google.android.gms.location.LocationServices;
 
 
 public class MainActivity2 extends AppCompatActivity implements LocationListener {
+
     Button button1;
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
@@ -33,6 +34,14 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 
     //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
     // 0.00418, -0.00508
+
+    TextView textview1 = findViewById(R.id.textView);
+    TextView textview2 = findViewById(R.id.textView2);
+    ImageView imageView = findViewById(R.id.imageView3);
+    double lat1;
+    double lng1;
+    String lat;
+    String lng;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Paint red = new Paint();
@@ -52,8 +61,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         TextView textview3 = findViewById(R.id.textView3);
         TextView textview4 = findViewById(R.id.textView4);
         ImageView imageView = (ImageView) findViewById(R.id.imageView3);
-        imageView.setX(604);
-        imageView.setY(962);
+        imageView.setX(633);
+        imageView.setY(919);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -102,13 +111,10 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     }
     @Override
     public void onLocationChanged(@NonNull Location location) {
-        TextView textview1 = findViewById(R.id.textView);
-        TextView textview2 = findViewById(R.id.textView2);
-        ImageView imageView = findViewById(R.id.imageView3);
-        double lat1 = location.getLatitude();
-        double lng1 = location.getLongitude();
-        String lat = String.valueOf(lat1);
-        String lng = String.valueOf(lng1);
+        lat1 = location.getLatitude();
+        lng1 = location.getLongitude();
+        lat = String.valueOf(lat1);
+        lng = String.valueOf(lng1);
         textview1.setText(lat);
         textview2.setText(lng);
         //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
