@@ -72,12 +72,12 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         Location location = locationManager.getLastKnownLocation("gps");
         //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (location != null) {
-            TextView textview1 = findViewById(R.id.textView);
-            TextView textview2 = findViewById(R.id.textView2);
-            String lat = String.valueOf(location.getLatitude());
-            String lng = String.valueOf(location.getLongitude());
-            textview1.setText(lat);
-            textview2.setText(lng);
+//            TextView textview1 = findViewById(R.id.textView);
+//            TextView textview2 = findViewById(R.id.textView2);
+//            String lat = String.valueOf(location.getLatitude());
+//            String lng = String.valueOf(location.getLongitude());
+//            textview1.setText(lat);
+//            textview2.setText(lng);
             onLocationChanged(location);
         }
     }
@@ -100,23 +100,23 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     }
     @Override
     public void onLocationChanged(@NonNull Location location) {
-        TextView textview1 = findViewById(R.id.textView);
-        TextView textview2 = findViewById(R.id.textView2);
+//        TextView textview1 = findViewById(R.id.textView);
+//        TextView textview2 = findViewById(R.id.textView2);
         ImageView imageView = findViewById(R.id.imageView3);
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
-        String lat = String.valueOf(lat1);
-        String lng = String.valueOf(lng1);
-        textview1.setText(lat);
-        textview2.setText(lng);
+//        String lat = String.valueOf(lat1);
+//        String lng = String.valueOf(lng1);
+//        textview1.setText(lat);
+//        textview2.setText(lng);
         //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
         // 0.00418, -0.00508
         //432, 376
         if((lng1 >= -122.44121 && lng1 <= -122.43613) && (lat1 <= 47.24676 && lat1 >= 47.24258)){
-            //lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
-            //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
-            //imageView.setX(((float)lat1));
-            //imageView.setY(((float)lng1)); //383
+            lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
+            lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
+            imageView.setX(((float)lat1));
+            imageView.setY(((float)lng1)); //383
 
         }
     }
