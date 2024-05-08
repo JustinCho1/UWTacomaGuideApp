@@ -127,10 +127,10 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         String lat = String.valueOf(lat1);
         String lng = String.valueOf(lng1);
 
-//        String lat = String.valueOf(lat1);
-//        String lng = String.valueOf(lng1);
-//        textview1.setText(lat);
-//        textview2.setText(lng);
+        String lat3 = String.valueOf(lat1);
+        String lng3 = String.valueOf(lng1);
+        textview1.setText(lat3);
+        textview2.setText(lng3);
         //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
         // 0.00418, -0.00508
         //432, 376
