@@ -141,8 +141,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             lng1 = Math.floor(1000 * (((lng1 - (-122.44121)) * 100000) / 508));
             //textview3.setText(height);
             //textview4.setText(width);
-            textview1.setText(String.valueOf(lat1));
-            textview2.setText(String.valueOf(lng1));
+            textview1.setText(lat);
+            textview2.setText(lng);
             imageView.setX((float)lng1);
             imageView.setY((float)(195 + lat1));
             //imageView.setY(2500);
