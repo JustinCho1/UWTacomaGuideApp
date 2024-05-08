@@ -60,7 +60,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 startActivity(intent);
             }
         });
-        ImageView imageView1 = findViewById(R.id.imageView);
+        //ImageView imageView1 = findViewById(R.id.imageView);
 
 
         //Provider provider = locationManager.getBestProvider(GPS_PROVIDER)
@@ -83,8 +83,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //ImageView imageView = findViewById(R.id.imageView3);
             textview1.setText(lat);
             textview2.setText(lng);
-            //imageView.setX(0);
-            //imageView.setY(0);
+            //imageView.setX(400);
+            //imageView.setY(400);
 //            TextView textview1 = findViewById(R.id.textView);
 //            TextView textview2 = findViewById(R.id.textView2);
 //            String lat = String.valueOf(location.getLatitude());
