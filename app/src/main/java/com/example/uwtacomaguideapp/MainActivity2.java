@@ -94,6 +94,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         }
     }
     protected void onResume() {
+        setContentView(R.layout.activity_main2);
         //locationManager.requestLocationUpdates(provider, 400, 1, this);
         super.onResume();
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
