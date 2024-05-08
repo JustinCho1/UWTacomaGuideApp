@@ -106,22 +106,21 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     public void onLocationChanged(@NonNull Location location) {
         TextView textview1 = findViewById(R.id.textView);
         TextView textview2 = findViewById(R.id.textView2);
-        TextView textview3 = findViewById(R.id.textView3);
-        TextView textview4 = findViewById(R.id.textView4);
+        //TextView textview3 = findViewById(R.id.textView3);
+        //TextView textview4 = findViewById(R.id.textView4);
 //        TextView textview1 = findViewById(R.id.textView);
 //        TextView textview2 = findViewById(R.id.textView2);
         ImageView imageView = findViewById(R.id.imageView3);
-        DisplayMetrics displayMetrics = new DisplayMetrics();
-        // on below line we are getting metrics for display using window manager.
-        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
-        int height = displayMetrics.heightPixels;
-        int width = displayMetrics.widthPixels;
+        ImageView imageView1 = findViewById(R.id.imageView);
+        int height = imageView1.getMeasuredHeight();
+        int width = imageView1.getMeasuredWidth();
+        int [] coords = new int[2];
+        imageView1.getLocationOnScreen(coords);
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
         String lat = String.valueOf(lat1);
         String lng = String.valueOf(lng1);
-        textview1.setText(lat);
-        textview2.setText(lng);
+
 //        String lat = String.valueOf(lat1);
 //        String lng = String.valueOf(lng1);
 //        textview1.setText(lat);
@@ -136,10 +135,12 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //imageView.setY(((float)lng1)); //383
             lat1 = Math.floor( height * (1 - (((lat1 - 47.24258) * 100000) / 418)));
             lng1 = Math.floor(width * (((lng1 - (-122.44121)) * 100000) / 508));
-            textview3.setText(height);
-            textview4.setText(width);
+            //textview3.setText(height);
+            //textview4.setText(width);
+            textview1.setText(String.valueOf(lng1));
+            textview2.setText(String.valueOf(lat1));
             imageView.setX((float)lng1);
-            imageView.setY((float)lat1);
+            imageView.setY((float)(coords[1] + lat1));
             //imageView.setY(2500);
 
         }

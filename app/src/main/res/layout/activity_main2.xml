@@ -60,7 +60,8 @@
         android:id="@+id/imageView3"
         android:layout_width="37dp"
         android:layout_height="35dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="136dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pointer" />
