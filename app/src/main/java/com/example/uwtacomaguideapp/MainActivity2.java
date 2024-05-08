@@ -144,7 +144,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             textview1.setText(String.valueOf(lat1));
             textview2.setText(String.valueOf(lng1));
             imageView.setX((float)lng1);
-            imageView.setY((float)(200 + lat1));
+            imageView.setY((float)(195 + lat1));
             //imageView.setY(2500);
 
         }
