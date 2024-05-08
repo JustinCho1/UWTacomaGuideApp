@@ -80,8 +80,11 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             TextView textview2 = findViewById(R.id.textView2);
             String lat = String.valueOf(location.getLatitude());
             String lng = String.valueOf(location.getLongitude());
+            ImageView imageView = findViewById(R.id.imageView3);
             textview1.setText(lat);
             textview2.setText(lng);
+            //imageView.setX(0);
+            //imageView.setY(0);
 //            TextView textview1 = findViewById(R.id.textView);
 //            TextView textview2 = findViewById(R.id.textView2);
 //            String lat = String.valueOf(location.getLatitude());
