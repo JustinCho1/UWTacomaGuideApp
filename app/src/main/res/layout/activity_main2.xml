@@ -49,8 +49,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="741dp"
-        android:layout_height="796dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         android:scaleType="fitStart"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
