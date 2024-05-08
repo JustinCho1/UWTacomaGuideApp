@@ -62,15 +62,9 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             }
         });
         ImageView imageView1 = findViewById(R.id.imageView);
-        ViewTreeObserver vto = imageView1.getViewTreeObserver();
-        vto.addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
-            public boolean onPreDraw() {
-                imageView1.getViewTreeObserver().removeOnPreDrawListener(this);
-                height = imageView1.getMeasuredHeight();
-                width = imageView1.getMeasuredWidth();
-                return true;
-            }
-        });
+        height = imageView1.getHeight();
+        width = imageView1.getWidth();
+
         //Provider provider = locationManager.getBestProvider(GPS_PROVIDER)
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             //
@@ -149,8 +143,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             lng1 = Math.floor(width * (((lng1 - (-122.44121)) * 100000) / 508));
             //textview3.setText(height);
             //textview4.setText(width);
-            textview1.setText(String.valueOf(height));
-            textview2.setText(String.valueOf(width));
+
             imageView.setX((float)lng1);
             imageView.setY((float)(coords[1] + lat1));
             //imageView.setY(2500);
