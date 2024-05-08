@@ -112,8 +112,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 //        TextView textview2 = findViewById(R.id.textView2);
         ImageView imageView = findViewById(R.id.imageView3);
         ImageView imageView1 = findViewById(R.id.imageView);
-        int height = imageView1.getMeasuredHeight();
-        int width = imageView1.getMeasuredWidth();
+        int height = imageView1.getHeight();
+        int width = imageView1.getWidth();
         int [] coords = new int[2];
         imageView1.getLocationOnScreen(coords);
         double lat1 = location.getLatitude();
