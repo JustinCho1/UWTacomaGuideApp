@@ -46,11 +46,11 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             return insets;
         });
         button1 = (Button) findViewById(R.id.button2);
-        TextView textview3 = findViewById(R.id.textView3);
-        TextView textview4 = findViewById(R.id.textView4);
+        //TextView textview3 = findViewById(R.id.textView3);
+
         //ImageView imageView = (ImageView) findViewById(R.id.imageView3);
-        //imageView.setX(727);
-        //imageView.setY(210);
+        //imageView.setX(1030);
+        //imageView.setY(1150);
 
         //imageView.setY((float)630);
         button1.setOnClickListener(new View.OnClickListener() {
@@ -138,8 +138,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
 
-            lat1 = Math.floor( 1000 * (1 - (((lat1 - 47.24258) * 100000) / 418)));
-            lng1 = Math.floor(1000 * (((lng1 - (-122.44121)) * 100000) / 508));
+            lat1 = Math.floor( 1030 * (1 - (((lat1 - 47.24258) * 100000) / 418)));
+            lng1 = Math.floor(1150 * (((lng1 - (-122.44121)) * 100000) / 508));
             //textview3.setText(height);
             //textview4.setText(width);
 
