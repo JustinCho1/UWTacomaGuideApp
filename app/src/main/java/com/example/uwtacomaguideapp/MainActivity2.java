@@ -24,8 +24,7 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 public class MainActivity2 extends AppCompatActivity implements LocationListener {
     Button button1;
-    int height;
-    int width;
+
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
     //private final LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -62,8 +61,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             }
         });
         ImageView imageView1 = findViewById(R.id.imageView);
-        height = imageView1.getHeight();
-        width = imageView1.getWidth();
+
 
         //Provider provider = locationManager.getBestProvider(GPS_PROVIDER)
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -120,17 +118,12 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 //        TextView textview2 = findViewById(R.id.textView2);
         ImageView imageView = findViewById(R.id.imageView3);
         ImageView imageView1 = findViewById(R.id.imageView);
-        int [] coords = new int[2];
-        imageView1.getLocationOnScreen(coords);
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
         String lat = String.valueOf(lat1);
         String lng = String.valueOf(lng1);
-
-        String lat3 = String.valueOf(lat1);
-        String lng3 = String.valueOf(lng1);
-        textview1.setText(lat3);
-        textview2.setText(lng3);
+        textview1.setText(lat);
+        textview2.setText(lng);
         //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
         // 0.00418, -0.00508
         //432, 376
@@ -139,13 +132,14 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
-            lat1 = Math.floor( height * (1 - (((lat1 - 47.24258) * 100000) / 418)));
-            lng1 = Math.floor(width * (((lng1 - (-122.44121)) * 100000) / 508));
+
+            lat1 = Math.floor( 400 * (1 - (((lat1 - 47.24258) * 100000) / 418)));
+            lng1 = Math.floor(400 * (((lng1 - (-122.44121)) * 100000) / 508));
             //textview3.setText(height);
             //textview4.setText(width);
 
             imageView.setX((float)lng1);
-            imageView.setY((float)(coords[1] + lat1));
+            imageView.setY((float)(lat1));
             //imageView.setY(2500);
 
         }
