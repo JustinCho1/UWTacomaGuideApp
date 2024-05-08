@@ -94,7 +94,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         }
     }
     protected void onResume() {
-        setContentView(R.layout.activity_main2);
+        //setContentView(R.layout.activity_main2);
         //locationManager.requestLocationUpdates(provider, 400, 1, this);
         super.onResume();
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -107,13 +107,23 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
+        setContentView(R.layout.activity_main2);
 
+        button1 = (Button) findViewById(R.id.button2);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates("gps", 400, 1, this);
+
     }
     @Override
     public void onLocationChanged(@NonNull Location location) {
-        setContentView(R.layout.activity_main2);
+        //setContentView(R.layout.activity_main2);
         TextView textview1 = findViewById(R.id.textView);
         TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
