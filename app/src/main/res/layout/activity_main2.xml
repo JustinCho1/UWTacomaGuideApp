@@ -52,7 +52,7 @@
         android:layout_width="400dp"
         android:layout_height="400dp"
         android:scaleType="fitStart"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/uwmap" />
