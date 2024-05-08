@@ -80,11 +80,13 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             TextView textview2 = findViewById(R.id.textView2);
             String lat = String.valueOf(location.getLatitude());
             String lng = String.valueOf(location.getLongitude());
-            //ImageView imageView = findViewById(R.id.imageView3);
-            textview1.setText(lat);
-            textview2.setText(lng);
-            //imageView.setX(400);
-            //imageView.setY(400);
+            //ImageView imageView = findViewById(R.id.imageView);
+            //ImageView imageView1 = findViewById(R.id.imageView3);
+            //textview1.setText(lat);
+            //textview2.setText(lng);
+
+            //imageView1.setX(2038 / (imageView1.getDrawable().getIntrinsicWidth()));
+            //imageView1.setY(2189 / (imageView1.getDrawable().getIntrinsicHeight()));
 //            TextView textview1 = findViewById(R.id.textView);
 //            TextView textview2 = findViewById(R.id.textView2);
 //            String lat = String.valueOf(location.getLatitude());
@@ -117,10 +119,10 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
         //TextView textview4 = findViewById(R.id.textView4);
-//        TextView textview1 = findViewById(R.id.textView);
-//        TextView textview2 = findViewById(R.id.textView2);
+        //TextView textview1 = findViewById(R.id.textView);
+        //TextView textview2 = findViewById(R.id.textView2);
         ImageView imageView = findViewById(R.id.imageView3);
-        //ImageView imageView1 = findViewById(R.id.imageView);
+        ImageView imageView1 = findViewById(R.id.imageView);
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
         String lat = String.valueOf(lat1);
@@ -136,8 +138,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
 
-            lat1 = Math.floor( 400 * (1 - (((lat1 - 47.24258) * 100000) / 418)));
-            lng1 = Math.floor(400 * (((lng1 - (-122.44121)) * 100000) / 508));
+            lat1 = Math.floor( 1000 * (1 - (((lat1 - 47.24258) * 100000) / 418)));
+            lng1 = Math.floor(1000 * (((lng1 - (-122.44121)) * 100000) / 508));
             //textview3.setText(height);
             //textview4.setText(width);
 
