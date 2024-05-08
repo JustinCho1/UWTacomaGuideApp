@@ -32,9 +32,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     // 0.00418, -0.00508
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Paint red = new Paint();
-        red.setColor(android.graphics.Color.RED);
-        red.setStyle(Paint.Style.FILL);
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
         super.onCreate(savedInstanceState);
@@ -115,6 +112,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     }
     @Override
     public void onLocationChanged(@NonNull Location location) {
+        setContentView(R.layout.activity_main2);
         TextView textview1 = findViewById(R.id.textView);
         TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
@@ -144,7 +142,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             textview1.setText(lat);
             textview2.setText(lng);
             imageView.setX((float)lng1);
-            imageView.setY((float)(195 + lat1));
+            imageView.setY((float)(lat1));
             //imageView.setY(2500);
 
         }
