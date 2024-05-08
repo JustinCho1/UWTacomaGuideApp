@@ -45,8 +45,9 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         button1 = (Button) findViewById(R.id.button2);
         TextView textview3 = findViewById(R.id.textView3);
         TextView textview4 = findViewById(R.id.textView4);
-        ImageView imageView = (ImageView) findViewById(R.id.imageView3);
-
+        //ImageView imageView = (ImageView) findViewById(R.id.imageView3);
+        //imageView.setX(727);
+        //imageView.setY(210);
 
         //imageView.setY((float)630);
         button1.setOnClickListener(new View.OnClickListener() {
@@ -132,7 +133,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             textview3.setText(String.valueOf(lat1));
             textview4.setText(String.valueOf(lng1));
             imageView.setX((float)lng1);
-            imageView.setY((float)lat1); //383
+            //imageView.setY((float)lat1);
+            imageView.setY(1000);
 
         }
     }
