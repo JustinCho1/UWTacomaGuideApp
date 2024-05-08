@@ -123,7 +123,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     }
     @Override
     public void onLocationChanged(@NonNull Location location) {
-        //setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main2);
         TextView textview1 = findViewById(R.id.textView);
         TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
