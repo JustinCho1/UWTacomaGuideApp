@@ -9,6 +9,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
+import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -23,6 +24,8 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 public class MainActivity2 extends AppCompatActivity implements LocationListener {
     Button button1;
+    int height;
+    int width;
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
     //private final LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -56,6 +59,16 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this, MainActivity.class);
                 startActivity(intent);
+            }
+        });
+        ImageView imageView1 = findViewById(R.id.imageView);
+        ViewTreeObserver vto = imageView1.getViewTreeObserver();
+        vto.addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
+            public boolean onPreDraw() {
+                imageView1.getViewTreeObserver().removeOnPreDrawListener(this);
+                height = imageView1.getMeasuredHeight();
+                width = imageView1.getMeasuredWidth();
+                return true;
             }
         });
         //Provider provider = locationManager.getBestProvider(GPS_PROVIDER)
@@ -99,6 +112,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
+
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates("gps", 400, 1, this);
     }
@@ -112,8 +126,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 //        TextView textview2 = findViewById(R.id.textView2);
         ImageView imageView = findViewById(R.id.imageView3);
         ImageView imageView1 = findViewById(R.id.imageView);
-        int height = imageView1.getHeight();
-        int width = imageView1.getWidth();
         int [] coords = new int[2];
         imageView1.getLocationOnScreen(coords);
         double lat1 = location.getLatitude();
