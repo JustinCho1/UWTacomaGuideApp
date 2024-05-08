@@ -7,6 +7,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -110,6 +111,11 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 //        TextView textview1 = findViewById(R.id.textView);
 //        TextView textview2 = findViewById(R.id.textView2);
         ImageView imageView = findViewById(R.id.imageView3);
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        // on below line we are getting metrics for display using window manager.
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        int height = displayMetrics.heightPixels;
+        int width = displayMetrics.widthPixels;
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
         String lat = String.valueOf(lat1);
@@ -128,13 +134,13 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
-            lat1 = Math.floor(1140 - (2.728 * ((lat1 - 47.24258) * 100000)));
-            lng1 = Math.floor(1.921 * ((lng1 - (-122.44121)) * 100000));
-            textview3.setText(String.valueOf(lat1));
-            textview4.setText(String.valueOf(lng1));
+            lat1 = Math.floor( height * (1 - (((lat1 - 47.24258) * 100000) / 418)));
+            lng1 = Math.floor(width * (((lng1 - (-122.44121)) * 100000) / 508));
+            textview3.setText(height);
+            textview4.setText(width);
             imageView.setX((float)lng1);
             imageView.setY((float)lat1);
-            imageView.setY(2500);
+            //imageView.setY(2500);
 
         }
     }
