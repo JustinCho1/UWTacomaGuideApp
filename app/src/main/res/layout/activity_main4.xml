@@ -8,63 +8,6 @@
     tools:context=".MainActivity4">
 
     <Button
-        android:id="@+id/button8"
-        android:layout_width="200dp"
-        android:layout_height="84dp"
-        android:layout_marginTop="20dp"
-        android:background="#85754d"
-        android:fontFamily="@font/uw"
-        android:text="UW Gmail Setup"
-        android:textColor="#FFFFFF"
-        app:cornerRadius="0dp"
-        app:layout_constraintEnd_toEndOf="@+id/button5"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="200dp"
-        android:layout_height="84dp"
-        android:layout_marginTop="20dp"
-        android:background="#85754d"
-        android:fontFamily="@font/uw"
-        android:text="Contacts"
-        android:textColor="#FFFFFF"
-        app:cornerRadius="0dp"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="200dp"
-        android:layout_height="84dp"
-        android:layout_marginTop="20dp"
-        android:background="#85754d"
-        android:fontFamily="@font/uw"
-        android:text="Food recomendations"
-        android:textColor="#FFFFFF"
-        app:cornerRadius="0dp"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="200dp"
-        android:layout_height="84dp"
-        android:layout_marginTop="172dp"
-        android:background="#85754d"
-        android:fontFamily="@font/uw"
-        android:text="Calendar"
-        android:textColor="@color/white"
-        app:cornerRadius="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,5 +18,3 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
