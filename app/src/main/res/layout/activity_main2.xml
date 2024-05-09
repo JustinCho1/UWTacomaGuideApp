@@ -18,49 +18,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="124dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="24dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="64dp"
-        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="130dp"
-        android:layout_marginEnd="4dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitStart"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHeight_percent="1"
-        app:layout_constraintWidth_percent="1"
-        app:srcCompat="@drawable/uwmap" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/campus_map_edit" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="94dp"
+        app:layout_constraintHeight_percent="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHeight_percent="0.1"
         app:layout_constraintWidth_percent="0.1"
         app:srcCompat="@drawable/pointer" />
 
