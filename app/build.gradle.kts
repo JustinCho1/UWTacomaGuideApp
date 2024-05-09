@@ -1,5 +1,3 @@
-import org.gradle.internal.impldep.com.amazonaws.PredefinedClientConfigurations.defaultConfig
-
 plugins {
     alias(libs.plugins.androidApplication)
 }
@@ -44,4 +42,3 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation("com.google.android.gms:play-services-location:21.0.1")
 }
-
