@@ -73,8 +73,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         Location location = locationManager.getLastKnownLocation("gps");
         //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (location != null) {
-            TextView textview1 = findViewById(R.id.textView);
-            TextView textview2 = findViewById(R.id.textView2);
+            //TextView textview1 = findViewById(R.id.textView);
+            //TextView textview2 = findViewById(R.id.textView2);
             String lat = String.valueOf(location.getLatitude());
             String lng = String.valueOf(location.getLongitude());
             //ImageView imageView = findViewById(R.id.imageView);
