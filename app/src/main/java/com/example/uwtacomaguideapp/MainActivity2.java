@@ -124,6 +124,14 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     @Override
     public void onLocationChanged(@NonNull Location location) {
         setContentView(R.layout.activity_main2);
+        button1 = (Button) findViewById(R.id.button2);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
         //TextView textview1 = findViewById(R.id.textView);
         //TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
