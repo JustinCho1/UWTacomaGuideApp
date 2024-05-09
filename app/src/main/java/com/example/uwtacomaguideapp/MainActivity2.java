@@ -124,8 +124,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     @Override
     public void onLocationChanged(@NonNull Location location) {
         setContentView(R.layout.activity_main2);
-        TextView textview1 = findViewById(R.id.textView);
-        TextView textview2 = findViewById(R.id.textView2);
+        //TextView textview1 = findViewById(R.id.textView);
+        //TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
         //TextView textview4 = findViewById(R.id.textView4);
         //TextView textview1 = findViewById(R.id.textView);
@@ -134,8 +134,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         //ImageView imageView1 = findViewById(R.id.imageView);
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
-        String lat = String.valueOf(lat1);
-        String lng = String.valueOf(lng1);
+        //String lat = String.valueOf(lat1);
+        //String lng = String.valueOf(lng1);
 
         //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
         // 0.00418, -0.00508
@@ -150,8 +150,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             lng1 = Math.floor(1000 * (((lng1 - (-122.44121)) * 100000) / 508));
             //textview3.setText(height);
             //textview4.setText(width);
-            textview1.setText(lat);
-            textview2.setText(lng);
+            //textview1.setText(lat);
+            //textview2.setText(lng);
             imageView.setX((float)lng1);
             imageView.setY((float)(lat1));
             //imageView.setY(2500);
