@@ -145,14 +145,14 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
         // 0.00418, -0.00508
         //432, 376
-        if((lng1 >= -122.44131 && lng1 <= -122.43023) && (lat1 <= 47.24883 && lat1 >= 47.24258)){
+        if((lng1 >= -122.44131 && lng1 <= -122.43133) && (lat1 <= 47.24883 && lat1 >= 47.24258)){
             //lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
             //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
 
             lat1 = Math.floor( 1000 * ((((lat1 - 47.24258) * 100000) / 625)));
-            lng1 = Math.floor(1220 * (((lng1 - (-122.44131)) * 100000) / 698));
+            lng1 = Math.floor(1220 * (((lng1 - (-122.44131)) * 100000) / 998));
             //textview3.setText(height);
             //textview4.setText(width);
             //textview1.setText(lat);
