@@ -140,8 +140,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 startActivity(intent);
             }
         });
-        TextView textview1 = findViewById(R.id.textView);
-        TextView textview2 = findViewById(R.id.textView2);
+        //TextView textview1 = findViewById(R.id.textView);
+        //TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
         //TextView textview4 = findViewById(R.id.textView4);
         //TextView textview1 = findViewById(R.id.textView);
@@ -167,7 +167,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
 
-            lat1 = Math.floor(width * (0.583) * ((((lat1 - 47.24315) * 100000) / 385))); //937
+            lat1 = Math.floor(width * (0.583) * (1 - (((lat1 - 47.24315) * 100000) / 385))); //937
             lng1 = Math.floor((width) * (((lng1 - (-122.44271)) * 100000) / 1014)); //767
             //textview3.setText(height);
             //textview4.setText(width);
@@ -175,8 +175,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //textview2.setText(lng);
             imageView.setX((float)lng1);
             imageView.setY((float)lat1);
-            textview1.setText(String.valueOf(location.getLatitude() + " " + location.getLongitude()));
-            textview2.setText(String.valueOf(lat1 + " " + lng1));
+            //textview1.setText(String.valueOf(location.getLatitude() + " " + location.getLongitude()));
+            //textview2.setText(String.valueOf(lat1 + " " + lng1));
             //imageView.setY(2500);
 
         }
