@@ -9,6 +9,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
@@ -140,10 +141,12 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         //TextView textview2 = findViewById(R.id.textView2);
         ImageView imageView = findViewById(R.id.imageView);
         ImageView imageView1 = findViewById(R.id.imageView4);
+        imageView1.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        double height = imageView1.getMeasuredHeight();
+        double width = imageView1.getMeasuredWidth();
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
-        double width = imageView1.getWidth();
-        double height = imageView1.getHeight();
+
         //String lat = String.valueOf(lat1);
         //String lng = String.valueOf(lng1);
 
