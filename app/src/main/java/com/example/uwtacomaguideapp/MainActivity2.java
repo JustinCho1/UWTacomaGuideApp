@@ -116,9 +116,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 startActivity(intent);
             }
         });
-        ImageView imageView = findViewById(R.id.imageView);
-        //imageView.setX(1000);
-        //imageView.setY(1200);
+
         ImageView imageView1 = findViewById(R.id.imageView4);
         imageView1.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         DisplayMetrics displayMetrics = new DisplayMetrics();
@@ -141,7 +139,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 startActivity(intent);
             }
         });
-        TextView textview1 = findViewById(R.id.textView);
+        //TextView textview1 = findViewById(R.id.textView);
         //TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
         //TextView textview4 = findViewById(R.id.textView4);
@@ -168,15 +166,15 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
 
-            lat1 = Math.floor(width * ((((lat1 - 47.24258) * 100000) / 625)));
-            lng1 = Math.floor((width) * (((lng1 - (-122.44131)) * 100000) / 998));
+            lat1 = Math.floor(width * ((((lat1 - 47.24258) * 100000) / 937))); //937
+            lng1 = Math.floor((width) * (((lng1 - (-122.44131)) * 100000) / 767)); //767
             //textview3.setText(height);
             //textview4.setText(width);
             //textview1.setText(lat);
             //textview2.setText(lng);
             imageView.setX((float)lat1);
             imageView.setY((float)lng1);
-            textview1.setText(String.valueOf(width));
+            //textview1.setText(String.valueOf(width));
             //imageView.setY(2500);
 
         }
