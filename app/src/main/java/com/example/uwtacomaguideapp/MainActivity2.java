@@ -114,6 +114,9 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 startActivity(intent);
             }
         });
+        //ImageView imageView = findViewById(R.id.imageView);
+        //imageView.setX(447);
+        //imageView.setY(447);
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates("gps", 400, 1, this);
 
@@ -152,7 +155,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //imageView.setY(((float)lng1)); //383
 
             lat1 = Math.floor( 1000 * ((((lat1 - 47.24258) * 100000) / 625)));
-            lng1 = Math.floor(1220 * (((lng1 - (-122.44131)) * 100000) / 998));
+            lng1 = Math.floor(1220 * (((lng1 - (-122.44131)) * 100000) / 418));
             //textview3.setText(height);
             //textview4.setText(width);
             //textview1.setText(lat);
