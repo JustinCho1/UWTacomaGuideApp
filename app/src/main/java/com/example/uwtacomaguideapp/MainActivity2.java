@@ -47,9 +47,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         });
         button1 = (Button) findViewById(R.id.button2);
         //TextView textview3 = findViewById(R.id.textView3);
-        ImageView imageView1 = findViewById(R.id.imageView3);
-        imageView1.setX(1000);
-        imageView1.setY(1000);
+
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,8 +80,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //ImageView imageView1 = findViewById(R.id.imageView3);
             //textview1.setText(lat);
             //textview2.setText(lng);
-            imageView1.setX(1000);
-            imageView1.setY(1000);
+
             //imageView1.setX(2038 / (imageView1.getDrawable().getIntrinsicWidth()));
             //imageView1.setY(2189 / (imageView1.getDrawable().getIntrinsicHeight()));
 //            TextView textview1 = findViewById(R.id.textView);
@@ -120,8 +117,9 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             }
         });
 
-        ImageView imageView1 = findViewById(R.id.imageView3);
-        imageView1.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+
+        ImageView imageView2 = findViewById(R.id.imageView3);
+        imageView2.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         width = displayMetrics.widthPixels;
@@ -169,14 +167,14 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
 
-            lat1 = Math.floor(width * ((((lat1 - 47.24258) * 100000) / 937))); //937
-            lng1 = Math.floor((width) * (((lng1 - (-122.44131)) * 100000) / 767)); //767
+            lat1 = Math.floor(width * (0.583) * ((((lat1 - 47.24315) * 100000) / 385))); //937
+            lng1 = Math.floor((width) * (((lng1 - (-122.44271)) * 100000) / 1014)); //767
             //textview3.setText(height);
             //textview4.setText(width);
             //textview1.setText(lat);
             //textview2.setText(lng);
-            imageView.setX((float)lat1);
-            imageView.setY((float)lng1);
+            imageView.setX((float)lng1);
+            imageView.setY((float)lat1);
             //textview1.setText(String.valueOf(width));
             //imageView.setY(2500);
 
