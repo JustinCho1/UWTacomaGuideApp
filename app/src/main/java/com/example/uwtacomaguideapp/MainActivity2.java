@@ -170,7 +170,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
 
-            lat1 = Math.floor(width * ((((lat1 - 47.24258) * 100000) / 625)));
+            lat1 = Math.floor(width * ((((lat1 - 47.24258) * 100000) / 675)));
             lng1 = Math.floor(width * (((lng1 - (-122.44131)) * 100000) / 750));
             //textview3.setText(height);
             //textview4.setText(width);
