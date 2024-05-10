@@ -117,8 +117,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             }
         });
         ImageView imageView = findViewById(R.id.imageView);
-        //imageView.setX(447);
-        //imageView.setY(447);
+        //imageView.setX(1000);
+        //imageView.setY(1200);
         ImageView imageView1 = findViewById(R.id.imageView4);
         imageView1.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         DisplayMetrics displayMetrics = new DisplayMetrics();
@@ -141,7 +141,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 startActivity(intent);
             }
         });
-        //TextView textview1 = findViewById(R.id.textView);
+        TextView textview1 = findViewById(R.id.textView);
         //TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
         //TextView textview4 = findViewById(R.id.textView4);
@@ -176,6 +176,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //textview2.setText(lng);
             imageView.setX((float)lat1);
             imageView.setY((float)lng1);
+            textview1.setText(String.valueOf(width));
             //imageView.setY(2500);
 
         }
