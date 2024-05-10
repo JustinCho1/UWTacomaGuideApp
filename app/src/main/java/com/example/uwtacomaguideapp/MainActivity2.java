@@ -27,7 +27,7 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 public class MainActivity2 extends AppCompatActivity implements LocationListener {
     Button button1;
-
+    double height;
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
     //private final LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -122,10 +122,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         ImageView imageView1 = findViewById(R.id.imageView4);
         imageView1.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         double height = imageView1.getMeasuredHeight();
-        double width = imageView1.getMeasuredWidth();
-        imageView.setX((float)width);
         imageView.setY((float)height);
-        Log.i(String.valueOf(width), "width is: ");
         Log.i(String.valueOf(height), "width is: ");;
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates("gps", 400, 1, this);
@@ -172,14 +169,14 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //imageView.setX(((float)lat1));
             //imageView.setY(((float)lng1)); //383
 
-            //lat1 = Math.floor( width * ((((lat1 - 47.24258) * 100000) / 600)));
-            //lng1 = Math.floor(height * (((lng1 - (-122.44131)) * 100000) / 750));
+            lat1 = Math.floor(height * ((((lat1 - 47.24258) * 100000) / 600)));
+            lng1 = Math.floor(height * (((lng1 - (-122.44131)) * 100000) / 750));
             //textview3.setText(height);
             //textview4.setText(width);
             //textview1.setText(lat);
             //textview2.setText(lng);
-            //imageView.setX((float)width);
-            //imageView.setY((float)height);
+            imageView.setX((float)lat1);
+            imageView.setY((float)lng1);
             //imageView.setY(2500);
 
         }
