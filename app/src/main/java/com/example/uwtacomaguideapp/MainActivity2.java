@@ -150,11 +150,11 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         imageView1.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
-        width = displayMetrics.heightPixels;
+        width = displayMetrics.widthPixels;
         //int screenHeight = displayMetrics.heightPixels;
 
         //Log.d(String.valueOf(screenWidth), "width is: ");
-        //Log.d(String.valueOf(screenHeight), "height is: ");
+        //Log.d(String.valueOf(width), "height is: ");
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
 
