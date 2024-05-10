@@ -10,7 +10,9 @@ drawable pointer
 drawable uwmap
 drawable w
 font encodesanscompressed900
-font uw
+font encodesansnormal400
+font uwbold
+font uwnormal
 id button
 id button2
 id button3

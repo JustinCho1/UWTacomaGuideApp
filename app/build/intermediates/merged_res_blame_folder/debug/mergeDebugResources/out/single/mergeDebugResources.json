@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-main-35:\\drawable\\uwmap.png"
     },
     {
+        "merged": "com.example.uwtacomaguideapp-debug-33:/layout_activity_main5.xml.flat",
+        "source": "com.example.uwtacomaguideapp-main-35:/layout/activity_main5.xml"
+    },
+    {
         "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-33:\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-main-35:\\drawable-v24\\ic_launcher_foreground.xml"
     },
@@ -20,16 +24,32 @@
         "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-main-35:\\layout\\activity_main.xml"
     },
     {
+        "merged": "com.example.uwtacomaguideapp-debug-33:/layout_activity_main3.xml.flat",
+        "source": "com.example.uwtacomaguideapp-main-35:/layout/activity_main3.xml"
+    },
+    {
         "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-33:\\drawable_banner.xml.flat",
         "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-main-35:\\drawable\\banner.xml"
+    },
+    {
+        "merged": "com.example.uwtacomaguideapp-debug-33:/font_encodesansnormal400.ttf.flat",
+        "source": "com.example.uwtacomaguideapp-main-35:/font/encodesansnormal400.ttf"
     },
     {
         "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-33:\\layout_activity_main2.xml.flat",
         "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-main-35:\\layout\\activity_main2.xml"
     },
     {
+        "merged": "com.example.uwtacomaguideapp-debug-33:/font_uwbold.xml.flat",
+        "source": "com.example.uwtacomaguideapp-main-35:/font/uwbold.xml"
+    },
+    {
         "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uwtacomaguideapp-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.example.uwtacomaguideapp-main-35:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-33:\\font_uw.xml.flat",
@@ -52,12 +72,12 @@
         "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-main-35:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.uwtacomaguideapp-debug-33:/layout_activity_main2.xml.flat",
-        "source": "com.example.uwtacomaguideapp-main-35:/layout/activity_main2.xml"
-    },
-    {
         "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-33:\\layout_activity_main5.xml.flat",
         "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-main-35:\\layout\\activity_main5.xml"
+    },
+    {
+        "merged": "com.example.uwtacomaguideapp-debug-33:/font_uwnormal.xml.flat",
+        "source": "com.example.uwtacomaguideapp-main-35:/font/uwnormal.xml"
     },
     {
         "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-33:\\layout_activity_main3.xml.flat",
@@ -90,6 +110,10 @@
     {
         "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-33:\\drawable_campus_map_edit.xml.flat",
         "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-main-35:\\drawable\\campus_map_edit.xml"
+    },
+    {
+        "merged": "com.example.uwtacomaguideapp-debug-33:/layout_activity_main4.xml.flat",
+        "source": "com.example.uwtacomaguideapp-main-35:/layout/activity_main4.xml"
     },
     {
         "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
