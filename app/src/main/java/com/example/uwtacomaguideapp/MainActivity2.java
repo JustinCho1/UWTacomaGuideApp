@@ -47,7 +47,9 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         });
         button1 = (Button) findViewById(R.id.button2);
         //TextView textview3 = findViewById(R.id.textView3);
-
+        ImageView imageView1 = findViewById(R.id.imageView3);
+        imageView1.setX(1000);
+        imageView1.setY(1000);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,7 +82,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //ImageView imageView1 = findViewById(R.id.imageView3);
             //textview1.setText(lat);
             //textview2.setText(lng);
-
+            imageView1.setX(1000);
+            imageView1.setY(1000);
             //imageView1.setX(2038 / (imageView1.getDrawable().getIntrinsicWidth()));
             //imageView1.setY(2189 / (imageView1.getDrawable().getIntrinsicHeight()));
 //            TextView textview1 = findViewById(R.id.textView);
@@ -160,7 +163,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
         // 0.00418, -0.00508
         //432, 376
-        if((lng1 >= -122.44131 && lng1 <= -122.43133) && (lat1 <= 47.24883 && lat1 >= 47.24258)){
+        if((lng1 >= -122.44271 && lng1 <= -122.43257) && (lat1 <= 47.24700 && lat1 >= 47.24315)){
             //lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
             //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
             //imageView.setX(((float)lat1));
