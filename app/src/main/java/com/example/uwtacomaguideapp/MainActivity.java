@@ -15,10 +15,6 @@ public class MainActivity extends AppCompatActivity {
     Button button1;
     Button button2;
     Button button3;
-    //test
-    // testing to see if vcs works
-
-
     Button button4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
