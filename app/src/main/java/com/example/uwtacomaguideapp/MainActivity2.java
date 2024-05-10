@@ -117,7 +117,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             }
         });
 
-        ImageView imageView1 = findViewById(R.id.imageView4);
+        ImageView imageView1 = findViewById(R.id.imageView3);
         imageView1.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
