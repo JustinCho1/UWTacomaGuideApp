@@ -146,7 +146,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         //imageView.setY((float)height);
         //Log.i(String.valueOf(width), "width is: ");;
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        locationManager.requestLocationUpdates("gps", 400, 1, this);
+        locationManager.requestLocationUpdates("gps", 400, 0.1f, this);
 
     }
     @Override
