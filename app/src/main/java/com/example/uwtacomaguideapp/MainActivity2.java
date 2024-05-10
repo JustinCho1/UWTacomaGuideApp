@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewTreeObserver;
+import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -45,9 +46,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         button1 = (Button) findViewById(R.id.button2);
         //TextView textview3 = findViewById(R.id.textView3);
 
-        //ImageView imageView = (ImageView) findViewById(R.id.imageView3);
-        //imageView.setX(1030);
-        //imageView.setY(1150);
+        ImageView imageView = (ImageView) findViewById(R.id.imageView3);
+
 
         //imageView.setY((float)630);
         button1.setOnClickListener(new View.OnClickListener() {
