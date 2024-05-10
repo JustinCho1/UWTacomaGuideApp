@@ -74,9 +74,29 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         if (location != null) {
             //TextView textview1 = findViewById(R.id.textView);
             //TextView textview2 = findViewById(R.id.textView2);
-            String lat = String.valueOf(location.getLatitude());
-            String lng = String.valueOf(location.getLongitude());
-            //ImageView imageView = findViewById(R.id.imageView);
+            double lat = location.getLatitude();
+            double lng = (location.getLongitude());
+
+            ImageView imageView = findViewById(R.id.imageView);
+            if((lng >= -122.44271 && lng <= -122.43257) && (lat <= 47.24700 && lat >= 47.24315)){
+                //lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
+                //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
+                //imageView.setX(((float)lat1));
+                //imageView.setY(((float)lng1)); //383
+
+                lat = Math.floor(width * (0.583) * (1 - (((lat - 47.24315) * 100000) / 385))); //937
+                lng = Math.floor((width) * (((lng - (-122.44271)) * 100000) / 1014)); //767
+                //textview3.setText(height);
+                //textview4.setText(width);
+                //textview1.setText(lat);
+                //textview2.setText(lng);
+                imageView.setX((float)lng);
+                imageView.setY((float)lat);
+                //textview1.setText(String.valueOf(location.getLatitude() + " " + location.getLongitude()));
+                //textview2.setText(String.valueOf(lat1 + " " + lng1));
+                //imageView.setY(2500);
+
+            }
             //ImageView imageView1 = findViewById(R.id.imageView3);
             //textview1.setText(lat);
             //textview2.setText(lng);
@@ -124,7 +144,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         width = displayMetrics.widthPixels;
         //imageView.setY((float)height);
-        Log.i(String.valueOf(width), "width is: ");;
+        //Log.i(String.valueOf(width), "width is: ");;
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates("gps", 400, 1, this);
 
