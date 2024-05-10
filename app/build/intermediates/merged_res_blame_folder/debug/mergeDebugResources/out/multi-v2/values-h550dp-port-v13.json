@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-31:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-2:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Justin\\.gradle\\caches\\transforms-4\\3724b314d3482d43c1de7ca667ae9ed2\\transformed\\material-1.11.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\3724b314d3482d43c1de7ca667ae9ed2\\transformed\\material-1.11.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
