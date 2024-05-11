@@ -98,6 +98,6 @@ public class MainActivity3 extends AppCompatActivity implements LocationListener
         });
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
-
+        //test
     }
 }
