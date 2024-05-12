@@ -79,7 +79,7 @@
         android:layout_marginTop="20dp"
         android:background="#4b2e83"
         android:fontFamily="@font/uwbold"
-        android:text="Announcements"
+        android:text="Places To Eat"
         android:textColor="#FFFFFF"
         app:cornerRadius="0dp"
         app:layout_constraintEnd_toEndOf="@+id/button"
