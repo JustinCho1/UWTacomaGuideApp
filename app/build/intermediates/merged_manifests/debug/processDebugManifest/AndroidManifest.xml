@@ -8,9 +8,7 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
-    <!-- Include only if your app benefits from precise location access. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include only if your app benefits from precise location access. -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <permission
@@ -32,6 +30,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.UWTacomaGuideApp" >
+        <activity
+            android:name="com.example.uwtacomaguideapp.emailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uwtacomaguideapp.reserveActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uwtacomaguideapp.email"
+            android:exported="false" />
         <activity
             android:name="com.example.uwtacomaguideapp.MainActivity5"
             android:exported="false" />

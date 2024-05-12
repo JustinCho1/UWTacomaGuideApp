@@ -8,6 +8,10 @@
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\layout\\activity_main2.xml"
     },
     {
+        "merged": "com.example.uwtacomaguideapp-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.example.uwtacomaguideapp-main-6:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\layout_activity_main4.xml.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\layout\\activity_main4.xml"
     },
@@ -16,8 +20,8 @@
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.uwtacomaguideapp-debug-4:/layout_activity_main5.xml.flat",
-        "source": "com.example.uwtacomaguideapp-main-6:/layout/activity_main5.xml"
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_samchoys.jpg.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\samchoys.jpg"
     },
     {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\font_encodesanscompressed900.ttf.flat",
@@ -28,12 +32,20 @@
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\layout_activity_main6.xml.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\layout\\activity_main6.xml"
+    },
+    {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_subway.jpg.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\subway.jpg"
     },
     {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\font_encodesansnormal400.ttf.flat",
@@ -48,8 +60,16 @@
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\pointer.xml"
     },
     {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\layout_activity_main7.xml.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\layout\\activity_main7.xml"
+    },
+    {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_uwmap.png.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\uwmap.png"
+    },
+    {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\layout_activity_main9.xml.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\layout\\activity_main9.xml"
     },
     {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -96,6 +116,10 @@
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_blank.png.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\blank.png"
+    },
+    {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
@@ -116,11 +140,47 @@
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\font\\uwnormal.xml"
     },
     {
+        "merged": "com.example.uwtacomaguideapp-debug-4:/layout_activity_reserve.xml.flat",
+        "source": "com.example.uwtacomaguideapp-main-6:/layout/activity_reserve.xml"
+    },
+    {
+        "merged": "com.example.uwtacomaguideapp-debug-4:/layout_activity_email.xml.flat",
+        "source": "com.example.uwtacomaguideapp-main-6:/layout/activity_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_home_icon.xml.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\home_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\layout_activity_main8.xml.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\layout\\activity_main8.xml"
+    },
+    {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_zeeks.jpg.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\zeeks.jpg"
+    },
+    {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_abella.jpg.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\abella.jpg"
+    },
+    {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_jimmyjohns.jpg.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\jimmyjohns.jpg"
+    },
+    {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\layout_activity_main10.xml.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\layout\\activity_main10.xml"
+    },
+    {
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_map_icon.xml.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\map_icon.xml"
     }
 ]

@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        button1 = (Button) findViewById(R.id.button);
-        button2 = (Button) findViewById(R.id.button3);
-        button3 = (Button) findViewById(R.id.button5);
-        button4 = (Button) findViewById(R.id.button8);
+        button1 = (Button) findViewById(R.id.mapBtn);
+        button2 = (Button) findViewById(R.id.eatBtn);
+        button3 = (Button) findViewById(R.id.emailBtn);
+        button4 = (Button) findViewById(R.id.reserveBtn);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,14 +47,14 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainActivity4.class);
+                Intent intent = new Intent(MainActivity.this, emailActivity.class);
                 startActivity(intent);
             }
         });
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainActivity5.class);
+                Intent intent = new Intent(MainActivity.this, reserveActivity.class);
                 startActivity(intent);
             }
         });
