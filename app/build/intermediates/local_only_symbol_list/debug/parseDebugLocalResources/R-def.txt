@@ -52,6 +52,7 @@ id textView6
 id textView7
 id textView8
 id textView9
+id webview
 layout activity_about
 layout activity_calendar
 layout activity_contacts

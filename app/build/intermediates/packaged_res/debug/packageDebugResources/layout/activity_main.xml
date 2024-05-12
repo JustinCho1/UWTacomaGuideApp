@@ -67,7 +67,7 @@
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
-                android:text="Calendar"
+                android:text="Academic Calendar"
                 android:textColor="@color/white" />
 
             <Button

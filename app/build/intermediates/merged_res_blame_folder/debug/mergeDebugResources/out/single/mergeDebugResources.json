@@ -24,10 +24,6 @@
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\font\\encodesansnormal400.ttf"
     },
     {
-        "merged": "com.example.uwtacomaguideapp-debug-4:/layout_activity_about.xml.flat",
-        "source": "com.example.uwtacomaguideapp-main-6:/layout/activity_about.xml"
-    },
-    {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -48,16 +44,16 @@
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_campus_map_edit.xml.flat",
-        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\campus_map_edit.xml"
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_banner.xml.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\banner.xml"
     },
     {
-        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_campus_map_edit.xml.flat",
+        "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\drawable\\campus_map_edit.xml"
     },
     {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\drawable_blank.png.flat",
@@ -184,20 +180,8 @@
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.uwtacomaguideapp-debug-4:/layout_activity_contacts.xml.flat",
-        "source": "com.example.uwtacomaguideapp-main-6:/layout/activity_contacts.xml"
-    },
-    {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\font_uwnormal.xml.flat",
         "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-main-6:\\font\\uwnormal.xml"
-    },
-    {
-        "merged": "com.example.uwtacomaguideapp-debug-4:/layout_activity_reserve.xml.flat",
-        "source": "com.example.uwtacomaguideapp-main-6:/layout/activity_reserve.xml"
-    },
-    {
-        "merged": "com.example.uwtacomaguideapp-debug-4:/layout_activity_email.xml.flat",
-        "source": "com.example.uwtacomaguideapp-main-6:/layout/activity_email.xml"
     },
     {
         "merged": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\daemon\\8.6\\com.example.uwtacomaguideapp-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
