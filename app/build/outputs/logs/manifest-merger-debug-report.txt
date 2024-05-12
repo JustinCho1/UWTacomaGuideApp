@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-50:12
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-62:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3724b314d3482d43c1de7ca667ae9ed2\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a76ad255f37d4ebe657e3a9830ea5556\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5d4c1b6f6c13bcd6fda0e5d13a6e13f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -68,8 +68,8 @@ ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\An
 	android:name
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:8:5-48:19
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:8:5-48:19
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:8:5-60:19
+INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:8:5-60:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3724b314d3482d43c1de7ca667ae9ed2\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3724b314d3482d43c1de7ca667ae9ed2\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a76ad255f37d4ebe657e3a9830ea5556\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -116,64 +116,88 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\th
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:16:9-54
 	android:dataExtractionRules
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:10:9-65
-activity#com.example.uwtacomaguideapp.emailActivity
+activity#com.example.uwtacomaguideapp.calendarActivity
 ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:19:13-42
-activity#com.example.uwtacomaguideapp.reserveActivity
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:19:13-45
+activity#com.example.uwtacomaguideapp.aboutActivity
 ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:22:13-44
-activity#com.example.uwtacomaguideapp.email
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:22:13-42
+activity#com.example.uwtacomaguideapp.contactsActivity
 ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:25:13-34
-activity#com.example.uwtacomaguideapp.MainActivity5
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:25:13-45
+activity#com.example.uwtacomaguideapp.calenderActivity
 ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:28:13-42
-activity#com.example.uwtacomaguideapp.MainActivity4
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:28:13-45
+activity#com.example.uwtacomaguideapp.emailActivity
 ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:31:13-42
-activity#com.example.uwtacomaguideapp.MainActivity3
+activity#com.example.uwtacomaguideapp.reserveActivity
 ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:34:13-42
-activity#com.example.uwtacomaguideapp.MainActivity2
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:34:13-44
+activity#com.example.uwtacomaguideapp.email
 ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:36:9-38:40
 	android:exported
 		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:37:13-42
-activity#com.example.uwtacomaguideapp.MainActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:39:9-47:20
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:37:13-34
+activity#com.example.uwtacomaguideapp.MainActivity5
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:39:9-41:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:41:13-36
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:40:13-41
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:40:13-42
+activity#com.example.uwtacomaguideapp.MainActivity4
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:43:13-42
+activity#com.example.uwtacomaguideapp.MainActivity3
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:46:13-42
+activity#com.example.uwtacomaguideapp.MainActivity2
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:49:13-42
+activity#com.example.uwtacomaguideapp.MainActivity
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:51:9-59:20
+	android:exported
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:52:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:42:13-46:29
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:54:13-58:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:43:17-69
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:55:17-69
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:43:25-66
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:55:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:45:17-77
+ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:57:17-77
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:45:27-74
+		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:57:27-74
 uses-sdk
 INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml

@@ -3137,6 +3137,7 @@ int id SHOW_PROGRESS 0x7f09000a
 int id SYM 0x7f09000b
 int id TOP_END 0x7f09000c
 int id TOP_START 0x7f09000d
+int id aboutBtn 0x7f090214
 int id accelerate 0x7f09000e
 int id accessibility_action_clickable_span 0x7f09000f
 int id accessibility_custom_action_0 0x7f090010
@@ -3341,7 +3342,12 @@ int id groups 0x7f0900d9
 int id header_title 0x7f0900da
 int id hideable 0x7f0900db
 int id home 0x7f0900dc
+int id homeAbout 0x7f090215
 int id homeAsUp 0x7f0900dd
+int id homeCalendar 0x7f090216
+int id homeContacts 0x7f090217
+int id homeEmail 0x7f090218
+int id homeReserve 0x7f090219
 int id honorRequest 0x7f0900de
 int id horizontal_only 0x7f0900df
 int id icon 0x7f0900e0
@@ -3763,6 +3769,9 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_about 0x7f0c0077
+int layout activity_calendar 0x7f0c0078
+int layout activity_contacts 0x7f0c0076
 int layout activity_email 0x7f0c0073
 int layout activity_main 0x7f0c001c
 int layout activity_main2 0x7f0c001e

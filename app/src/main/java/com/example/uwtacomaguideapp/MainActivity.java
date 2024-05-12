@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
     Button button2;
     Button button3;
     Button button4;
+    Button button5;
+    Button button6;
+    Button button7;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
         button2 = (Button) findViewById(R.id.eatBtn);
         button3 = (Button) findViewById(R.id.emailBtn);
         button4 = (Button) findViewById(R.id.reserveBtn);
+        button5 = (Button) findViewById(R.id.calenderBtn);
+        button6 = (Button) findViewById(R.id.contactsBtn);
+        button7 = (Button) findViewById(R.id.aboutBtn);
+
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,6 +63,28 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, reserveActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, calendarActivity.class);
+                startActivity(intent);
+            }
+        });
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, contactsActivity.class);
+                startActivity(intent);
+            }
+        });
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, aboutActivity.class);
                 startActivity(intent);
             }
         });

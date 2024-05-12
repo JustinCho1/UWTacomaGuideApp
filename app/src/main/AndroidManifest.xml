@@ -16,6 +16,18 @@
         android:theme="@style/Theme.UWTacomaGuideApp"
         tools:targetApi="31">
         <activity
+            android:name=".calendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".contactsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".calenderActivity"
+            android:exported="false" />
+        <activity
             android:name=".emailActivity"
             android:exported="false" />
         <activity

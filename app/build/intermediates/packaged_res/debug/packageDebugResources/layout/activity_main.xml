@@ -45,7 +45,7 @@
                 android:layout_width="200dp"
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
-                android:background="#85754d"
+                android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:text="UW Gmail Setup"
                 android:textColor="#FFFFFF" />
@@ -55,7 +55,7 @@
                 android:layout_width="200dp"
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
-                android:background="#85754d"
+                android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:text="Reserving Study Rooms"
                 android:textColor="#FFFFFF" />
@@ -65,7 +65,7 @@
                 android:layout_width="200dp"
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
-                android:background="#85754d"
+                android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:text="Calendar"
                 android:textColor="@color/white" />
@@ -75,9 +75,19 @@
                 android:layout_width="200dp"
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
-                android:background="#85754d"
+                android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:text="Contacts"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/aboutBtn"
+                android:layout_width="200dp"
+                android:layout_height="84dp"
+                android:layout_marginTop="20dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:text="About Us"
                 android:textColor="#FFFFFF" />
 
         </LinearLayout>

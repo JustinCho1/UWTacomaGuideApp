@@ -31,6 +31,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.UWTacomaGuideApp" >
         <activity
+            android:name="com.example.uwtacomaguideapp.calendarActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uwtacomaguideapp.aboutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uwtacomaguideapp.contactsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uwtacomaguideapp.calenderActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.uwtacomaguideapp.emailActivity"
             android:exported="false" />
         <activity
