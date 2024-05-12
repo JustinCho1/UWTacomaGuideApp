@@ -89,6 +89,16 @@ public class MainActivity3 extends AppCompatActivity implements LocationListener
     public void onLocationChanged(@NonNull Location location) {
         setContentView(R.layout.activity_main3);
         button1 = (Button) findViewById(R.id.button4);
+        TextView textview1 = findViewById(R.id.textView7);
+        TextView textview2 = findViewById(R.id.textView2);
+        TextView textview3 = findViewById(R.id.textView3);
+        TextView textview4 = findViewById(R.id.textView4);
+        TextView textview5 = findViewById(R.id.textView6);
+        TextView textview6 = findViewById(R.id.textView8);
+        TextView textview7 = findViewById(R.id.textView9);
+        ImageView imageView1 = findViewById(R.id.imageView4);
+        ImageView imageView2 = findViewById(R.id.imageView6);
+        ImageView imageView3 = findViewById(R.id.imageView7);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,6 +108,38 @@ public class MainActivity3 extends AppCompatActivity implements LocationListener
         });
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
-        //test
+        if((lat1 >= 47.24524 && lat1 <= 47.24710) && (lng1 >= -122.43794 && lng1 <= -122.43555)){
+            textview1.setText("You are now in the east side of Pacific Avnue Road. Available Restraunts include: ");
+            textview2.setText("Jimmy Johns");
+            textview3.setText("Zeke's Pizza");
+            textview4.setText("Sam Choy's Poke");
+            textview5.setText("Sandwich place. Price range of: ");
+            textview6.setText("Pizza place, has option for slices or full pizzas. Price range of ");
+            textview7.setText("Hawaiian place. Price range of ");
+            imageView1.setImageResource(R.drawable.jimmyjohns);
+            imageView2.setImageResource(R.drawable.zeeks);
+            imageView3.setImageResource(R.drawable.samchoys);
+        }
+        else if((lat1 >= 47.24305 && lat1 <= 47.24524) && (lng1 >= -122.43794 && lng1 <= -122.43555)) {
+            textview1.setText("You are now in the west side of Pacific Avnue Road. Available Restraunts include: ");
+            textview2.setText("Subway");
+            textview3.setText("Abella Pizzeria");
+            textview5.setText("Sandwich place. Price range of: ");
+            textview6.setText("Pizza place, has option for slices or full pizzas. Price range of ");
+            imageView1.setImageResource(R.drawable.subway);
+            imageView2.setImageResource(R.drawable.abella);
+        }
+        else{
+            textview1.setText("As you walk around the UWT campus, this page will find places to eat near you");
+            textview2.setText("(blank)");
+            textview3.setText("(blank)");
+            textview4.setText("(blank)");
+            textview5.setText("");
+            textview6.setText("");
+            textview7.setText("");
+            imageView1.setImageResource(R.drawable.blank);
+            imageView2.setImageResource(R.drawable.blank);
+            imageView3.setImageResource(R.drawable.blank);
+        }
     }
 }
