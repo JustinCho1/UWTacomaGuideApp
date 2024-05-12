@@ -25,7 +25,7 @@ public class emailActivity extends AppCompatActivity {
             return insets;
         });
 
-        button1 = (Button) findViewById(R.id.button2);
+        button1 = (Button) findViewById(R.id.homeEmail);
         //TextView textview3 = findViewById(R.id.textView3);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
