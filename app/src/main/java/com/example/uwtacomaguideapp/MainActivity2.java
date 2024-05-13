@@ -49,6 +49,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        pointer = findViewById(R.id.imageView);
         button1 = (Button) findViewById(R.id.button2);
         //TextView textview3 = findViewById(R.id.textView3);
 
