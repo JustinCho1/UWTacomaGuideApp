@@ -77,7 +77,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         width = displayMetrics.widthPixels;
         map = findViewById(R.id.imageView3);
-        sgd = new ScaleGestureDetector(this, new PinchZoomListener(map));
         Location location = locationManager.getLastKnownLocation("gps");
         //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (location != null) {
@@ -219,25 +218,3 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     }
 }
 
-class PinchZoomListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
-    ImageView imageview1;
-    float factor = 1.0f;
-    public PinchZoomListener(ImageView map) {
-
-        imageview1 = map;
-    }
-    @Override
-    public boolean onScaleBegin(ScaleGestureDetector detector){
-        factor = 1.0f;
-        return true;
-    }
-    @Override
-    public boolean onScale(ScaleGestureDetector detector){
-        float scaleFactor = detector.getScaleFactor() - 1;
-        factor += scaleFactor;
-        imageview1.setScaleX(factor);
-        imageview1.setScaleY(factor);
-        return true;
-    }
-
-}
