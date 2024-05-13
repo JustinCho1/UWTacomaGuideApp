@@ -8,20 +8,20 @@
     tools:context=".contactsActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/general_info"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="232dp"
         android:layout_marginTop="456dp"
         android:background="#4B2E83"
-        android:text="School of Engineering & Technology  253-692-5860  uwtech@uw.edu"
+        android:text="School of Engineering and Technology  253-692-5860  uwtech@uw.edu"
         android:textColor="#F8FFFFFF"
         android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/schoolofedu"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="120dp"
@@ -34,20 +34,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/campussafety"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="456dp"
         android:background="#4B2E83"
-        android:text="Campus Safety & Security  253-692-4416  uwtsafe@uw.edu"
+        android:text="Campus Safety and Security  253-692-4416  uwtsafe@uw.edu"
         android:textColor="#F8FFFFFF"
         android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/alumni"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="232dp"
@@ -60,7 +60,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/officeofregistrar"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="8dp"
@@ -73,7 +73,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/general_info_button"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="8dp"
@@ -86,20 +86,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/financialaid"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="232dp"
         android:layout_marginTop="160dp"
         android:background="#4B2E83"
-        android:text="Financial Aid & Scholarships  253-692-4374  uwtfa@uw.edu"
+        android:text="Financial Aid and Scholarships  253-692-4374  uwtfa@uw.edu"
         android:textColor="#F8FFFFFF"
         android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/admissions"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="120dp"
@@ -139,7 +139,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/generalinfo"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="8dp"
@@ -152,7 +152,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/infotech"
         android:layout_width="102dp"
         android:layout_height="131dp"
         android:layout_marginStart="120dp"
