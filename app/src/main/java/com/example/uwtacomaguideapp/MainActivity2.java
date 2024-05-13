@@ -10,6 +10,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.view.ViewGroup;
@@ -118,6 +119,11 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 //            textview2.setText(lng);
             onLocationChanged(location);
         }
+    }
+    public boolean onTouchEvent(MotionEvent event){
+        ScaleGestureDetector sgd = new ScaleGestureDetector(this, new PinchZoomListener(map));
+        sgd.onTouchEvent(event);
+        return true;
     }
     protected void onResume() {
         //setContentView(R.layout.activity_main2);
