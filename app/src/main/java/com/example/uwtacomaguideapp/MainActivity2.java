@@ -130,6 +130,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         //setContentView(R.layout.activity_main2);
         //locationManager.requestLocationUpdates(provider, 400, 1, this);
         super.onResume();
+
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -152,9 +153,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             }
         });
 
-        map = findViewById(R.id.imageView3);
-        sgd = new ScaleGestureDetector(this, new PinchZoomListener(map));
-        map.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+//        map = findViewById(R.id.imageView3);
+
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         width = displayMetrics.widthPixels;
@@ -166,10 +166,9 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     }
     @Override
     public void onLocationChanged(@NonNull Location location) {
+
         setContentView(R.layout.activity_main2);
         button1 = (Button) findViewById(R.id.button2);
-        map = findViewById(R.id.imageView3);
-        sgd = new ScaleGestureDetector(this, new PinchZoomListener(map));
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -222,14 +221,14 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 
 class PinchZoomListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
     ImageView imageview1;
-    float factor;
+    float factor = 1.0f;
     public PinchZoomListener(ImageView map) {
 
         imageview1 = map;
     }
     @Override
     public boolean onScaleBegin(ScaleGestureDetector detector){
-        //factor = 1.0f;
+        factor = 1.0f;
         return true;
     }
     @Override
