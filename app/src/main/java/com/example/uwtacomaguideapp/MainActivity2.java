@@ -147,10 +147,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         });
 
 //        map = findViewById(R.id.imageView3);
-
-        DisplayMetrics displayMetrics = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
-        width = displayMetrics.widthPixels;
         //imageView.setY((float)height);
         //Log.i(String.valueOf(width), "width is: ");;
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
