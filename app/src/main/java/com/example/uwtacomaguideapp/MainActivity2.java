@@ -31,8 +31,6 @@ import com.google.android.gms.location.LocationServices;
 public class MainActivity2 extends AppCompatActivity implements LocationListener {
     Button button1;
     double width;
-    ImageView map;
-    ScaleGestureDetector sgd;
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
     //private final LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -76,7 +74,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         width = displayMetrics.widthPixels;
-        map = findViewById(R.id.imageView3);
+        ImageView map = findViewById(R.id.imageView3);
         Location location = locationManager.getLastKnownLocation("gps");
         //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (location != null) {
@@ -120,11 +118,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             onLocationChanged(location);
         }
     }
-    @Override
-    public boolean onTouchEvent(MotionEvent event){
-        sgd.onTouchEvent(event);
-        return true;
-    }
+
     protected void onResume() {
         //setContentView(R.layout.activity_main2);
         //locationManager.requestLocationUpdates(provider, 400, 1, this);
