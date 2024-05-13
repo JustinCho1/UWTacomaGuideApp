@@ -85,7 +85,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             double lat = location.getLatitude();
             double lng = (location.getLongitude());
 
-            ImageView imageView = findViewById(R.id.imageView);
+
             if((lng >= -122.44271 && lng <= -122.43257) && (lat <= 47.24700 && lat >= 47.24315)){
                 //lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
                 //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
@@ -98,8 +98,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 //textview4.setText(width);
                 //textview1.setText(lat);
                 //textview2.setText(lng);
-                imageView.setX((float)lng);
-                imageView.setY((float)lat);
+                pointer.setX((float)lng);
+                pointer.setY((float)lat);
                 //textview1.setText(String.valueOf(location.getLatitude() + " " + location.getLongitude()));
                 //textview2.setText(String.valueOf(lat1 + " " + lng1));
                 //imageView.setY(2500);
