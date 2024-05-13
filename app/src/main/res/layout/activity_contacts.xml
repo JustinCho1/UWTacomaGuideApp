@@ -8,6 +8,110 @@
     tools:context=".contactsActivity">
 
     <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="456dp"
+        android:background="#4B2E83"
+        android:text="School of Engineering & Technology  253-692-5860  uwtech@uw.edu"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="456dp"
+        android:background="#B7A57A"
+        android:text="School of Education  253-692-4430  uwted@uw.edu"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="456dp"
+        android:background="#4B2E83"
+        android:text="Campus Safety & Security  253-692-4416  uwtsafe@uw.edu"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="308dp"
+        android:background="#B7A57A"
+        android:text="Alumni Office  253-692-5641  uwtalum@uw.edu"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="308dp"
+        android:background="#B7A57A"
+        android:text="Office of the Registrar  (Student records, transcripts, course registration)  253-692-4913  reguwt@uw.edu"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="160dp"
+        android:background="#4B2E83"
+        android:text="General information 253-692-4000 or 800-736-7750  uwtinfo@uw.edu Mailing address:  University of Washington Tacoma  1900 Commerce Street  Tacoma, WA 98402-3100"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="160dp"
+        android:background="#4B2E83"
+        android:text="Financial Aid & Scholarships  253-692-4374  uwtfa@uw.edu"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="160dp"
+        android:background="#B7A57A"
+        android:text="Admissions (Undergraduate)  (For graduate admissions information, contact your school of interest)  253-692-4742  uwtinfo@uw.edu"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/homeContacts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,4 +137,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="160dp"
+        android:background="#4B2E83"
+        android:text="General information 253-692-4000 or 800-736-7750  uwtinfo@uw.edu Mailing address:  University of Washington Tacoma  1900 Commerce Street  Tacoma, WA 98402-3100"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="308dp"
+        android:background="#4B2E83"
+        android:text="Information Technology  (Student computer labs, IT support)  tachelp@uw.edu"
+        android:textColor="#F8FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
