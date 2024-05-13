@@ -30,7 +30,6 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 public class MainActivity2 extends AppCompatActivity implements LocationListener {
     Button button1;
-    double width;
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
     //private final LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -73,7 +72,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         }
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
-        width = displayMetrics.widthPixels;
+        double width = displayMetrics.widthPixels;
         ImageView map = findViewById(R.id.imageView3);
         Location location = locationManager.getLastKnownLocation("gps");
         //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -165,6 +164,9 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 startActivity(intent);
             }
         });
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        double width = displayMetrics.widthPixels;
         //TextView textview1 = findViewById(R.id.textView);
         //TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
