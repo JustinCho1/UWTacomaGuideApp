@@ -229,7 +229,7 @@ class PinchZoomListener extends ScaleGestureDetector.SimpleOnScaleGestureListene
     }
     @Override
     public boolean onScaleBegin(ScaleGestureDetector detector){
-        factor = 1.0f;
+        //factor = 1.0f;
         return true;
     }
     @Override
