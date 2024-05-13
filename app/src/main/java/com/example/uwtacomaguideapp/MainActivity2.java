@@ -69,6 +69,9 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        width = displayMetrics.widthPixels;
         Location location = locationManager.getLastKnownLocation("gps");
         //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (location != null) {
