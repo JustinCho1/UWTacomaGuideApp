@@ -1,4 +1,5 @@
 package com.example.uwtacomaguideapp;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -9,6 +10,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
@@ -28,6 +30,7 @@ import com.google.android.gms.location.LocationServices;
 public class MainActivity2 extends AppCompatActivity implements LocationListener {
     Button button1;
     double width;
+    ImageView map;
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
     //private final LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -47,7 +50,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         });
         button1 = (Button) findViewById(R.id.button2);
         //TextView textview3 = findViewById(R.id.textView3);
-
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,6 +74,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         width = displayMetrics.widthPixels;
+        map = findViewById(R.id.imageView3);
+        ScaleGestureDetector sgd = new ScaleGestureDetector(this, new PinchZoomListener(map));
         Location location = locationManager.getLastKnownLocation("gps");
         //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (location != null) {
@@ -131,6 +135,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         }
         setContentView(R.layout.activity_main2);
 
+        //imageView1.setImageMatrix()
         button1 = (Button) findViewById(R.id.button2);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -204,4 +209,25 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 
         }
     }
+}
+
+class PinchZoomListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
+    ImageView imageview1;
+    float factor;
+    public PinchZoomListener(ImageView map) {
+        imageview1 = map;
+    }
+    public boolean onScaleBegin(ScaleGestureDetector detector){
+        factor = 1.0f;
+        return true;
+    }
+
+    public boolean onScale(ScaleGestureDetector detector){
+        float scaleFactor = detector.getScaleFactor() - 1;
+        factor += scaleFactor;
+        imageview1.setScaleX(factor);
+        imageview1.setScaleY(factor);
+        return true;
+    }
+
 }
