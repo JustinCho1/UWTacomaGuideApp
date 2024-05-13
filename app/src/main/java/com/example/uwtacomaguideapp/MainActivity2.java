@@ -1,5 +1,4 @@
 package com.example.uwtacomaguideapp;
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -10,8 +9,6 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import android.view.MotionEvent;
-import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
@@ -29,11 +26,11 @@ import androidx.core.view.WindowInsetsCompat;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 public class MainActivity2 extends AppCompatActivity implements LocationListener {
-    private Button button1;
-    private ImageView pointer;
-    private double width;
+    Button button1;
+    double width;
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
+
     //private final LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
     //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
     // 0.00418, -0.00508
@@ -49,10 +46,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        pointer = findViewById(R.id.imageView);
-        button1 = findViewById(R.id.button2);
+        button1 = (Button) findViewById(R.id.button2);
         //TextView textview3 = findViewById(R.id.textView3);
-
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,8 +56,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             }
         });
         //ImageView imageView1 = findViewById(R.id.imageView);
-
-
         //Provider provider = locationManager.getBestProvider(GPS_PROVIDER)
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             //
@@ -83,31 +76,27 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //TextView textview2 = findViewById(R.id.textView2);
             double lat = location.getLatitude();
             double lng = (location.getLongitude());
-
-
-            if((lng >= -122.44271 && lng <= -122.43257) && (lat <= 47.24700 && lat >= 47.24315)){
+            ImageView imageView = findViewById(R.id.imageView);
+            if ((lng >= -122.44271 && lng <= -122.43257) && (lat <= 47.24700 && lat >= 47.24315)) {
                 //lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
                 //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
                 //imageView.setX(((float)lat1));
                 //imageView.setY(((float)lng1)); //383
-
                 lat = Math.floor(width * (0.583) * (1 - (((lat - 47.24315) * 100000) / 385))); //937
                 lng = Math.floor((width) * (((lng - (-122.44271)) * 100000) / 1014)); //767
                 //textview3.setText(height);
                 //textview4.setText(width);
                 //textview1.setText(lat);
                 //textview2.setText(lng);
-                pointer.setX((float)lng);
-                pointer.setY((float)lat);
+                imageView.setX((float) lng);
+                imageView.setY((float) lat);
                 //textview1.setText(String.valueOf(location.getLatitude() + " " + location.getLongitude()));
                 //textview2.setText(String.valueOf(lat1 + " " + lng1));
                 //imageView.setY(2500);
-
             }
             //ImageView imageView1 = findViewById(R.id.imageView3);
             //textview1.setText(lat);
             //textview2.setText(lng);
-
             //imageView1.setX(2038 / (imageView1.getDrawable().getIntrinsicWidth()));
             //imageView1.setY(2189 / (imageView1.getDrawable().getIntrinsicHeight()));
 //            TextView textview1 = findViewById(R.id.textView);
@@ -117,7 +106,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 //            textview1.setText(lat);
 //            textview2.setText(lng);
             onLocationChanged(location);
-            locationManager.requestLocationUpdates("gps", 400, 0.1f, this);
         }
     }
 
@@ -125,7 +113,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         //setContentView(R.layout.activity_main2);
         //locationManager.requestLocationUpdates(provider, 400, 1, this);
         super.onResume();
-
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -137,25 +124,74 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             return;
         }
         setContentView(R.layout.activity_main2);
-
+        button1 = (Button) findViewById(R.id.button2);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        ImageView imageView2 = findViewById(R.id.imageView3);
+        imageView2.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        width = displayMetrics.widthPixels;
+        //imageView.setY((float)height);
+        //Log.i(String.valueOf(width), "width is: ");;
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates("gps", 400, 0.1f, this);
-
     }
+
     @Override
     public void onLocationChanged(@NonNull Location location) {
-
-        //setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main2);
+        button1 = (Button) findViewById(R.id.button2);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        //TextView textview1 = findViewById(R.id.textView);
+        //TextView textview2 = findViewById(R.id.textView2);
+        //TextView textview3 = findViewById(R.id.textView3);
+        //TextView textview4 = findViewById(R.id.textView4);
+        //TextView textview1 = findViewById(R.id.textView);
+        //TextView textview2 = findViewById(R.id.textView2);
+        ImageView imageView = findViewById(R.id.imageView);
+        //int screenHeight = displayMetrics.heightPixels;
+        //Log.d(String.valueOf(screenWidth), "width is: ");
+        //Log.d(String.valueOf(width), "height is: ");
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
+        //String lat = String.valueOf(lat1);
+        //String lng = String.valueOf(lng1);
+        //47.24676, -122.44121 | 47.24676 -122.43613 | 47.24258, -122.44121 | 47.24258, -122.43613
+        // 0.00418, -0.00508
+        //432, 376
+        if ((lng1 >= -122.44271 && lng1 <= -122.43257) && (lat1 <= 47.24700 && lat1 >= 47.24315)) {
+            if ((lng1 >= -122.44302 && lng1 <= -122.43257) && (lat1 <= 47.24818 && lat1 >= 47.24315)) {
+                //lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
+                //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
+                //imageView.setX(((float)lat1));
+                //imageView.setY(((float)lng1)); //383
 
-        if((lng1 >= -122.44302 && lng1 <= -122.43257) && (lat1 <= 47.24818 && lat1 >= 47.24315)){
-            lat1 = Math.floor(width * (0.583) * (1 - (((lat1 - 47.24315) * 100000) / 503))); //937
-            lng1 = Math.floor((width) * (((lng1 - (-122.44271)) * 100000) / 1045)); //767
-            pointer.setX((float)lng1);
-            pointer.setY((float)lat1);
-
+                lat1 = Math.floor(width * (0.583) * (1 - (((lat1 - 47.24315) * 100000) / 385))); //937
+                lng1 = Math.floor((width) * (((lng1 - (-122.44271)) * 100000) / 1014)); //767
+                lat1 = Math.floor(width * (0.583) * (1 - (((lat1 - 47.24315) * 100000) / 503))); //937
+                lng1 = Math.floor((width) * (((lng1 - (-122.44271)) * 100000) / 1045)); //767
+                //textview3.setText(height);
+                //textview4.setText(width);
+                //textview1.setText(lat);
+                //textview2.setText(lng);
+                imageView.setX((float) lng1);
+                imageView.setY((float) lat1);
+                //textview1.setText(String.valueOf(location.getLatitude() + " " + location.getLongitude()));
+                //textview2.setText(String.valueOf(lat1 + " " + lng1));
+                //imageView.setY(2500);
+            }
         }
     }
 }
-
