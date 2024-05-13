@@ -50,7 +50,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             return insets;
         });
         pointer = findViewById(R.id.imageView);
-        button1 = (Button) findViewById(R.id.button2);
+        button1 = findViewById(R.id.button2);
         //TextView textview3 = findViewById(R.id.textView3);
 
         button1.setOnClickListener(new View.OnClickListener() {
@@ -76,7 +76,6 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         width = displayMetrics.widthPixels;
-        ImageView map = findViewById(R.id.imageView3);
         Location location = locationManager.getLastKnownLocation("gps");
         //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (location != null) {
@@ -118,6 +117,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
 //            textview1.setText(lat);
 //            textview2.setText(lng);
             onLocationChanged(location);
+            locationManager.requestLocationUpdates("gps", 400, 0.1f, this);
         }
     }
 
@@ -145,7 +145,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     @Override
     public void onLocationChanged(@NonNull Location location) {
 
-        setContentView(R.layout.activity_main2);
+        //setContentView(R.layout.activity_main2);
         double lat1 = location.getLatitude();
         double lng1 = location.getLongitude();
 
