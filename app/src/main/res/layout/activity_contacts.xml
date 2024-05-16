@@ -7,109 +7,132 @@
     android:layout_height="match_parent"
     tools:context=".contactsActivity">
 
-    <Button
-        android:id="@+id/general_info"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="232dp"
-        android:layout_marginTop="456dp"
-        android:background="#4B2E83"
-        android:text="School of Engineering and Technology  253-692-5860  uwtech@uw.edu"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/schoolofedu"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="456dp"
-        android:background="#B7A57A"
-        android:text="School of Education  253-692-4430  uwted@uw.edu"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/campussafety"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="456dp"
-        android:background="#4B2E83"
-        android:text="Campus Safety and Security  253-692-4416  uwtsafe@uw.edu"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="170dp"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/alumni"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="232dp"
-        android:layout_marginTop="308dp"
-        android:background="#B7A57A"
-        android:text="Alumni Office  253-692-5641  uwtalum@uw.edu"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<!--General Info-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardElevation="5dp">
 
-    <Button
-        android:id="@+id/officeofregistrar"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="308dp"
-        android:background="#B7A57A"
-        android:text="Office of the Registrar  (Student records, transcripts, course registration)  253-692-4913  reguwt@uw.edu"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/encodesanscompressed900"
+                    android:text="General Information\n253-692-4000 or 800-736-7750\nuwtinfo@uw.edu\nMailing address:  University of Washington Tacoma  1900 Commerce Street  Tacoma, WA 98402-3100"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffffff" />
+            </androidx.cardview.widget.CardView>
+<!--Admissions-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardElevation="5dp">
 
-    <Button
-        android:id="@+id/general_info_button"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="160dp"
-        android:background="#4B2E83"
-        android:text="General information 253-692-4000 or 800-736-7750  uwtinfo@uw.edu Mailing address:  University of Washington Tacoma  1900 Commerce Street  Tacoma, WA 98402-3100"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/encodesanscompressed900"
+                    android:text="Admissions (Undergraduate)\n253-692-4742\nuwtinfo@uw.edu"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffffff" />
+            </androidx.cardview.widget.CardView>
+<!--Financial Aid-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardElevation="5dp">
 
-    <Button
-        android:id="@+id/financialaid"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="232dp"
-        android:layout_marginTop="160dp"
-        android:background="#4B2E83"
-        android:text="Financial Aid and Scholarships  253-692-4374  uwtfa@uw.edu"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/encodesanscompressed900"
+                    android:text="Financial Aid and Scholarships\n253-692-4374\nuwtfa@uw.edu"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffffff" />
+            </androidx.cardview.widget.CardView>
+<!--Office of Registrar-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardElevation="5dp">
 
-    <Button
-        android:id="@+id/admissions"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="160dp"
-        android:background="#B7A57A"
-        android:text="Admissions (Undergraduate)  (For graduate admissions information, contact your school of interest)  253-692-4742  uwtinfo@uw.edu"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/encodesanscompressed900"
+                    android:text="Office of the Registrar\n(Student records, transcripts, course registration)\n253-692-4913\nreguwt@uw.edu"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffffff" />
+            </androidx.cardview.widget.CardView>
+<!--IT-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardElevation="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/encodesanscompressed900"
+                    android:text="Information Technology\n(Student computer labs, IT support)\ntachelp@uw.edu"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffffff" />
+            </androidx.cardview.widget.CardView>
+<!--Alumni Office-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardElevation="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/encodesanscompressed900"
+                    android:text="Alumni Office\n253-692-5641\nuwtalum@uw.edu"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffffff" />
+            </androidx.cardview.widget.CardView>
+<!--Campus Safety-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardElevation="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/encodesanscompressed900"
+                    android:text="Campus Safety and Security\n253-692-4416\nuwtsafe@uw.edu"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffffff" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/homeContacts"
@@ -135,32 +158,6 @@
         android:textColor="#4b2e83"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/generalinfo"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="160dp"
-        android:background="#4B2E83"
-        android:text="General information 253-692-4000 or 800-736-7750  uwtinfo@uw.edu Mailing address:  University of Washington Tacoma  1900 Commerce Street  Tacoma, WA 98402-3100"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/infotech"
-        android:layout_width="102dp"
-        android:layout_height="131dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="308dp"
-        android:background="#4B2E83"
-        android:text="Information Technology  (Student computer labs, IT support)  tachelp@uw.edu"
-        android:textColor="#F8FFFFFF"
-        android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
