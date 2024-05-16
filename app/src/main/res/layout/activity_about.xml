@@ -33,4 +33,98 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="381dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="192dp"
+        android:background="#32006E"
+        android:fontFamily="sans-serif-black"
+        android:text="The University of Washington Guide App is your ultimate companion for navigating campus life. Whether you're a new student, a returning Husky, or a visitor, our app is designed to help you find your way, stay informed, and make the most of your time at UW."
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="381dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="336dp"
+        android:autoText="true"
+        android:background="#85754D"
+        android:fontFamily="sans-serif-black"
+        android:text="This app is proudly developed by students from the University of Washington. Our team is passionate about enhancing the Husky experience and making campus life more accessible and enjoyable for everyone.  "
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Welcome to the UW Guide App"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Our Mission"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="92dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="452dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Meet Our Team"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="381dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="488dp"
+        android:background="#32006E"
+        android:fontFamily="sans-serif-black"
+        android:text="Lee Nguyen - Project Manager/Developer Justin Cho - Developer Michael Tran - User Experience Designer Yoonis Barre - User Experience Designer Charlton Chan - Documentation Engineer/Developer Ibrahim Diis - Documentation Engineer/Developer"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="388dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="604dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
