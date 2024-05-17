@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:fontFamily="@font/uwbold"
-        android:text="How to setup your UW email for Gmail"
+        android:text="Academic Advising"
         android:textColor="#4b2e83"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"

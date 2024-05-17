@@ -50,7 +50,7 @@
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
-                android:text="UW Gmail Setup"
+                android:text="Academic Advising"
                 android:textColor="#FFFFFF" />
 
             <Button
