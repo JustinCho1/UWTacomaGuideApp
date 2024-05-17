@@ -136,6 +136,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="#4b2e83"
                 app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
@@ -189,6 +191,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="#4b2e83"
                 app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
@@ -240,6 +244,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="#4b2e83"
                 app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
@@ -301,6 +307,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="#4b2e83"
                 app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
@@ -316,6 +324,16 @@
                     android:textSize="20sp" />
             </androidx.cardview.widget.CardView>
             <!--Alumni Office-->
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/uwnormal"
+                android:padding="10dp"
+                android:text="(Student computer labs, IT support)"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -341,6 +359,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="#4b2e83"
                 app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
@@ -394,6 +414,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 app:cardBackgroundColor="#4b2e83"
                 app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
@@ -403,7 +425,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
                     android:fontFamily="@font/encodesanscompressed900"
-                    android:text="Alumni Office"
+                    android:text="Campus Safety &amp; Security"
                     android:textAlignment="center"
                     android:textColor="#ffffff"
                     android:textSize="20sp" />
@@ -412,7 +434,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal" >
+                android:layout_marginBottom="100dp"
+                android:orientation="horizontal">
 
                 <Button
                     android:layout_width="wrap_content"
