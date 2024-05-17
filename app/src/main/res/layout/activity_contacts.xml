@@ -15,122 +15,432 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingTop="130dp">
 
             <!--General Info-->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="20dp"
+                android:layout_height="50dp"
                 app:cardBackgroundColor="#4b2e83"
+                app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
+                    android:layout_margin="10dp"
                     android:fontFamily="@font/encodesanscompressed900"
-                    android:text="General Information\n253-692-4000 or 800-736-7750\nuwtinfo@uw.edu\nMailing address:  University of Washington Tacoma  1900 Commerce Street  Tacoma, WA 98402-3100"
-                    android:textColor="#ffffff" />
+                    android:text="General Information"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
             </androidx.cardview.widget.CardView>
             <!--Admissions-->
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/uwbold"
+                android:text="Phone"
+                android:textAlignment="center"
+                android:textColor="#4B2E83"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonGenPhone1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="253-692-4000"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="5dp"
+                    tools:layout_marginTop="5dp" />
+
+                <Button
+                    android:id="@+id/buttonGenPhone2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="800-736-7750"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="5dp"
+                    tools:layout_marginTop="5dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/uwbold"
+                android:text="Email"
+                android:textAlignment="center"
+                android:textColor="#4B2E83"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonGenEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginBottom="5dp"
+                android:background="#85754D"
+                android:fontFamily="@font/uwbold"
+                android:text="uwtinfo@uw.edu"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/uwbold"
+                android:text="Mailing Address"
+                android:textAlignment="center"
+                android:textColor="#4B2E83"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="University of Washington Tacoma\n1900 Commerce Street\nTacoma, WA 98402-3100"
+                android:textColor="#000000" />
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="20dp"
-                app:cardBackgroundColor="#E8E3D3"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
+                    android:layout_margin="10dp"
                     android:fontFamily="@font/encodesanscompressed900"
-                    android:text="Admissions (Undergraduate)\n253-692-4742\nuwtinfo@uw.edu"
-                    android:textColor="#4b2e83" />
+                    android:text="Admissions (Undergraduate)"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
             </androidx.cardview.widget.CardView>
             <!--Financial Aid-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonAdmissionPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="253-692-4742"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="20dp"
+                    tools:layout_marginTop="20dp" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="uwtinfo@uw.edu"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="20dp"
+                    tools:layout_marginTop="20dp" />
+
+            </RelativeLayout>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="20dp"
+                android:layout_height="50dp"
                 app:cardBackgroundColor="#4b2e83"
+                app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
+                    android:layout_margin="10dp"
                     android:fontFamily="@font/encodesanscompressed900"
-                    android:text="Financial Aid and Scholarships\n253-692-4374\nuwtfa@uw.edu"
-                    android:textColor="#ffffff" />
+                    android:text="Financial Aid and Scholarships"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
             </androidx.cardview.widget.CardView>
             <!--Office of Registrar-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="253-692-4374"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="20dp"
+                    tools:layout_marginTop="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="uwtfa@uw.edu"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="20dp"
+                    tools:layout_marginTop="20dp" />
+            </RelativeLayout>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="20dp"
-                app:cardBackgroundColor="#E8E3D3"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
+                    android:layout_margin="10dp"
                     android:fontFamily="@font/encodesanscompressed900"
-                    android:text="Office of the Registrar\n(Student records, transcripts, course registration)\n253-692-4913\nreguwt@uw.edu"
-                    android:textColor="#4B2E83" />
+                    android:text="Office of the Registrar"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
             </androidx.cardview.widget.CardView>
             <!--IT-->
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/uwnormal"
+                android:padding="10dp"
+                android:text="(Student records, transcripts, course registration)"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="253-692-4913"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="20dp"
+                    tools:layout_marginTop="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="reguwt@uw.edu"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="20dp"
+                    tools:layout_marginTop="20dp" />
+            </RelativeLayout>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="20dp"
+                android:layout_height="50dp"
                 app:cardBackgroundColor="#4b2e83"
+                app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
+                    android:layout_margin="10dp"
                     android:fontFamily="@font/encodesanscompressed900"
-                    android:text="Information Technology\n(Student computer labs, IT support)\ntachelp@uw.edu"
-                    android:textColor="#ffffff" />
+                    android:text="Information Technology"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
             </androidx.cardview.widget.CardView>
             <!--Alumni Office-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="tachelp@uw.edu"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="20dp"
+                    tools:layout_marginTop="20dp" />
+            </RelativeLayout>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="20dp"
-                app:cardBackgroundColor="#E8E3D3"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="#4b2e83"
+                app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
+                    android:layout_margin="10dp"
                     android:fontFamily="@font/encodesanscompressed900"
-                    android:text="Alumni Office\n253-692-5641\nuwtalum@uw.edu"
-                    android:textColor="#4B2E83" />
+                    android:text="Alumni Office"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
             </androidx.cardview.widget.CardView>
             <!--Campus Safety-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="253-692-5641"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="20dp"
+                    tools:layout_marginTop="20dp" />
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="uwtalum@uw.edu"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="20dp"
+                    tools:layout_marginTop="20dp" />
+            </RelativeLayout>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="20dp"
+                android:layout_height="50dp"
                 app:cardBackgroundColor="#4b2e83"
+                app:cardCornerRadius="0dp"
                 app:cardElevation="5dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
+                    android:layout_margin="10dp"
                     android:fontFamily="@font/encodesanscompressed900"
-                    android:text="Campus Safety and Security\n253-692-4416\nuwtsafe@uw.edu"
-                    android:textColor="#ffffff" />
+                    android:text="Alumni Office"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
             </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="253-692-4416"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="50dp"
+                    tools:layout_marginTop="20dp" />
+
+                <Button
+                    android:id="@+id/button27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="uwtsafe@uw.edu"
+                    android:textColor="@color/white"
+                    tools:layout_marginBottom="50dp"
+                    tools:layout_marginTop="20dp" />
+            </RelativeLayout>
 
         </LinearLayout>
     </ScrollView>
