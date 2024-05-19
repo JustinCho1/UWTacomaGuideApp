@@ -21,7 +21,7 @@
                 android:id="@+id/mapBtn"
                 android:layout_width="200dp"
                 android:layout_height="84dp"
-                android:layout_marginTop="172dp"
+                android:layout_marginTop="140dp"
                 android:background="#4b2e83"
                 android:drawableTop="@drawable/map_icon"
                 android:drawablePadding="-5dp"
@@ -36,7 +36,10 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/food_icon"
+                android:drawablePadding="-5dp"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Places To Eat"
                 android:textColor="#FFFFFF" />
 
@@ -47,7 +50,7 @@
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
-                android:text="UW Gmail Setup"
+                android:text="Academic Advising"
                 android:textColor="#FFFFFF" />
 
             <Button
@@ -78,6 +81,16 @@
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:text="Contacts"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/reportBtn"
+                android:layout_width="200dp"
+                android:layout_height="84dp"
+                android:layout_marginTop="20dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:text="Report Bugs and Issues"
                 android:textColor="#FFFFFF" />
 
             <Button

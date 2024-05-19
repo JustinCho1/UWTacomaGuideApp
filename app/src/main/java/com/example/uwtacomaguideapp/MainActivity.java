@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     Button button5;
     Button button6;
     Button button7;
+    Button button8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +31,15 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
         button1 = (Button) findViewById(R.id.mapBtn);
         button2 = (Button) findViewById(R.id.eatBtn);
         button3 = (Button) findViewById(R.id.emailBtn);
         button4 = (Button) findViewById(R.id.reserveBtn);
         button5 = (Button) findViewById(R.id.calenderBtn);
         button6 = (Button) findViewById(R.id.contactsBtn);
-        button7 = (Button) findViewById(R.id.aboutBtn);
+        button7 = (Button) findViewById(R.id.reportBtn);
+        button8 = (Button) findViewById(R.id.aboutBtn);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,6 +85,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, reportActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, aboutActivity.class);

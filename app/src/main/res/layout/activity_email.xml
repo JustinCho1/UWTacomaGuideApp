@@ -7,25 +7,327 @@
     android:layout_height="match_parent"
     tools:context=".emailActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="130dp">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Academic Advising Appointments"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/uwnormal"
+                android:text="Newly admitted and current UW Tacoma students can schedule an appointment online with their assigned pre-major academic advisor. "
+                android:textColor="#000000"
+                tools:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/uwbold"
+                android:text="How to Connect with Academic Advisor"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/uwnormal"
+                android:text="➤ Tap on your advisor's email to send an email to your advisor. "
+                android:textColor="#000000"
+                tools:layout_marginBottom="5dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/uwnormal"
+                android:text="➤ Tap on the Schedule button to schedule an appointment with your advisor. "
+                android:textColor="#000000"
+                tools:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
+                android:background="#7E7E7E"
+                android:fontFamily="@font/uwbold"
+                android:text="Students With Last Names Beginning A-D:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/uwbold"
+                android:text="Isabella Webb"
+                android:textAlignment="center"
+                android:textColor="#4B2E83"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonEmailA"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="40dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="iwebb@uw.edu"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="Schedule"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="#7E7E7E"
+                android:fontFamily="@font/uwbold"
+                android:text="Students With Last Names Beginning E-K:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/uwbold"
+                android:text="Wendy Barajas Cadenas	"
+                android:textAlignment="center"
+                android:textColor="#4B2E83"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonEmailB"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="40dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="	barwen11@uw.edu"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="Schedule"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="#7E7E7E"
+                android:fontFamily="@font/uwbold"
+                android:text="Students With Last Names Beginning L-Q:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/uwbold"
+                android:text="Will Taylor"
+                android:textAlignment="center"
+                android:textColor="#4B2E83"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonEmailC"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="40dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="taylorwj@uw.edu"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="Schedule"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="#7E7E7E"
+                android:fontFamily="@font/uwbold"
+                android:text="Students With Last Names Beginning R-Z:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/uwbold"
+                android:text="Kiko Salas"
+                android:textAlignment="center"
+                android:textColor="#4B2E83"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonEmailD"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="salasf@uw.edu"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="#85754D"
+                    android:fontFamily="@font/uwbold"
+                    android:padding="10dp"
+                    android:text="Schedule"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner_white" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
         android:fontFamily="@font/uwbold"
         android:text="Academic Advising"
         android:textColor="#4b2e83"
         android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/homeEmail" />
 
     <Button
         android:id="@+id/homeEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:drawableStart="@drawable/home_icon"
         android:fontFamily="@font/uwbold"
         android:paddingStart="5dp"

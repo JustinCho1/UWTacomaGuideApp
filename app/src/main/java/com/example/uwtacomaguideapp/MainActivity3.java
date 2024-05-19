@@ -29,6 +29,7 @@ import com.google.android.gms.location.LocationServices;
 
 public class MainActivity3 extends AppCompatActivity implements LocationListener{
     Button button1;
+    Button button2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -80,6 +81,14 @@ public class MainActivity3 extends AppCompatActivity implements LocationListener
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity3.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.button7);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity3.this, foodRecs.class);
                 startActivity(intent);
             }
         });

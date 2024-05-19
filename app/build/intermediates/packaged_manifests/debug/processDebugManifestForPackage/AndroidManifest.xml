@@ -29,8 +29,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.UWTacomaGuideApp" >
+        <activity
+            android:name="com.example.uwtacomaguideapp.reportActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.uwtacomaguideapp.calendarActivity"
             android:exported="false" />
