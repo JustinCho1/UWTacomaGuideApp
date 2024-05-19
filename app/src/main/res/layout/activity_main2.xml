@@ -67,4 +67,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="250dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:text="Disclaimer:  the exact location may not be accurate when used indoors, due to the limited gps effectivness indoors"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
