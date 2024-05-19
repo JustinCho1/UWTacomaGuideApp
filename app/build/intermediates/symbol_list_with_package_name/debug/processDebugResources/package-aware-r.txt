@@ -3027,6 +3027,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable group_picture
 drawable home_icon
+drawable huskies
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3134,6 +3135,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Husky
 id META
 id NO_DEBUG
 id SHIFT
@@ -3230,6 +3232,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button12
 id button16
 id button17
 id button2
@@ -3238,10 +3241,16 @@ id button22
 id button24
 id button25
 id button27
+id button3
 id button4
 id button6
 id button7
+id button8
 id buttonAdmissionPhone
+id buttonEmailA
+id buttonEmailB
+id buttonEmailC
+id buttonEmailD
 id buttonGenEmail
 id buttonGenPhone1
 id buttonGenPhone2
@@ -3381,6 +3390,7 @@ id imageView10
 id imageView11
 id imageView12
 id imageView13
+id imageView14
 id imageView2
 id imageView3
 id imageView4
@@ -3643,6 +3653,7 @@ id textView23
 id textView24
 id textView25
 id textView26
+id textView27
 id textView28
 id textView29
 id textView3
@@ -3652,7 +3663,19 @@ id textView32
 id textView33
 id textView34
 id textView35
+id textView36
+id textView37
+id textView38
+id textView39
 id textView4
+id textView40
+id textView41
+id textView42
+id textView43
+id textView44
+id textView45
+id textView46
+id textView47
 id textView5
 id textView6
 id textView7
