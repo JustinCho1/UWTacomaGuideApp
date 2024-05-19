@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
         button1 = (Button) findViewById(R.id.mapBtn);
         button2 = (Button) findViewById(R.id.eatBtn);
         button3 = (Button) findViewById(R.id.emailBtn);
