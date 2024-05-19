@@ -30,11 +30,59 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/uwnormal"
+                android:text="Newly admitted and current UW Tacoma students can schedule an appointment online with their assigned pre-major academic advisor. "
+                android:textColor="#000000"
+                tools:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/uwbold"
+                android:text="How to Connect with Academic Advisor"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/uwnormal"
+                android:text="➤ Tap on your advisor's email to send an email to your advisor. "
+                android:textColor="#000000"
+                tools:layout_marginBottom="5dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/uwnormal"
+                android:text="➤ Tap on the Schedule button to schedule an appointment with your advisor. "
+                android:textColor="#000000"
+                tools:layout_marginBottom="10dp" />
+
+            <TextView
                 android:id="@+id/textView36"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
                 android:background="#7E7E7E"
                 android:fontFamily="@font/uwbold"
                 android:text="Students With Last Names Beginning A-D:"
@@ -60,7 +108,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/buttonEmailA"
                     android:layout_width="200dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
@@ -74,11 +122,9 @@
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="40dp"
                     android:layout_marginEnd="40dp"
-                    android:layout_toEndOf="@+id/button"
                     android:background="#85754D"
                     android:fontFamily="@font/uwbold"
                     android:padding="10dp"
@@ -90,7 +136,7 @@
                 android:id="@+id/textView37"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
                 android:background="#7E7E7E"
                 android:fontFamily="@font/uwbold"
@@ -117,7 +163,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/buttonEmailB"
                     android:layout_width="200dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
@@ -131,11 +177,9 @@
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="40dp"
                     android:layout_marginEnd="40dp"
-                    android:layout_toEndOf="@+id/button5"
                     android:background="#85754D"
                     android:fontFamily="@font/uwbold"
                     android:padding="10dp"
@@ -147,7 +191,7 @@
                 android:id="@+id/textView38"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
                 android:background="#7E7E7E"
                 android:fontFamily="@font/uwbold"
@@ -174,7 +218,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button9"
+                    android:id="@+id/buttonEmailC"
                     android:layout_width="200dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
@@ -187,11 +231,9 @@
 
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="40dp"
                     android:layout_marginEnd="40dp"
-                    android:layout_toEndOf="@+id/button9"
                     android:background="#85754D"
                     android:fontFamily="@font/uwbold"
                     android:padding="10dp"
@@ -203,7 +245,7 @@
                 android:id="@+id/textView39"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
                 android:background="#7E7E7E"
                 android:fontFamily="@font/uwbold"
@@ -230,11 +272,12 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button11"
+                    android:id="@+id/buttonEmailD"
                     android:layout_width="200dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="40dp"
+                    android:layout_marginBottom="50dp"
                     android:background="#85754D"
                     android:fontFamily="@font/uwbold"
                     android:padding="10dp"
@@ -244,11 +287,10 @@
                 <Button
                     android:id="@+id/button12"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="40dp"
                     android:layout_marginEnd="40dp"
-                    android:layout_toEndOf="@+id/button11"
+                    android:layout_marginBottom="50dp"
                     android:background="#85754D"
                     android:fontFamily="@font/uwbold"
                     android:padding="10dp"
