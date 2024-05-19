@@ -154,7 +154,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:drawableStart="@drawable/home_icon"
         android:fontFamily="@font/uwbold"
         android:paddingStart="5dp"
@@ -183,7 +183,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/scrollView3" />
+        app:layout_constraintTop_toBottomOf="@+id/homeAbout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
