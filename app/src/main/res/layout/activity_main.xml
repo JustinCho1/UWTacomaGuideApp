@@ -59,7 +59,10 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/study_icon"
+                android:drawablePadding="-5dp"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Reserving Study Rooms"
                 android:textColor="#FFFFFF" />
 
