@@ -5,6 +5,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -26,11 +28,74 @@ public class MainActivity4 extends AppCompatActivity {
     }
     protected void onResume() {
         super.onResume();
-        Button button1 = (Button) findViewById(R.id.button5);
-        button1.setOnClickListener(new View.OnClickListener() {
+        ImageView abellas = findViewById(R.id.imageView8);
+        ImageView anthem = findViewById(R.id.imageView10);
+        ImageView slvltea = findViewById(R.id.imageView12);
+        ImageView crisp = findViewById(R.id.imageView13);
+        ImageView hotdog = findViewById(R.id.imageView16);
+        ImageView indochine = findViewById(R.id.imageView17);
+        ImageView jimmyjohns = findViewById(R.id.imageView18);
+        ImageView samchoy = findViewById(R.id.imageView19);
+        ImageView subway = findViewById(R.id.imageView20);
+        ImageView zeeks = findViewById(R.id.imageView21);
+        abellas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goToUrl("https://www.tacoma.uw.edu/");
+                goToUrl("https://www.restaurantji.com/wa/tacoma/abella-pizzeria-/");
+            }
+        });
+        anthem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToUrl("https://www.myanthemcoffee.com/menus");
+            }
+        });
+        slvltea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToUrl("https://www.facebook.com/p/S-LEVEL-TEA-100057634501940/");
+            }
+        });
+        crisp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToUrl("https://www.crispgreens.co/menu-pacific-ave");
+            }
+        });
+        hotdog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToUrl("http://places.singleplatform.com/hot-rod-dog/menu?ref=google");
+            }
+        });
+        indochine.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToUrl("https://indochinedowntown.com/menu.html");
+            }
+        });
+        jimmyjohns.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToUrl("https://www.jimmyjohns.com/");
+            }
+        });
+        samchoy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToUrl("https://www.jimmyjohns.com/");
+            }
+        });
+        subway.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToUrl("https://www.subway.com/en-us/locator");
+            }
+        });
+        zeeks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToUrl("https://zeekspizza.com/locations/zeeks-pizza-tacoma/");
             }
         });
     }
