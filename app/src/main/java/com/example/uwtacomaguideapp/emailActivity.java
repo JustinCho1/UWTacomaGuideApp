@@ -52,7 +52,7 @@ public class emailActivity extends AppCompatActivity {
                 goToUrl("https://outlook.office365.com/book/WillTaylorsAdvisingPage@cloud.washington.edu/");
             }
         });
-        button2.setOnClickListener(new View.OnClickListener() {
+        button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 goToUrl("https://outlook.office365.com/book/KikoSalasFirstYearPremajorAdvising@cloud.washington.edu/");
