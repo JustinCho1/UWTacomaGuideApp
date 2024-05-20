@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-2:/values-v24/values-v24.xml",
+            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-31:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\3724b314d3482d43c1de7ca667ae9ed2\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\thatg\\.gradle\\caches\\transforms-4\\3724b314d3482d43c1de7ca667ae9ed2\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\ca5459b3161d96b8549ae5bb844388af\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\thatg\\.gradle\\caches\\transforms-4\\ca5459b3161d96b8549ae5bb844388af\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

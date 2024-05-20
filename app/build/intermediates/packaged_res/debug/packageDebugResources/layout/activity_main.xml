@@ -8,16 +8,6 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
-        android:id="@+id/Husky"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/huskies" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -34,7 +24,6 @@
                 android:layout_marginTop="140dp"
                 android:background="#4b2e83"
                 android:drawableTop="@drawable/map_icon"
-                android:drawablePadding="-5dp"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Campus Map"
@@ -47,7 +36,6 @@
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
                 android:drawableTop="@drawable/food_icon"
-                android:drawablePadding="-5dp"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Places To Eat"
@@ -59,7 +47,9 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/advising_icon"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Academic Advising"
                 android:textColor="#FFFFFF" />
 
@@ -69,7 +59,9 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/study_icon"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Reserving Study Rooms"
                 android:textColor="#FFFFFF" />
 
@@ -79,7 +71,9 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/calendar_icon"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Academic Calendar"
                 android:textColor="@color/white" />
 
@@ -89,7 +83,9 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/contacts_icon"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Contacts"
                 android:textColor="#FFFFFF" />
 
@@ -99,7 +95,9 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/bugs_icon"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Report Bugs and Issues"
                 android:textColor="#FFFFFF" />
 

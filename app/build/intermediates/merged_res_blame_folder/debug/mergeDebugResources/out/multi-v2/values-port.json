@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-2:/values-port/values-port.xml",
+            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-31:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\ca5459b3161d96b8549ae5bb844388af\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\thatg\\.gradle\\caches\\transforms-4\\ca5459b3161d96b8549ae5bb844388af\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
