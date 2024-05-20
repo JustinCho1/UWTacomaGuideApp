@@ -49,6 +49,14 @@ public class MainActivity3 extends AppCompatActivity implements LocationListener
                 startActivity(intent);
             }
         });
+        button2 = (Button) findViewById(R.id.button7);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity3.this, MainActivity4.class);
+                startActivity(intent);
+            }
+        });
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             //
             // here to request the missing permissions, and then overriding
@@ -88,10 +96,11 @@ public class MainActivity3 extends AppCompatActivity implements LocationListener
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity3.this, foodRecs.class);
+                Intent intent = new Intent(MainActivity3.this, MainActivity4.class);
                 startActivity(intent);
             }
         });
+
         LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates("gps", 400, 0.1f, this);
     }
