@@ -18,6 +18,7 @@ public class emailActivity extends AppCompatActivity {
     Button button2;
     Button button3;
     Button button4;
+    Button button5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +34,7 @@ public class emailActivity extends AppCompatActivity {
         button2 = (Button) findViewById(R.id.buttonScheduleB);
         button3 = (Button) findViewById(R.id.buttonScheduleC);
         button4 = (Button) findViewById(R.id.buttonScheduleD);
+        button5 = (Button) findViewById(R.id.homeEmail);
         //TextView textview3 = findViewById(R.id.textView3);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +58,13 @@ public class emailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 goToUrl("https://outlook.office365.com/book/KikoSalasFirstYearPremajorAdvising@cloud.washington.edu/");
+            }
+        });
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(emailActivity.this, MainActivity.class);
+                startActivity(intent);
             }
         });
     }
