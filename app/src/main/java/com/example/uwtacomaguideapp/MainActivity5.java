@@ -51,8 +51,8 @@ public class MainActivity5 extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity5.this, MainActivity6.class);
-//                startActivity(intent);
+                Intent intent = new Intent(MainActivity5.this, MainActivity6.class);
+                startActivity(intent);
             }
         });
         metro.setOnClickListener(new View.OnClickListener() {

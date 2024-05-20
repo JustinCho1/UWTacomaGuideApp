@@ -60,8 +60,8 @@ public class MainActivity4 extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity4.this, MainActivity6.class);
-//                startActivity(intent);
+                Intent intent = new Intent(MainActivity4.this, MainActivity6.class);
+                startActivity(intent);
             }
         });
         abellas.setOnClickListener(new View.OnClickListener() {
