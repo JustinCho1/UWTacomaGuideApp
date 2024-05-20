@@ -71,7 +71,9 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/calendar_icon"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Academic Calendar"
                 android:textColor="@color/white" />
 
@@ -81,7 +83,9 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/contacts_icon"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Contacts"
                 android:textColor="#FFFFFF" />
 
@@ -91,7 +95,9 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/bugs_icon"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Report Bugs and Issues"
                 android:textColor="#FFFFFF" />
 
