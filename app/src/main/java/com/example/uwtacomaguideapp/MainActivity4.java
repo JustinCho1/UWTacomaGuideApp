@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,6 +29,9 @@ public class MainActivity4 extends AppCompatActivity {
     }
     protected void onResume() {
         super.onResume();
+        Button button1 = findViewById(R.id.button);
+        Button button2 = findViewById(R.id.button5);
+        Button button3 = findViewById(R.id.button18);
         ImageView abellas = findViewById(R.id.imageView8);
         ImageView anthem = findViewById(R.id.imageView10);
         ImageView slvltea = findViewById(R.id.imageView12);
@@ -38,6 +42,28 @@ public class MainActivity4 extends AppCompatActivity {
         ImageView samchoy = findViewById(R.id.imageView19);
         ImageView subway = findViewById(R.id.imageView20);
         ImageView zeeks = findViewById(R.id.imageView21);
+        ScrollView pacific = findViewById(R.id.pacific);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity3.class);
+                startActivity(intent);
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity5.class);
+                startActivity(intent);
+            }
+        });
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity4.this, MainActivity6.class);
+//                startActivity(intent);
+            }
+        });
         abellas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,12 +101,6 @@ public class MainActivity4 extends AppCompatActivity {
             }
         });
         jimmyjohns.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                goToUrl("https://www.jimmyjohns.com/");
-            }
-        });
-        samchoy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 goToUrl("https://www.jimmyjohns.com/");
