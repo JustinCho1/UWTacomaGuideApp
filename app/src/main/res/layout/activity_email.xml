@@ -80,12 +80,12 @@
             <TextView
                 android:id="@+id/textView36"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="0dp"
                 android:background="#7E7E7E"
                 android:fontFamily="@font/uwbold"
-                android:text="Students With Last Names Beginning A-D:"
+                android:text="Students With Last Names Beginning:\nA - D"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -109,7 +109,7 @@
 
                 <Button
                     android:id="@+id/buttonEmailA"
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="40dp"
@@ -135,12 +135,12 @@
             <TextView
                 android:id="@+id/textView37"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
                 android:background="#7E7E7E"
                 android:fontFamily="@font/uwbold"
-                android:text="Students With Last Names Beginning E-K:"
+                android:text="Students With Last Names Beginning:\nE - K"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -164,7 +164,7 @@
 
                 <Button
                     android:id="@+id/buttonEmailB"
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="40dp"
@@ -190,12 +190,12 @@
             <TextView
                 android:id="@+id/textView38"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
                 android:background="#7E7E7E"
                 android:fontFamily="@font/uwbold"
-                android:text="Students With Last Names Beginning L-Q:"
+                android:text="Students With Last Names Beginning:\nL - Q"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -219,7 +219,7 @@
 
                 <Button
                     android:id="@+id/buttonEmailC"
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="40dp"
@@ -244,12 +244,12 @@
             <TextView
                 android:id="@+id/textView39"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="10dp"
                 android:background="#7E7E7E"
                 android:fontFamily="@font/uwbold"
-                android:text="Students With Last Names Beginning R-Z:"
+                android:text="Students With Last Names Beginning:\nR - Z"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -273,7 +273,7 @@
 
                 <Button
                     android:id="@+id/buttonEmailD"
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="40dp"
