@@ -120,7 +120,7 @@
                     android:textColor="@color/white" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/buttonScheduleA"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
@@ -175,7 +175,7 @@
                     android:textColor="@color/white" />
 
                 <Button
-                    android:id="@+id/button8"
+                    android:id="@+id/buttonScheduleB"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
@@ -230,6 +230,7 @@
                     android:textColor="@color/white" />
 
                 <Button
+                    android:id="@+id/buttonScheduleC"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
@@ -285,7 +286,7 @@
                     android:textColor="@color/white" />
 
                 <Button
-                    android:id="@+id/button12"
+                    android:id="@+id/buttonScheduleD"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
