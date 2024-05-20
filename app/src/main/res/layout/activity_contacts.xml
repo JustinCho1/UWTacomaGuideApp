@@ -113,15 +113,18 @@
             <Button
                 android:id="@+id/buttonGenEmail"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="120dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="120dp"
-                android:layout_marginBottom="5dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
                 android:background="#85754D"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="uwtinfo@uw.edu"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                tools:layout_marginBottom="20dp"
+                tools:layout_marginTop="20dp" />
 
             <TextView
                 android:layout_width="match_parent"
