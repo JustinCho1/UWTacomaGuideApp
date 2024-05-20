@@ -25,7 +25,7 @@
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
-                android:text="Welcome to the UW Guide App"
+                android:text="Welcome to the UWT Guide App"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -38,7 +38,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
-                android:text="The University of Washington Guide App is your ultimate companion for navigating campus life. Whether you're a new student, a returning Husky, or a visitor, our app is designed to help you find your way, stay informed, and make the most of your time at UW."
+                android:text="The University of Washington Tacoma Guide App is your ultimate companion for navigating campus life. Whether you're a new student, a returning Husky, or a visitor, our app is designed to help you find your way, stay informed, and make the most of your time at UW."
                 android:textColor="#000000"
                 tools:layout_marginBottom="20dp" />
 
@@ -63,7 +63,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
-                android:text="This app is proudly developed by students from the University of Washington. Our team is passionate about enhancing the Husky experience and making campus life more accessible and enjoyable for everyone."
+                android:text="This app is proudly developed by students from the University of Washington Tacoma. Our team is passionate about enhancing the Husky experience and making campus life more accessible and enjoyable for everyone."
                 android:textColor="#000000"
                 tools:layout_marginBottom="20dp" />
 
