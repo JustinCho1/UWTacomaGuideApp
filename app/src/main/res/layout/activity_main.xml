@@ -24,7 +24,6 @@
                 android:layout_marginTop="140dp"
                 android:background="#4b2e83"
                 android:drawableTop="@drawable/map_icon"
-                android:drawablePadding="-5dp"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Campus Map"
@@ -37,7 +36,6 @@
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
                 android:drawableTop="@drawable/food_icon"
-                android:drawablePadding="-5dp"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Places To Eat"
@@ -49,7 +47,9 @@
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
+                android:drawableTop="@drawable/advising_icon"
                 android:fontFamily="@font/uwbold"
+                android:padding="10dp"
                 android:text="Academic Advising"
                 android:textColor="#FFFFFF" />
 
@@ -60,7 +60,6 @@
                 android:layout_marginTop="20dp"
                 android:background="#4b2e83"
                 android:drawableTop="@drawable/study_icon"
-                android:drawablePadding="-5dp"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Reserving Study Rooms"
