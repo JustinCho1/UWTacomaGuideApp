@@ -34,7 +34,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="10dp"
         android:fontFamily="@font/uwnormal"
-        android:text="To report an issue with the log onto your UW account and fill out the Google Form."
+        android:text="To report an issue with the app, log onto your UW account and fill out the Google Form."
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/webview"
         app:layout_constraintEnd_toEndOf="parent"
