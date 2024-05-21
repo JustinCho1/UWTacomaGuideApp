@@ -188,7 +188,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
-                    android:id="@+id/button16"
+                    android:id="@+id/buttonAdmissionEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -229,7 +229,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button17"
+                    android:id="@+id/buttonFinancialPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -243,6 +243,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
+                    android:id="@+id/buttonFinancialEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -292,7 +293,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button20"
+                    android:id="@+id/buttonOfficePhone"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -306,6 +307,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
+                    android:id="@+id/buttonOfficeEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -355,7 +357,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button22"
+                    android:id="@+id/buttonITEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -398,7 +400,7 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:id="@+id/button25"
+                    android:id="@+id/buttonAlumniPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -412,7 +414,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
-                    android:id="@+id/button24"
+                    android:id="@+id/buttonAlumniEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -453,6 +455,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/buttonSafetyPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -466,7 +469,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
-                    android:id="@+id/button27"
+                    android:id="@+id/buttonSafetyEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
