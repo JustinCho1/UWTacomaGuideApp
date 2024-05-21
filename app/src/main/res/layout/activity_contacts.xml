@@ -49,7 +49,7 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:padding="10dp"
-                android:text="The following is a list of frequently contacted departments. Tap on a phone number to call a department. Tap on an email to send an email address."
+                android:text="The following is a list of frequently contacted departments.\n\n➤ Tap on a phone number or email to copy a department's phone number or email address.\n\n➤ These will be saved to your device's clipboard."
                 android:textColor="#000000" />
 
             <TextView
@@ -137,16 +137,20 @@
                 android:textColor="#4B2E83"
                 android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/textView10"
+            <Button
+                android:id="@+id/buttonGenMail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginEnd="50dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="20dp"
+                android:background="#85754D"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="University of Washington Tacoma\n1900 Commerce Street\nTacoma, WA 98402-3100"
-                android:textColor="#000000" />
+                android:textAlignment="textStart"
+                android:textColor="#ffffff" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -188,7 +192,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
-                    android:id="@+id/button16"
+                    android:id="@+id/buttonAdmissionEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -229,7 +233,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button17"
+                    android:id="@+id/buttonFinancialPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -243,6 +247,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
+                    android:id="@+id/buttonFinancialEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -292,7 +297,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button20"
+                    android:id="@+id/buttonOfficePhone"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -306,6 +311,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
+                    android:id="@+id/buttonOfficeEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -355,7 +361,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button22"
+                    android:id="@+id/buttonITEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -398,7 +404,7 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:id="@+id/button25"
+                    android:id="@+id/buttonAlumniPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -412,7 +418,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
-                    android:id="@+id/button24"
+                    android:id="@+id/buttonAlumniEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
@@ -453,6 +459,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/buttonSafetyPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
@@ -466,7 +473,7 @@
                     tools:layout_marginTop="20dp" />
 
                 <Button
-                    android:id="@+id/button27"
+                    android:id="@+id/buttonSafetyEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
