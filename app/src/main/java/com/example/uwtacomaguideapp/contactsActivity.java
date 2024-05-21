@@ -39,6 +39,8 @@ public class contactsActivity extends AppCompatActivity {
 
         Button genEmail = findViewById(R.id.buttonGenEmail);
 
+        Button genMail= findViewById(R.id.buttonGenMail);
+
         // Admissions
         Button admissionPhone = findViewById(R.id.buttonAdmissionPhone);
 
@@ -92,6 +94,7 @@ public class contactsActivity extends AppCompatActivity {
         genPhone1.setOnClickListener(copyTextListener);
         genPhone2.setOnClickListener(copyTextListener);
         genEmail.setOnClickListener(copyTextListener);
+        genMail.setOnClickListener(copyTextListener);
 
         admissionPhone.setOnClickListener(copyTextListener);
         admissionEmail.setOnClickListener(copyTextListener);
