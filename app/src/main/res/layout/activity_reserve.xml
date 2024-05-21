@@ -36,7 +36,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
-                android:text="Tap on the Reserve Space button. Once you arrive at the page, click on the link within purple box labled &quot;Complete the required online tutorial.&quot; Please refer to the picture below for guidance. After clicking the link, log in using your UW student ID and password."
+                android:text="Tap on the Reserve Space button. Once you arrive at the page, click on the link within purple box labled &quot;Complete the required online tutorial.&quot; After clicking the link, log in using your UW student ID and password."
                 android:textColor="#000000"
                 tools:layout_marginBottom="10dp" />
 
@@ -81,7 +81,9 @@
             <ImageView
                 android:id="@+id/imageView24"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
                 app:srcCompat="@drawable/start_training" />
 
             <TextView
@@ -111,8 +113,9 @@
             <ImageView
                 android:id="@+id/imageView28"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#090909"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 app:srcCompat="@drawable/user_training_complete" />
 
             <TextView
@@ -143,19 +146,25 @@
             <ImageView
                 android:id="@+id/imageView27"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 app:srcCompat="@drawable/reserve_room_page" />
 
             <ImageView
                 android:id="@+id/imageView30"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 app:srcCompat="@drawable/select_space" />
 
             <ImageView
                 android:id="@+id/imageView31"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 app:srcCompat="@drawable/save_space" />
 
             <TextView
@@ -186,7 +195,9 @@
             <ImageView
                 android:id="@+id/imageView32"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 app:srcCompat="@drawable/confirmed_study_space" />
 
 
