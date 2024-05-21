@@ -30,18 +30,6 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/eatBtn"
-                android:layout_width="200dp"
-                android:layout_height="84dp"
-                android:layout_marginTop="20dp"
-                android:background="#4b2e83"
-                android:drawableTop="@drawable/food_icon"
-                android:fontFamily="@font/uwbold"
-                android:padding="10dp"
-                android:text="Places To Eat"
-                android:textColor="#FFFFFF" />
-
-            <Button
                 android:id="@+id/emailBtn"
                 android:layout_width="200dp"
                 android:layout_height="84dp"
@@ -51,18 +39,6 @@
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Academic Advising"
-                android:textColor="#FFFFFF" />
-
-            <Button
-                android:id="@+id/reserveBtn"
-                android:layout_width="200dp"
-                android:layout_height="84dp"
-                android:layout_marginTop="20dp"
-                android:background="#4b2e83"
-                android:drawableTop="@drawable/study_icon"
-                android:fontFamily="@font/uwbold"
-                android:padding="10dp"
-                android:text="Reserving Study Rooms"
                 android:textColor="#FFFFFF" />
 
             <Button
@@ -76,6 +52,30 @@
                 android:padding="10dp"
                 android:text="Academic Calendar"
                 android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/eatBtn"
+                android:layout_width="200dp"
+                android:layout_height="84dp"
+                android:layout_marginTop="20dp"
+                android:background="#4b2e83"
+                android:drawableTop="@drawable/food_icon"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Places To Eat"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/reserveBtn"
+                android:layout_width="200dp"
+                android:layout_height="84dp"
+                android:layout_marginTop="20dp"
+                android:background="#4b2e83"
+                android:drawableTop="@drawable/study_icon"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Reserving Study Rooms"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/contactsBtn"
@@ -106,6 +106,7 @@
                 android:layout_width="200dp"
                 android:layout_height="84dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:text="About Us"
