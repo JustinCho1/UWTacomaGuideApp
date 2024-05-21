@@ -29,7 +29,7 @@ public class MainActivity4 extends AppCompatActivity {
     }
     protected void onResume() {
         super.onResume();
-        Button button1 = findViewById(R.id.button);
+        Button button1 = findViewById(R.id.buttonReserve);
         Button button2 = findViewById(R.id.button5);
         Button button3 = findViewById(R.id.button18);
         ImageView abellas = findViewById(R.id.imageView8);
