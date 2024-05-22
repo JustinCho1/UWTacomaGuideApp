@@ -32,6 +32,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.UWTacomaGuideApp" >
         <activity
+            android:name="com.example.uwtacomaguideapp.feedbackActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.uwtacomaguideapp.reportActivity"
             android:exported="false" />
         <activity

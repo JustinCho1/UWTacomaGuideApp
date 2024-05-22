@@ -37,7 +37,7 @@ public class reportActivity extends AppCompatActivity {
             return insets;
         });
 
-        button1 = (Button) findViewById(R.id.homeReserve);
+        button1 = (Button) findViewById(R.id.homeReport);
         //TextView textview3 = findViewById(R.id.textView3);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
