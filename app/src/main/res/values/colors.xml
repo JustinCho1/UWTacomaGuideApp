@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#aaa</color>
+    <color name="darkGrey">#ff424242</color>
+    <color name="huskyPurple">#32006e</color>
+    <color name="huskyGold">#b7a57a</color>
 </resources>
