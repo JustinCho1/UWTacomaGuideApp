@@ -16,6 +16,7 @@ drawable campus_map_edit
 drawable confirmed_study_space
 drawable contacts_icon
 drawable crispgreens
+drawable feedback
 drawable food_icon
 drawable group_picture
 drawable home_icon
