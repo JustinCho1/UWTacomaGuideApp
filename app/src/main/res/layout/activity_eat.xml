@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EatActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="130dp">
+
+            <TextView
+                android:id="@+id/abella"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Abella Pizzeria"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/abella_image"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:id="@+id/abella_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1946 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:id="@+id/anthem"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Anthem Coffee"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/anthem_image"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/anthem" />
+
+            <TextView
+                android:id="@+id/anthem_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1911 Pacific Avenue Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="S-Level Tea"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/sleveltea" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1724 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Camp Colvos"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/camp_colvos" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="2104 Commerce St, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Campfire Coffee"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/campfire" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1554 Market St #101, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner_white" />
+
+    <Button
+        android:id="@+id/homeEat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/home_icon"
+        android:fontFamily="@font/uwbold"
+        android:paddingStart="5dp"
+        android:paddingEnd="7dp"
+        android:text="Home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/uwbold"
+        android:text="Places to Eat"
+        android:textColor="#32006e"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeEat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
