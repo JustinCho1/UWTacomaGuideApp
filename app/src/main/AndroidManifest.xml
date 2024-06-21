@@ -32,16 +32,10 @@
             android:name=".contactsActivity"
             android:exported="false" />
         <activity
-            android:name=".calenderActivity"
-            android:exported="false" />
-        <activity
             android:name=".emailActivity"
             android:exported="false" />
         <activity
             android:name=".reserveActivity"
-            android:exported="false" />
-        <activity
-            android:name=".email"
             android:exported="false" />
         <activity
             android:name=".MainActivity5"
