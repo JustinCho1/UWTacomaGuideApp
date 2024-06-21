@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904807900479",
+    "project_id": "uwtguideapp",
+    "storage_bucket": "uwtguideapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904807900479:android:ecdd31baef191602ab9f8a",
+        "android_client_info": {
+          "package_name": "com.example.uwtacomaguideapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByWRAW4cl-TpOIYpSGBhTBJmmeuOibncQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
