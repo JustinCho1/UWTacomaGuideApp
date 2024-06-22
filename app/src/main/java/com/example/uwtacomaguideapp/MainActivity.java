@@ -2,14 +2,25 @@ package com.example.uwtacomaguideapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.EmailAuthProvider;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
     Button button1;
@@ -21,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
     Button button7;
     Button button8;
     Button button9;
+    Button button10;
+    EditText email;
+    EditText password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
         button7 = (Button) findViewById(R.id.reportBtn);
         button8 = (Button) findViewById(R.id.aboutBtn);
         button9 = (Button) findViewById(R.id.feedbackBtn);
-
+        button10 = (Button) findViewById(R.id.signInButton);
+        GlobalVars.mAuth = FirebaseAuth.getInstance();
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -109,5 +124,31 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        button10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                email = findViewById(R.id.editTextTextEmailAddress);
+                password = findViewById(R.id.editTextTextPassword);
+                String email1 = email.getText().toString();
+                String password1 = password.getText().toString();
+                AuthCredential credential = EmailAuthProvider.getCredential(email1, password1);
+                Log.d("Email", email1);
+                Log.d("Password", password1);
+                Log.d("credential", credential.toString());
+                GlobalVars.mAuth.signInWithCredential(credential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if(task.isSuccessful()){
+                            Log.d("login", "success");
+                            GlobalVars.user = GlobalVars.mAuth.getCurrentUser();
+                        }
+                        else{
+                            Log.d("login", "failure");
+                        }
+                    }
+                });
+            }
+        });
     }
 }
+
