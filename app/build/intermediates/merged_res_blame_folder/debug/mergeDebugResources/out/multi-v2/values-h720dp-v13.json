@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-2:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-3:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\ca5459b3161d96b8549ae5bb844388af\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\1e0d8d193e0d4f68c14a0e43eb3cc86e\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

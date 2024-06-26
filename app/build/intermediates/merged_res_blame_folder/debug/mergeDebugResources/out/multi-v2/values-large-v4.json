@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-2:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.uwtacomaguideapp-mergeDebugResources-3:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\3724b314d3482d43c1de7ca667ae9ed2\\transformed\\material-1.11.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\5530184bb387a6a3a5437fc43d11c311\\transformed\\material-1.11.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\ca5459b3161d96b8549ae5bb844388af\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\1e0d8d193e0d4f68c14a0e43eb3cc86e\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

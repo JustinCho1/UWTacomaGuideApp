@@ -4,7 +4,7 @@
             "outputFile": "com.example.uwtacomaguideapp.test.app-mergeDebugAndroidTestResources-1:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\e8f135d8f98c1356d152f9668697017b\\transformed\\core-1.5.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\caches\\transforms-4\\5d3266b268a56a8e73421424612d13d2\\transformed\\core-1.5.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,11",
                         "startColumns": "0,0",
