@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         button9 = (Button) findViewById(R.id.feedbackBtn);
         button10 = (Button) findViewById(R.id.signInButton);
         GlobalVars.mAuth = FirebaseAuth.getInstance();
-//The code for light/dark mode
+
         switchMode = findViewById(R.id.switchMode);
 
         sharedPreferences = getSharedPreferences("MODE", Context.MODE_PRIVATE);
