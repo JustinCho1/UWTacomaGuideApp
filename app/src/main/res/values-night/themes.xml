@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.UWTacomaGuideApp" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your dark theme here. -->
+        <!-- Customize dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
         <item name="colorPrimary">@color/darkGrey</item>
         <item name="colorPrimaryVariant">@color/darkGrey</item>
