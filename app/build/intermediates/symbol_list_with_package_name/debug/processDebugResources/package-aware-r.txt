@@ -3459,7 +3459,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id imageView10
 id imageView11
 id imageView12
@@ -3494,6 +3493,7 @@ id imageView6
 id imageView7
 id imageView8
 id imageView9
+id imageViewPointer
 id immediateStop
 id included
 id indeterminate
@@ -3636,6 +3636,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id relativeLayout
 id reportBtn
 id report_drawn
 id reserveBtn
@@ -3854,6 +3855,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id zoomImageView
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration

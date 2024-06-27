@@ -104,7 +104,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             //TextView textview2 = findViewById(R.id.textView2);
             double lat = location.getLatitude();
             double lng = (location.getLongitude());
-            ImageView imageView = findViewById(R.id.imageView);
+            ImageView imageView = findViewById(R.id.imageViewPointer);
             if ((lng >= -122.44271 && lng <= -122.43257) && (lat <= 47.24700 && lat >= 47.24315)) {
                 //lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
                 //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
@@ -160,7 +160,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 startActivity(intent);
             }
         });
-        ImageView imageView2 = findViewById(R.id.imageView3);
+        ImageView imageView2 = findViewById(R.id.zoomImageView);
         imageView2.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
@@ -188,7 +188,7 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         //TextView textview4 = findViewById(R.id.textView4);
         //TextView textview1 = findViewById(R.id.textView);
         //TextView textview2 = findViewById(R.id.textView2);
-        ImageView imageView = findViewById(R.id.imageView);
+        ImageView imageView = findViewById(R.id.imageViewPointer);
         //int screenHeight = displayMetrics.heightPixels;
         //Log.d(String.valueOf(screenWidth), "width is: ");
         //Log.d(String.valueOf(width), "height is: ");

@@ -2,5 +2,5 @@ com.example.uwtacomaguideapp.test.app-androidTest-0 C:\Users\thatg\AndroidStudio
 com.example.uwtacomaguideapp.test.app-mergeDebugAndroidTestResources-1 C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
 com.example.uwtacomaguideapp.test.app-mergeDebugAndroidTestResources-2 C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
 com.example.uwtacomaguideapp.test.app-debugAndroidTest-3 C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
-com.example.uwtacomaguideapp.test.app-annotation-experimental-1.3.0-4 C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\42469fc3b212b21c7b8b1028b64c5201\transformed\annotation-experimental-1.3.0\res
-com.example.uwtacomaguideapp.test.app-core-1.5.0-5 C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\e8f135d8f98c1356d152f9668697017b\transformed\core-1.5.0\res
+com.example.uwtacomaguideapp.test.app-core-1.5.0-4 C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5d3266b268a56a8e73421424612d13d2\transformed\core-1.5.0\res
+com.example.uwtacomaguideapp.test.app-annotation-experimental-1.3.0-5 C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\fb48a727bff9e564a0e287df527cfc8f\transformed\annotation-experimental-1.3.0\res

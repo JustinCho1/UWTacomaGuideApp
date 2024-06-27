@@ -6,7 +6,6 @@ color grey
 color huskyGold
 color huskyPurple
 color ic_launcher_background
-color spiritPurple
 color white
 drawable abella
 drawable advising_icon
@@ -120,7 +119,6 @@ id homeEmail
 id homeFeedback
 id homeReport
 id homeReserve
-id imageView
 id imageView10
 id imageView11
 id imageView12
@@ -155,16 +153,16 @@ id imageView6
 id imageView7
 id imageView8
 id imageView9
+id imageViewPointer
 id main
 id mapBtn
 id pacific
+id relativeLayout
 id reportBtn
 id reserveBtn
 id scrollView2
 id scrollView3
 id signInButton
-id switch1
-id switchMode
 id textView
 id textView10
 id textView11
@@ -237,6 +235,7 @@ id textView74
 id textView8
 id textView9
 id webview
+id zoomImageView
 layout activity_about
 layout activity_calendar
 layout activity_contacts
@@ -262,9 +261,6 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
 style Base.Theme.UWTacomaGuideApp
-style CardBackground
-style ScreenBackground
-style TextColor
 style Theme.UWTacomaGuideApp
 xml backup_rules
 xml data_extraction_rules

@@ -1,8 +1,8 @@
-#Wed Jun 26 17:51:07 PDT 2024
-base.0=C\:\\Users\\cchan\\StudioProjects\\UWTacomaGuideApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\cchan\\StudioProjects\\UWTacomaGuideApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\cchan\\StudioProjects\\UWTacomaGuideApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.3=C\:\\Users\\cchan\\StudioProjects\\UWTacomaGuideApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Wed Jun 26 12:44:42 PDT 2024
+base.0=C\:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.3=C\:\\Users\\thatg\\AndroidStudioProjects\\UWTacomaGuideApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=3/classes.dex
