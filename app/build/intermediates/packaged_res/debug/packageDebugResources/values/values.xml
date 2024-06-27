@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="darkGrey">#ff424242</color>
+    <color name="grey">#aaa</color>
+    <color name="huskyGold">#b7a57a</color>
+    <color name="huskyPurple">#32006e</color>
     <color name="ic_launcher_background">#4B2E83</color>
+    <color name="spiritPurple">#4b2e83</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">UWTacomaGuideApp</string>
+    <string name="gcm_defaultSenderId" translatable="false">904807900479</string>
+    <string name="google_api_key" translatable="false">AIzaSyByWRAW4cl-TpOIYpSGBhTBJmmeuOibncQ</string>
+    <string name="google_app_id" translatable="false">1:904807900479:android:ecdd31baef191602ab9f8a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyByWRAW4cl-TpOIYpSGBhTBJmmeuOibncQ</string>
+    <string name="google_storage_bucket" translatable="false">uwtguideapp.appspot.com</string>
+    <string name="project_id" translatable="false">uwtguideapp</string>
     <style name="Base.Theme.UWTacomaGuideApp" parent="Theme.AppCompat.Light.NoActionBar">
         
         
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+
     </style>
+    <style name="CardBackground"><item name="android:background">@color/spiritPurple</item></style>
+    <style name="ScreenBackground"><item name="android:background">@color/white</item></style>
+    <style name="TextColor"><item name="android:text">@color/white</item></style>
     <style name="Theme.UWTacomaGuideApp" parent="Base.Theme.UWTacomaGuideApp"/>
 </resources>

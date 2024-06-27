@@ -1,418 +1,824 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-69:12
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3724b314d3482d43c1de7ca667ae9ed2\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a76ad255f37d4ebe657e3a9830ea5556\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5d4c1b6f6c13bcd6fda0e5d13a6e13f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ca5459b3161d96b8549ae5bb844388af\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\0135a396112b1a49552eb181f8b5068d\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\75429801b0cbde754f02adf711317885\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\711f870b3cda267f5978efec131b0afa\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\879f853fec8361e7aca1781295a68b9c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6d43d660470bdc795959cea2995bc106\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\d6af857fdfe630157e61d2e028233e52\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9f0bb42bf2f6ada518d05e4de7098259\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\00b901a8415814e24c478fb5e7cd3f58\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a994bffdccf3f983a9b475f5938de7b9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\2f0f26de132d6322c7d2b3b61255f8fe\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\0c5318467e098ff5481dfd12a176c571\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\32a0a59cd1eb3059cf30da0f89997e60\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5247decf48d74c988a5ed6aed257f19a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\c4d19b6888c3186b6baf7d4b5d7f0314\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\50615eb7d8d6ed36ca4448624d1c331b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\fa8eca6db5075f5d79e349c2e8e71097\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3c8194f42e5f6d2471ecc7638fd5d55f\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\db2918689cfc6e1fa9b38aebb7f70b28\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a4c5f09b24d98eeb8c19d47271b6d028\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9bd37de955eb4f8bf45675a5cef793e5\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ea8922d2751939b4cad3d03565e3b8be\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\13e23cb6a6e31535e6d98328c2a16df1\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9e30b87a01cfdc99577d456c1438127e\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\581089ec4c5ad10e6fcc43aed1fcb9a5\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\1d1c8162d3ae9fd7ff7ee9c8255f22c2\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\7f4f274280c99c624ad0eb0526736ca6\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a7c31c15b76c1120aad5185cf35ea460\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ca2ace4c0eaeaec5472f99c52e18aa0a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\8e74889fb0a6a45fc9d416708deed7b7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\74fb8c2265b963afba79929aa048ceac\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9a77e3a4f1994fbafcd0701dfa36ba24\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5e0085025f323bc0bf7fb99bca9e025c\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\cddac68b5a086a6053198c97cdfa87cb\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a66d7a22f905fb0fa02f010a8c6b7874\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\e4a66831d260e74627274343efe2d152\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\d835b85b544e5607d098dc196ce6a71d\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\42469fc3b212b21c7b8b1028b64c5201\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:1-69:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\5530184bb387a6a3a5437fc43d11c311\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f2721cbe75bfb42fdbefd80e5c5a7101\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c8348faee5a25494f60a3f84b3a75fac\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1e0d8d193e0d4f68c14a0e43eb3cc86e\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\e60061961cb63e424bcdc3a56ab64733\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1ac9d32268e1cbc34fedf6054d79446d\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\54e72f2d2c48567d3083cfadc786ac18\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6a9d960aa5d7ac5917cb2e38385e5500\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d1aafa1bb7e6bc5e0beda5cc1be75dfa\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\681f8a018a09143c7857519d9bf3ec59\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\7f2a0b353f57da688dee9ea04818ff75\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\57a13d053b5b0d6e4fcc5d43ae69ce97\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\b684c1dfac7c8e9d47c71bd11b288bef\transformed\recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\397446d17209055c2ea1e0e95d0c115e\transformed\integrity-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d00bf878e99d7f5fda408572c6f11511\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f5f6e10eded7339d6da6765c160a9175\transformed\firebase-analytics-22.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1f543e3db8f5bc839dd28ed1cb1c98ae\transformed\play-services-measurement-sdk-22.0.2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\18c62f72bcbb0d7a482dd116213130e3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\93fdf1f55a25bea51879e3884bec5949\transformed\play-services-measurement-base-22.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\acdc6399cf7ed18a8d16c0fdb287cf10\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8de9af488be114969101cfb8e401a3ac\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\30877b2bd6520aea6fe63ce4b6d6d459\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a6dcc533b76ed8b7c59645c79c5ffcdb\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\ab640be42c6ac754e7fb4973b5345afa\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1227a07b543fddc83d3f000c324fb0d3\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\96f5f886750a70720e59679ecbea0955\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1248b054ee3ce012ba881fa63b4e5931\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\7e6527c25bcf783feb5f617b959e76c3\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\31a1453ad6a70e2b20a852a11883f156\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4b1783cd3a7363dbf12179f6ed0d0454\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\762271c7e3533f981156f9915bc6c97c\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\90da24d5609b931eb9319bed0b65c9b3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\7da5126fec67e00a7bb45124501aaf79\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\e80726f52dd21a42f3c193e53ae6ee6d\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6805d9fa75c86b8310418a274762cb91\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8ec4169996c055cfa6682c892f13cced\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6fa20df6839711575ebd27012cae5d7b\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6aba08ceb3a6779c1dcb675468d8be66\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0389f3aee5f83b28174440ef4b6071a\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4508a18510258237dc6d3fa1fe80b772\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5bf6b602506cf067dbf196b6458f83c\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\68d6592f42c192a1e234a4670011e8ff\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\ef7ec81c77d1eb5d29c81020e0f0c327\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\12115024c58860af497488624de64607\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a75d9e627cebb46e5466032e9ed3350a\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2c12095b89634a9ed78c990aadaca04b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6a9d723328c091a4e65bf35706ce220e\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\019c21e6c0c5614293aa0865a4dcd21e\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\e3b7b734bfc270474e19df79c9d9e230\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6beccb57b75cc9efd37932a3a5fd0c9d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0fa3c451424684dab87dd5a21d91719\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f4076322913b1ed5693db566e0920b8d\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\bf013eb31e00a9c0295338a157495318\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\eb19bb3a0a639732777c0b0a015ee61b\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1d18e1d09fcabfb39b70b5bad2a73e94\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\ab0d952e2583bd13b6915cf9ea3a0f15\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\49a8f34e996efa84f72fc78dbf914fa2\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\38afef82b66432d53a61e038dc3f34d1\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\96c7cd3a551363d4061780f6928f0e15\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fb48a727bff9e564a0e287df527cfc8f\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\915cf593303bfe121d3eda36d86d2f76\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:5:5-81
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:5:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:7:5-67
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\b684c1dfac7c8e9d47c71bd11b288bef\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\b684c1dfac7c8e9d47c71bd11b288bef\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:7:22-64
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:9:5-67:19
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:9:5-67:19
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3724b314d3482d43c1de7ca667ae9ed2\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3724b314d3482d43c1de7ca667ae9ed2\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a76ad255f37d4ebe657e3a9830ea5556\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a76ad255f37d4ebe657e3a9830ea5556\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\75429801b0cbde754f02adf711317885\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\75429801b0cbde754f02adf711317885\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\711f870b3cda267f5978efec131b0afa\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\711f870b3cda267f5978efec131b0afa\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\879f853fec8361e7aca1781295a68b9c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\879f853fec8361e7aca1781295a68b9c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6d43d660470bdc795959cea2995bc106\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6d43d660470bdc795959cea2995bc106\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\8e74889fb0a6a45fc9d416708deed7b7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\8e74889fb0a6a45fc9d416708deed7b7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9a77e3a4f1994fbafcd0701dfa36ba24\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9a77e3a4f1994fbafcd0701dfa36ba24\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:9:5-67:19
+INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:9:5-67:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\5530184bb387a6a3a5437fc43d11c311\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\5530184bb387a6a3a5437fc43d11c311\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f2721cbe75bfb42fdbefd80e5c5a7101\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f2721cbe75bfb42fdbefd80e5c5a7101\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1ac9d32268e1cbc34fedf6054d79446d\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1ac9d32268e1cbc34fedf6054d79446d\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d1aafa1bb7e6bc5e0beda5cc1be75dfa\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d1aafa1bb7e6bc5e0beda5cc1be75dfa\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\681f8a018a09143c7857519d9bf3ec59\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\681f8a018a09143c7857519d9bf3ec59\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\57a13d053b5b0d6e4fcc5d43ae69ce97\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\57a13d053b5b0d6e4fcc5d43ae69ce97\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\397446d17209055c2ea1e0e95d0c115e\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\397446d17209055c2ea1e0e95d0c115e\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d00bf878e99d7f5fda408572c6f11511\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d00bf878e99d7f5fda408572c6f11511\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f5f6e10eded7339d6da6765c160a9175\transformed\firebase-analytics-22.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f5f6e10eded7339d6da6765c160a9175\transformed\firebase-analytics-22.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1f543e3db8f5bc839dd28ed1cb1c98ae\transformed\play-services-measurement-sdk-22.0.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1f543e3db8f5bc839dd28ed1cb1c98ae\transformed\play-services-measurement-sdk-22.0.2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\18c62f72bcbb0d7a482dd116213130e3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\18c62f72bcbb0d7a482dd116213130e3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\93fdf1f55a25bea51879e3884bec5949\transformed\play-services-measurement-base-22.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\93fdf1f55a25bea51879e3884bec5949\transformed\play-services-measurement-base-22.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\acdc6399cf7ed18a8d16c0fdb287cf10\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\acdc6399cf7ed18a8d16c0fdb287cf10\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4b1783cd3a7363dbf12179f6ed0d0454\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4b1783cd3a7363dbf12179f6ed0d0454\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\12115024c58860af497488624de64607\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\12115024c58860af497488624de64607\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a75d9e627cebb46e5466032e9ed3350a\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a75d9e627cebb46e5466032e9ed3350a\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2c12095b89634a9ed78c990aadaca04b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2c12095b89634a9ed78c990aadaca04b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0fa3c451424684dab87dd5a21d91719\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0fa3c451424684dab87dd5a21d91719\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1d18e1d09fcabfb39b70b5bad2a73e94\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1d18e1d09fcabfb39b70b5bad2a73e94\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:14:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:15:9-54
 	tools:targetApi
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:18:9-29
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:17:9-54
 	android:dataExtractionRules
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:11:9-65
+activity#com.example.uwtacomaguideapp.loginActivity
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:20:13-42
 activity#com.example.uwtacomaguideapp.feedbackActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:19:9-21:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:20:13-45
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:23:13-45
 activity#com.example.uwtacomaguideapp.reportActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:22:9-24:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:24:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:23:13-43
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:26:13-43
 activity#com.example.uwtacomaguideapp.calendarActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:25:9-27:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:26:13-45
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:29:13-45
 activity#com.example.uwtacomaguideapp.aboutActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:28:9-30:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:29:13-42
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:32:13-42
 activity#com.example.uwtacomaguideapp.contactsActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:31:9-33:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:32:13-45
-activity#com.example.uwtacomaguideapp.calenderActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:34:9-36:40
-	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:36:13-37
-	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:35:13-45
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:35:13-45
 activity#com.example.uwtacomaguideapp.emailActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:37:9-39:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:38:13-42
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:38:13-42
 activity#com.example.uwtacomaguideapp.reserveActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:40:9-42:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:41:13-44
-activity#com.example.uwtacomaguideapp.email
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:43:9-45:40
-	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:45:13-37
-	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:44:13-34
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:41:13-44
 activity#com.example.uwtacomaguideapp.MainActivity5
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:46:9-48:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:43:9-45:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:48:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:47:13-42
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:44:13-42
 activity#com.example.uwtacomaguideapp.MainActivity4
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:49:9-51:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:46:9-48:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:51:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:50:13-42
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:47:13-42
 activity#com.example.uwtacomaguideapp.MainActivity3
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:52:9-54:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:49:9-51:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:54:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:53:13-42
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:50:13-42
 activity#com.example.uwtacomaguideapp.MainActivity2
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:55:9-57:40
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:52:9-54:40
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:57:13-37
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:56:13-42
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:53:13-42
+activity#com.example.uwtacomaguideapp.EatActivity
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:56:13-40
 activity#com.example.uwtacomaguideapp.MainActivity
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:58:9-66:20
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:58:9-66:20
 	android:exported
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:60:13-36
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:59:13-41
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:59:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:61:13-65:29
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:61:13-65:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:62:17-69
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:62:17-69
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:62:25-66
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:62:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:64:17-77
+ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:64:17-77
 	android:name
-		ADDED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:64:27-74
+		ADDED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml:64:27-74
 uses-sdk
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3724b314d3482d43c1de7ca667ae9ed2\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3724b314d3482d43c1de7ca667ae9ed2\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a76ad255f37d4ebe657e3a9830ea5556\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a76ad255f37d4ebe657e3a9830ea5556\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5d4c1b6f6c13bcd6fda0e5d13a6e13f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5d4c1b6f6c13bcd6fda0e5d13a6e13f3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ca5459b3161d96b8549ae5bb844388af\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ca5459b3161d96b8549ae5bb844388af\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\0135a396112b1a49552eb181f8b5068d\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\0135a396112b1a49552eb181f8b5068d\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\75429801b0cbde754f02adf711317885\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\75429801b0cbde754f02adf711317885\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\711f870b3cda267f5978efec131b0afa\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\711f870b3cda267f5978efec131b0afa\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\879f853fec8361e7aca1781295a68b9c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\879f853fec8361e7aca1781295a68b9c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6d43d660470bdc795959cea2995bc106\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6d43d660470bdc795959cea2995bc106\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\d6af857fdfe630157e61d2e028233e52\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\d6af857fdfe630157e61d2e028233e52\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9f0bb42bf2f6ada518d05e4de7098259\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9f0bb42bf2f6ada518d05e4de7098259\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\00b901a8415814e24c478fb5e7cd3f58\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\00b901a8415814e24c478fb5e7cd3f58\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a994bffdccf3f983a9b475f5938de7b9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a994bffdccf3f983a9b475f5938de7b9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\2f0f26de132d6322c7d2b3b61255f8fe\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\2f0f26de132d6322c7d2b3b61255f8fe\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\0c5318467e098ff5481dfd12a176c571\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\0c5318467e098ff5481dfd12a176c571\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\32a0a59cd1eb3059cf30da0f89997e60\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\32a0a59cd1eb3059cf30da0f89997e60\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5247decf48d74c988a5ed6aed257f19a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5247decf48d74c988a5ed6aed257f19a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\c4d19b6888c3186b6baf7d4b5d7f0314\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\c4d19b6888c3186b6baf7d4b5d7f0314\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\50615eb7d8d6ed36ca4448624d1c331b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\50615eb7d8d6ed36ca4448624d1c331b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\fa8eca6db5075f5d79e349c2e8e71097\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\fa8eca6db5075f5d79e349c2e8e71097\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3c8194f42e5f6d2471ecc7638fd5d55f\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\3c8194f42e5f6d2471ecc7638fd5d55f\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\db2918689cfc6e1fa9b38aebb7f70b28\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\db2918689cfc6e1fa9b38aebb7f70b28\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a4c5f09b24d98eeb8c19d47271b6d028\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a4c5f09b24d98eeb8c19d47271b6d028\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9bd37de955eb4f8bf45675a5cef793e5\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9bd37de955eb4f8bf45675a5cef793e5\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ea8922d2751939b4cad3d03565e3b8be\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ea8922d2751939b4cad3d03565e3b8be\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\13e23cb6a6e31535e6d98328c2a16df1\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\13e23cb6a6e31535e6d98328c2a16df1\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9e30b87a01cfdc99577d456c1438127e\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9e30b87a01cfdc99577d456c1438127e\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\581089ec4c5ad10e6fcc43aed1fcb9a5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\581089ec4c5ad10e6fcc43aed1fcb9a5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\1d1c8162d3ae9fd7ff7ee9c8255f22c2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\1d1c8162d3ae9fd7ff7ee9c8255f22c2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\7f4f274280c99c624ad0eb0526736ca6\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\7f4f274280c99c624ad0eb0526736ca6\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a7c31c15b76c1120aad5185cf35ea460\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a7c31c15b76c1120aad5185cf35ea460\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ca2ace4c0eaeaec5472f99c52e18aa0a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ca2ace4c0eaeaec5472f99c52e18aa0a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\8e74889fb0a6a45fc9d416708deed7b7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\8e74889fb0a6a45fc9d416708deed7b7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\74fb8c2265b963afba79929aa048ceac\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\74fb8c2265b963afba79929aa048ceac\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9a77e3a4f1994fbafcd0701dfa36ba24\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\9a77e3a4f1994fbafcd0701dfa36ba24\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5e0085025f323bc0bf7fb99bca9e025c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\5e0085025f323bc0bf7fb99bca9e025c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\cddac68b5a086a6053198c97cdfa87cb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\cddac68b5a086a6053198c97cdfa87cb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a66d7a22f905fb0fa02f010a8c6b7874\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a66d7a22f905fb0fa02f010a8c6b7874\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\e4a66831d260e74627274343efe2d152\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\e4a66831d260e74627274343efe2d152\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\d835b85b544e5607d098dc196ce6a71d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\d835b85b544e5607d098dc196ce6a71d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\42469fc3b212b21c7b8b1028b64c5201\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\42469fc3b212b21c7b8b1028b64c5201\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\5530184bb387a6a3a5437fc43d11c311\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\5530184bb387a6a3a5437fc43d11c311\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f2721cbe75bfb42fdbefd80e5c5a7101\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f2721cbe75bfb42fdbefd80e5c5a7101\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c8348faee5a25494f60a3f84b3a75fac\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c8348faee5a25494f60a3f84b3a75fac\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1e0d8d193e0d4f68c14a0e43eb3cc86e\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1e0d8d193e0d4f68c14a0e43eb3cc86e\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\e60061961cb63e424bcdc3a56ab64733\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\e60061961cb63e424bcdc3a56ab64733\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1ac9d32268e1cbc34fedf6054d79446d\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1ac9d32268e1cbc34fedf6054d79446d\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\54e72f2d2c48567d3083cfadc786ac18\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\54e72f2d2c48567d3083cfadc786ac18\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6a9d960aa5d7ac5917cb2e38385e5500\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6a9d960aa5d7ac5917cb2e38385e5500\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d1aafa1bb7e6bc5e0beda5cc1be75dfa\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d1aafa1bb7e6bc5e0beda5cc1be75dfa\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\681f8a018a09143c7857519d9bf3ec59\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\681f8a018a09143c7857519d9bf3ec59\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\7f2a0b353f57da688dee9ea04818ff75\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\7f2a0b353f57da688dee9ea04818ff75\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\57a13d053b5b0d6e4fcc5d43ae69ce97\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\57a13d053b5b0d6e4fcc5d43ae69ce97\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\b684c1dfac7c8e9d47c71bd11b288bef\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\b684c1dfac7c8e9d47c71bd11b288bef\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\397446d17209055c2ea1e0e95d0c115e\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\397446d17209055c2ea1e0e95d0c115e\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d00bf878e99d7f5fda408572c6f11511\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d00bf878e99d7f5fda408572c6f11511\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f5f6e10eded7339d6da6765c160a9175\transformed\firebase-analytics-22.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f5f6e10eded7339d6da6765c160a9175\transformed\firebase-analytics-22.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1f543e3db8f5bc839dd28ed1cb1c98ae\transformed\play-services-measurement-sdk-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1f543e3db8f5bc839dd28ed1cb1c98ae\transformed\play-services-measurement-sdk-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\18c62f72bcbb0d7a482dd116213130e3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\18c62f72bcbb0d7a482dd116213130e3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\93fdf1f55a25bea51879e3884bec5949\transformed\play-services-measurement-base-22.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\93fdf1f55a25bea51879e3884bec5949\transformed\play-services-measurement-base-22.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\acdc6399cf7ed18a8d16c0fdb287cf10\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\acdc6399cf7ed18a8d16c0fdb287cf10\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8de9af488be114969101cfb8e401a3ac\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8de9af488be114969101cfb8e401a3ac\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\30877b2bd6520aea6fe63ce4b6d6d459\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\30877b2bd6520aea6fe63ce4b6d6d459\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a6dcc533b76ed8b7c59645c79c5ffcdb\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a6dcc533b76ed8b7c59645c79c5ffcdb\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\ab640be42c6ac754e7fb4973b5345afa\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\ab640be42c6ac754e7fb4973b5345afa\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1227a07b543fddc83d3f000c324fb0d3\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1227a07b543fddc83d3f000c324fb0d3\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\96f5f886750a70720e59679ecbea0955\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\96f5f886750a70720e59679ecbea0955\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1248b054ee3ce012ba881fa63b4e5931\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1248b054ee3ce012ba881fa63b4e5931\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\7e6527c25bcf783feb5f617b959e76c3\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\7e6527c25bcf783feb5f617b959e76c3\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\31a1453ad6a70e2b20a852a11883f156\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\31a1453ad6a70e2b20a852a11883f156\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4b1783cd3a7363dbf12179f6ed0d0454\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4b1783cd3a7363dbf12179f6ed0d0454\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\762271c7e3533f981156f9915bc6c97c\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\762271c7e3533f981156f9915bc6c97c\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\90da24d5609b931eb9319bed0b65c9b3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\90da24d5609b931eb9319bed0b65c9b3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\7da5126fec67e00a7bb45124501aaf79\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\7da5126fec67e00a7bb45124501aaf79\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\e80726f52dd21a42f3c193e53ae6ee6d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\e80726f52dd21a42f3c193e53ae6ee6d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6805d9fa75c86b8310418a274762cb91\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6805d9fa75c86b8310418a274762cb91\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8ec4169996c055cfa6682c892f13cced\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8ec4169996c055cfa6682c892f13cced\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6fa20df6839711575ebd27012cae5d7b\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6fa20df6839711575ebd27012cae5d7b\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6aba08ceb3a6779c1dcb675468d8be66\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6aba08ceb3a6779c1dcb675468d8be66\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0389f3aee5f83b28174440ef4b6071a\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0389f3aee5f83b28174440ef4b6071a\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4508a18510258237dc6d3fa1fe80b772\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4508a18510258237dc6d3fa1fe80b772\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5bf6b602506cf067dbf196b6458f83c\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5bf6b602506cf067dbf196b6458f83c\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\68d6592f42c192a1e234a4670011e8ff\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\68d6592f42c192a1e234a4670011e8ff\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\ef7ec81c77d1eb5d29c81020e0f0c327\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\ef7ec81c77d1eb5d29c81020e0f0c327\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\12115024c58860af497488624de64607\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\12115024c58860af497488624de64607\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a75d9e627cebb46e5466032e9ed3350a\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a75d9e627cebb46e5466032e9ed3350a\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2c12095b89634a9ed78c990aadaca04b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2c12095b89634a9ed78c990aadaca04b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6a9d723328c091a4e65bf35706ce220e\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6a9d723328c091a4e65bf35706ce220e\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\019c21e6c0c5614293aa0865a4dcd21e\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\019c21e6c0c5614293aa0865a4dcd21e\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\e3b7b734bfc270474e19df79c9d9e230\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\e3b7b734bfc270474e19df79c9d9e230\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6beccb57b75cc9efd37932a3a5fd0c9d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\6beccb57b75cc9efd37932a3a5fd0c9d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0fa3c451424684dab87dd5a21d91719\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0fa3c451424684dab87dd5a21d91719\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f4076322913b1ed5693db566e0920b8d\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f4076322913b1ed5693db566e0920b8d\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\bf013eb31e00a9c0295338a157495318\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\bf013eb31e00a9c0295338a157495318\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\eb19bb3a0a639732777c0b0a015ee61b\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\eb19bb3a0a639732777c0b0a015ee61b\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1d18e1d09fcabfb39b70b5bad2a73e94\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\1d18e1d09fcabfb39b70b5bad2a73e94\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\ab0d952e2583bd13b6915cf9ea3a0f15\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\ab0d952e2583bd13b6915cf9ea3a0f15\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\49a8f34e996efa84f72fc78dbf914fa2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\49a8f34e996efa84f72fc78dbf914fa2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\38afef82b66432d53a61e038dc3f34d1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\38afef82b66432d53a61e038dc3f34d1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\96c7cd3a551363d4061780f6928f0e15\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\96c7cd3a551363d4061780f6928f0e15\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fb48a727bff9e564a0e287df527cfc8f\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fb48a727bff9e564a0e287df527cfc8f\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\915cf593303bfe121d3eda36d86d2f76\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\915cf593303bfe121d3eda36d86d2f76\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
-		INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\711f870b3cda267f5978efec131b0afa\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+		INJECTED from C:\Users\cchan\StudioProjects\UWTacomaGuideApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\b684c1dfac7c8e9d47c71bd11b288bef\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\b684c1dfac7c8e9d47c71bd11b288bef\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\711f870b3cda267f5978efec131b0afa\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\711f870b3cda267f5978efec131b0afa\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\711f870b3cda267f5978efec131b0afa\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6d43d660470bdc795959cea2995bc106\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6d43d660470bdc795959cea2995bc106\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6d43d660470bdc795959cea2995bc106\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\8e74889fb0a6a45fc9d416708deed7b7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\8e74889fb0a6a45fc9d416708deed7b7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\4de1ad42e6c3222261f7cbbba54cef52\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\a43d99f2ff59642368787e0dbe3a0bec\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-permission#com.example.uwtacomaguideapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.uwtacomaguideapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.9.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\ae57a3af74697236f50b5367e70a2415\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2ab385a582ec4f0a086f26e4a102933b\transformed\firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\c3db2c4054b4143a9629b758cf5a2a78\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d5064ea920774b8e1a148b39cae38dde\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\57a13d053b5b0d6e4fcc5d43ae69ce97\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\57a13d053b5b0d6e4fcc5d43ae69ce97\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\57a13d053b5b0d6e4fcc5d43ae69ce97\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\57a13d053b5b0d6e4fcc5d43ae69ce97\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\b684c1dfac7c8e9d47c71bd11b288bef\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\b684c1dfac7c8e9d47c71bd11b288bef\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\18c62f72bcbb0d7a482dd116213130e3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\18c62f72bcbb0d7a482dd116213130e3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\720deafcbc64f8bae548a5f623bc9b38\transformed\play-services-measurement-sdk-api-22.0.2\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:27:22-79
+property#android.adservices.AD_SERVICES_CONFIG
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\d613b9e2ad2127f89872bcf3a59ae549\transformed\play-services-measurement-api-22.0.2\AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2e58be17d0deb8fac2de42ea964b3ac3\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\64358fafffbecac08f26a0dd0d6bce8c\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\766e10376b351835f6e471d9271418d3\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\73a116908fffdfb836791117d06cac4f\transformed\play-services-measurement-impl-22.0.2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\fa7c74aef88b9053bb5bba13f3df3430\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:40:13-87
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0fa3c451424684dab87dd5a21d91719\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\a0fa3c451424684dab87dd5a21d91719\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\febcd4b4876a7d77d2caf08c92e44e9d\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4b1783cd3a7363dbf12179f6ed0d0454\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4b1783cd3a7363dbf12179f6ed0d0454\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\4b1783cd3a7363dbf12179f6ed0d0454\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.example.uwtacomaguideapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.uwtacomaguideapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\0190de34da99034c4c8a333d6f431cab\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\f0448b5e713398487d5130a918862f54\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2c12095b89634a9ed78c990aadaca04b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2c12095b89634a9ed78c990aadaca04b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\2c12095b89634a9ed78c990aadaca04b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\thatg\AndroidStudioProjects\UWTacomaGuideApp\caches\transforms-4\6810d174a41a1090995ceb45bfa4b95e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\cchan\StudioProjects\UWTacomaGuideApp\.gradle\caches\transforms-4\8c5730355770091b7967af7c4cf4ad2e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

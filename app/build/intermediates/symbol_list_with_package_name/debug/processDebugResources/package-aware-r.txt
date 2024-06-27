@@ -1367,6 +1367,10 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color button_material_dark
 color button_material_light
 color cardview_dark_background
@@ -1384,6 +1388,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color darkGrey
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1430,8 +1435,11 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color huskyGold
+color huskyPurple
 color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
@@ -2100,6 +2108,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color spiritPurple
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -2191,6 +2200,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen appcompat_dialog_background_inset
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -2991,6 +3002,8 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable banner
 drawable banner_white
+drawable baseline_light_mode_24
+drawable baseline_mode_night_24
 drawable blank
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3002,6 +3015,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable bugs_icon
 drawable calendar_icon
+drawable camp_colvos
 drawable campfire
 drawable campus_map_edit
 drawable common_full_open_on_phone
@@ -3052,6 +3066,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_other_sign_in
+drawable ic_passkey
+drawable ic_password
 drawable ic_search_black_24
 drawable img
 drawable indochine
@@ -3144,8 +3161,12 @@ drawable study_icon
 drawable subway
 drawable test_level_drawable
 drawable thekoi
+drawable thumb
+drawable thumbfalse
+drawable thumbtrue
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable track
 drawable user_training_complete
 drawable uwmap
 drawable w
@@ -3168,6 +3189,9 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id abella
+id abella_address
+id abella_image
 id aboutBtn
 id accelerate
 id accessibility_action_clickable_span
@@ -3235,6 +3259,9 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
+id anthem
+id anthem_address
+id anthem_image
 id antiClockwise
 id anticipate
 id arc
@@ -3255,6 +3282,11 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id button10
 id button11
 id button13
@@ -3367,6 +3399,8 @@ id easeOut
 id east
 id eatBtn
 id edge
+id editTextTextEmailAddress
+id editTextTextPassword
 id edit_query
 id elastic
 id emailBtn
@@ -3411,6 +3445,7 @@ id homeAbout
 id homeAsUp
 id homeCalendar
 id homeContacts
+id homeEat
 id homeEmail
 id homeFeedback
 id homeReport
@@ -3450,6 +3485,9 @@ id imageView3
 id imageView30
 id imageView31
 id imageView32
+id imageView35
+id imageView36
+id imageView38
 id imageView4
 id imageView5
 id imageView6
@@ -3639,6 +3677,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signInButton
 id sin
 id skipCollapsed
 id skipped
@@ -3671,6 +3710,8 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switch1
+id switchMode
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3752,8 +3793,15 @@ id textView60
 id textView61
 id textView62
 id textView63
+id textView64
+id textView65
 id textView66
 id textView7
+id textView70
+id textView71
+id textView72
+id textView73
+id textView74
 id textView8
 id textView9
 id text_input_end_icon
@@ -3924,6 +3972,7 @@ layout abc_tooltip
 layout activity_about
 layout activity_calendar
 layout activity_contacts
+layout activity_eat
 layout activity_email
 layout activity_feedback
 layout activity_main
@@ -3934,6 +3983,8 @@ layout activity_main5
 layout activity_main6
 layout activity_report
 layout activity_reserve
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4015,6 +4066,7 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw firebase_common_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4042,6 +4094,8 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string android_credentials_TYPE_PASSWORD_CREDENTIAL
+string androidx_credentials_TYPE_PUBLIC_KEY_CREDENTIAL
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -4073,11 +4127,20 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string copy_toast_msg
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -4186,6 +4249,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string project_id
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4481,6 +4545,7 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
+style CardBackground
 style CardView
 style CardView_Dark
 style CardView_Light
@@ -4535,6 +4600,7 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style ScreenBackground
 style ShapeAppearance_M3_Comp_Badge_Large_Shape
 style ShapeAppearance_M3_Comp_Badge_Shape
 style ShapeAppearance_M3_Comp_BottomAppBar_Container_Shape
@@ -4717,6 +4783,7 @@ style TextAppearance_MaterialComponents_Tooltip
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
+style TextColor
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight
@@ -4745,6 +4812,7 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
+style Theme_Hidden
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog
 style Theme_Material3_Dark_Dialog
@@ -5468,3 +5536,5 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml ga_ad_services_config
+xml image_share_filepaths

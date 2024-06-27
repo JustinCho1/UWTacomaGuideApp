@@ -3,5 +3,15 @@
     <style name="Base.Theme.UWTacomaGuideApp" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/darkGrey</item>
+        <item name="colorPrimaryVariant">@color/darkGrey</item>
+
     </style>
+
+    <style name="Theme.UWTacomaGuideApp" parent="Base.Theme.UWTacomaGuideApp" />
+
+    <style name="ScreenBackground"><item name="android:background">@color/black</item></style>
+    <style name="CardBackground"><item name="android:background">@color/darkGrey</item></style>
+    <style name="TextColor"><item name="android:text">@color/grey</item></style>
+
 </resources>
