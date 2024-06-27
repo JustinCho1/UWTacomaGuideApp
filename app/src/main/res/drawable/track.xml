@@ -11,6 +11,9 @@
                 android:height="8dp"/>
             <corners
                 android:radius="100dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/white"/>
 
         </shape>
     </item>
@@ -25,6 +28,9 @@
                 android:height="8dp"/>
             <corners
                 android:radius="100dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/white"/>
 
         </shape>
     </item>
