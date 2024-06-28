@@ -22,6 +22,17 @@
             android:paddingTop="130dp">
 
             <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="Click on an image to view a restaurant's menu."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
                 android:id="@+id/abella"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -165,6 +176,468 @@
                 android:text="1554 Market St #101, Tacoma, WA 98402"
                 android:textAlignment="center"
                 android:textColor="#4b2e83" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Happy Teriyaki"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/happy_teriyaki" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="2223 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="El Gaucho"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="2119 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Tim's Kitchen"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1938 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Hot Rod Dog"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1742 Pacific Ave # 405, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Indita Mia"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1715 Dock St, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Indochine"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1924 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Jimmy John's"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1708 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="The Koi"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1552 Commerce St #100, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="The Melting Pot"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="2121 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Metro Coffee"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1901 Jefferson Ave # B, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="The Old Spaghetti Factory"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1250 Pacific Ave #101, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Pho Thanks Brother"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1712 Pacific Ave Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="The Rock Wood Fired Pizza"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1920 Jefferson Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Sam Choy's Poke to the Max"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1716 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Simply Panini"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1135 Broadway, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Starbucks"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1748 Pacific Ave Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Subway"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1910 Pacific Avenue Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Zeek's Pizza"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/abella" />
 
         </LinearLayout>
     </ScrollView>
