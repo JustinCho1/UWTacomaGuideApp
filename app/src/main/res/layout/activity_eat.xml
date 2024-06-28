@@ -639,6 +639,15 @@
                 android:paddingTop="20dp"
                 app:srcCompat="@drawable/abella" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/encodesansnormal400"
+                android:text="1702 Pacific Ave, Tacoma, WA 98402"
+                android:textAlignment="center"
+                android:textColor="#4b2e83" />
+
         </LinearLayout>
     </ScrollView>
 
