@@ -22,17 +22,6 @@
             android:paddingTop="130dp">
 
             <TextView
-                android:id="@+id/textView69"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:fontFamily="@font/encodesansnormal400"
-                android:text="Click on an image to view a restaurant's menu."
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="17sp" />
-
-            <TextView
                 android:id="@+id/abella"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -60,6 +49,17 @@
                 android:text="1946 Pacific Ave, Tacoma, WA 98402"
                 android:textAlignment="center"
                 android:textColor="#4b2e83" />
+
+            <Button
+                android:id="@+id/btn_abella"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#85754d"
+                android:fontFamily="@font/uwbold"
+                android:text="Menu"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/anthem"
@@ -221,7 +221,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/el_guacho" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -247,7 +247,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/tims_kitchen" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -273,7 +273,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/hotdog" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -281,32 +281,6 @@
                 android:layout_margin="10dp"
                 android:fontFamily="@font/encodesansnormal400"
                 android:text="1742 Pacific Ave # 405, Tacoma, WA 98402"
-                android:textAlignment="center"
-                android:textColor="#4b2e83" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="#4b2e83"
-                android:fontFamily="@font/uwbold"
-                android:padding="10dp"
-                android:text="Indita Mia"
-                android:textAlignment="center"
-                android:textColor="#ffffff"
-                android:textSize="20sp" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="280dp"
-                android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:fontFamily="@font/encodesansnormal400"
-                android:text="1715 Dock St, Tacoma, WA 98402"
                 android:textAlignment="center"
                 android:textColor="#4b2e83" />
 
@@ -325,7 +299,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/indochine" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -351,7 +325,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/jimmyjohns" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -377,7 +351,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/thekoi" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -403,7 +377,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/melting_pot" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -429,7 +403,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/metro" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -455,7 +429,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/spaghetti_factory" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -481,7 +455,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/pho" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -507,7 +481,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/the_rock" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -533,7 +507,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/samchoys" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -559,7 +533,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/simply_panini" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -585,7 +559,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/starbucks" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -611,7 +585,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/subway" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -637,7 +611,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/abella" />
+                app:srcCompat="@drawable/zeeks_pizza" />
 
             <TextView
                 android:layout_width="match_parent"
