@@ -17,6 +17,9 @@
         android:theme="@style/Theme.UWTacomaGuideApp"
         tools:targetApi="31">
         <activity
+            android:name=".MapsActivity"
+            android:exported="false" />
+        <activity
             android:name=".BuildingsActivity"
             android:exported="false" />
         <activity
