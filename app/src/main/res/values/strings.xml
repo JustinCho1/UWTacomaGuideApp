@@ -2,8 +2,33 @@
     <string name="app_name">UWTacomaGuideApp</string>
 
     <string-array name="building_name">
-        <item>Birmingham Block (BB)</item>
+        <item>Birmingham Block\n(BB)</item>
         <item>Birmingham Hay &amp; Seed (BHS)</item>
+        <item>Cherry Parkes (CP)</item>
+        <item>Court 17 Student Housing</item>
+        <item>Dougan (DOU)</item>
+        <item>Garretson Woodruff &amp; Pratt (GWP)</item>
+        <item>Russell T. Joy (JOY)</item>
+        <item>Keystone (KEY)</item>
+        <item>Laborers Hall</item>
+        <item>Mattress Factory (MAT)</item>
+        <item>McDonald Smith (MDS)</item>
+        <item>Milgard Hall (MLG)</item>
+        <item>William W. Philip Hall (WPH)</item>
+        <item>Pinkerton (PNK)</item>
+        <item>Science (SCI)</item>
+        <item>Snoqualmie Building (SNO)</item>
+        <item>Tacoma Paper &amp; Stationery (TPS)</item>
+        <item>Tioga Library Building (TLB)</item>
+        <item>University Y Student Center (UWY)</item>
+        <item>Walsh Gardner (WG)</item>
+        <item>West Coast Grocery (WCG)</item>
+        <item>The Whitney (WHT)</item>
+    </string-array>
+
+    <string-array name="building_room">
+        <item>BB 104 - Classroom \n\nBB 106 - Classroom \n\nBB 107 - Classroom \n\nBB 040 - Fluids &amp; Heat Transfer Lab</item>
+        <item>BHS 101 - Breakout Room \n\nBHS 105 - Breakout Room \n\nBHS 103 - Classroom \n\nBHS 104 - Classroom \n\nBHS 106 - Classroom \n\nBHS 107 - Classroom</item>
         <item>Cherry Parkes (CP)</item>
         <item>Court 17 Student Housing</item>
         <item>Dougan (DOU)</item>
