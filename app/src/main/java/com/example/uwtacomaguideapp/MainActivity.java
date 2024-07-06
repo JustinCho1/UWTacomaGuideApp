@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     Button button8;
     Button button9;
     Button button10;
+    Button button11;
     EditText email;
     EditText password;
 
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         button8 = (Button) findViewById(R.id.aboutBtn);
         button9 = (Button) findViewById(R.id.feedbackBtn);
         button10 = (Button) findViewById(R.id.signInButton);
+        button11 = (Button) findViewById(R.id.buildingBtn);
         GlobalVars.mAuth = FirebaseAuth.getInstance();
 
         switchMode = findViewById(R.id.switchMode);
@@ -100,6 +102,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
+            }
+        });
+        // TEMP BUTTON
+        button11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BuildingsActivity.class);
                 startActivity(intent);
             }
         });
