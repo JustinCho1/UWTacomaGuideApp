@@ -15,16 +15,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UWTacomaGuideApp"
+
+
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
         <activity
             android:name=".MapsActivity"
             android:exported="false" />
         <activity
             android:name=".BuildingsActivity"
             android:exported="false" />
-        <activity
-            android:name=".loginActivity"
-            android:exported="false" />
+
         <activity
             android:name=".feedbackActivity"
             android:exported="false" />

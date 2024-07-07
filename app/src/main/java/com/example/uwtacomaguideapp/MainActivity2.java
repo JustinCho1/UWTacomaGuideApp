@@ -24,12 +24,17 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class MainActivity2 extends AppCompatActivity implements LocationListener {
+public class MainActivity2 extends AppCompatActivity implements LocationListener, OnMapReadyCallback {
     Button button1;
     double width;
+    MapView mapView;
     private FusedLocationProviderClient fusedLocationClient;
     public static final String GPS_PROVIDER = "gps";
 
@@ -74,15 +79,16 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 android.Manifest.permission.ACCESS_FINE_LOCATION,
                 android.Manifest.permission.ACCESS_COARSE_LOCATION
         });
-        button1 = (Button) findViewById(R.id.button2);
-        //TextView textview3 = findViewById(R.id.textView3);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
+//        button1 = (Button) findViewById(R.id.button2);
+//        //TextView textview3 = findViewById(R.id.textView3);
+//        button1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+
         //ImageView imageView1 = findViewById(R.id.imageView);
         //Provider provider = locationManager.getBestProvider(GPS_PROVIDER)
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -98,13 +104,17 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         width = displayMetrics.widthPixels;
         Location location = locationManager.getLastKnownLocation("gps");
+        mapView = (MapView) findViewById(R.id.mapview);
+        mapView.onCreate(savedInstanceState);
+
+
         //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (location != null) {
             //TextView textview1 = findViewById(R.id.textView);
             //TextView textview2 = findViewById(R.id.textView2);
             double lat = location.getLatitude();
             double lng = (location.getLongitude());
-            ImageView imageView = findViewById(R.id.imageViewPointer);
+            //ImageView imageView = findViewById(R.id.imageViewPointer);
             if ((lng >= -122.44271 && lng <= -122.43257) && (lat <= 47.24700 && lat >= 47.24315)) {
                 //lat1 = Math.floor(2.2 * ((lat1 - 47.24258) * 100000));
                 //lng1 = Math.floor(2.26 * ((lng1 - (-122.44121)) * 100000));
@@ -116,8 +126,8 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 //textview4.setText(width);
                 //textview1.setText(lat);
                 //textview2.setText(lng);
-                imageView.setX((float) lng);
-                imageView.setY((float) lat);
+                //imageView.setX((float) lng);
+                //imageView.setY((float) lat);
                 //textview1.setText(String.valueOf(location.getLatitude() + " " + location.getLongitude()));
                 //textview2.setText(String.valueOf(lat1 + " " + lng1));
                 //imageView.setY(2500);
@@ -152,16 +162,16 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
             return;
         }
         setContentView(R.layout.activity_main2);
-        button1 = (Button) findViewById(R.id.button2);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
-        ImageView imageView2 = findViewById(R.id.zoomImageView);
-        imageView2.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+//        button1 = (Button) findViewById(R.id.button2);
+//        button1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+        //ImageView imageView2 = findViewById(R.id.zoomImageView);
+        //imageView2.measure(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         width = displayMetrics.widthPixels;
@@ -174,21 +184,21 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
     @Override
     public void onLocationChanged(@NonNull Location location) {
         setContentView(R.layout.activity_main2);
-        button1 = (Button) findViewById(R.id.button2);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
+//        button1 = (Button) findViewById(R.id.button2);
+//        button1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+//                startActivity(intent);
+//            }
+//        });
         //TextView textview1 = findViewById(R.id.textView);
         //TextView textview2 = findViewById(R.id.textView2);
         //TextView textview3 = findViewById(R.id.textView3);
         //TextView textview4 = findViewById(R.id.textView4);
         //TextView textview1 = findViewById(R.id.textView);
         //TextView textview2 = findViewById(R.id.textView2);
-        ImageView imageView = findViewById(R.id.imageViewPointer);
+        //ImageView imageView = findViewById(R.id.imageViewPointer);
         //int screenHeight = displayMetrics.heightPixels;
         //Log.d(String.valueOf(screenWidth), "width is: ");
         //Log.d(String.valueOf(width), "height is: ");
@@ -210,11 +220,16 @@ public class MainActivity2 extends AppCompatActivity implements LocationListener
                 //textview4.setText(width);
                 //textview1.setText(lat);
                 //textview2.setText(lng);
-                imageView.setX((float) lng1);
-                imageView.setY((float) lat1);
+                //imageView.setX((float) lng1);
+                //imageView.setY((float) lat1);
                 //textview1.setText(String.valueOf(location.getLatitude() + " " + location.getLongitude()));
                 //textview2.setText(String.valueOf(lat1 + " " + lng1));
                 //imageView.setY(2500);
             }
         }
+
+    @Override
+    public void onMapReady(@NonNull GoogleMap googleMap) {
+
     }
+}

@@ -43,4 +43,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
+    <fragment
+        android:id="@+id/map"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.9"
+        app:layout_constraintWidth_percent="0.9"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        map:cameraTargetLat="47.24498395484582"
+        map:cameraTargetLng="-122.43815599094076"
+        map:cameraZoom="17"
+        map:uiRotateGestures="false"
+        map:uiScrollGestures="false"
+        map:uiZoomGestures="true"
+
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
