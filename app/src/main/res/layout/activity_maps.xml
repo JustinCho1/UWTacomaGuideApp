@@ -51,15 +51,15 @@
         android:layout_height="0dp"
         app:layout_constraintHeight_percent="0.9"
         app:layout_constraintWidth_percent="0.9"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="80dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         map:cameraTargetLat="47.24498395484582"
         map:cameraTargetLng="-122.43815599094076"
         map:cameraZoom="17"
-        map:uiRotateGestures="false"
-        map:uiScrollGestures="false"
+        map:uiRotateGestures="true"
+        map:uiScrollGestures="true"
         map:uiZoomGestures="true"
 
         />
