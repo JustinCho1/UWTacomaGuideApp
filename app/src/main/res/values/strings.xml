@@ -10,7 +10,6 @@
         <item>Garretson Woodruff &amp; Pratt (GWP)</item>
         <item>Russell T. Joy (JOY)</item>
         <item>Keystone (KEY)</item>
-        <item>Laborers Hall</item>
         <item>Mattress Factory (MAT)</item>
         <item>McDonald Smith (MDS)</item>
         <item>Milgard Hall (MLG)</item>
@@ -24,5 +23,54 @@
         <item>Walsh Gardner (WG)</item>
         <item>West Coast Grocery (WCG)</item>
         <item>The Whitney (WHT)</item>
+    </string-array>
+
+    <string-array name="building_address">
+        <item>1746-48 Pacific Avenue</item>
+        <item>1740-44 Pacific Avenue</item>
+        <item>1922 Pacific Avenue</item>
+        <item>1717 Market Street</item>
+        <item>1721 Jefferson Avenue</item>
+        <item>1754 Pacific Avenue</item>
+        <item>1718 Pacific Avenue</item>
+        <item>1754 Commerce Street</item>
+        <item>1953 S. C Street</item>
+        <item>1932 Pacific Avenue</item>
+        <item>1950 South C Street</item>
+        <item>1918 Pacific Avenue</item>
+        <item>1702 Broadway Avenue</item>
+        <item>1745 Jefferson Avenue</item>
+        <item>1902-10 Commerce Street</item>
+        <item>1735 Jefferson Avenue</item>
+        <item>1907 Jefferson Avenue</item>
+        <item>1710 Market Street</item>
+        <item>1908 Pacific Avenue</item>
+        <item>1732-38 Pacific Avenue</item>
+        <item>1901 S. Fawcett Avenue</item>
+    </string-array>
+
+    <string-array name="building_room">
+        <item>BB 104 - Classroom \n\nBB 106 - Classroom \n\nBB 107 - Classroom \n\nBB 040 - Fluids &amp; Heat Transfer Lab</item>
+        <item>BHS 101 - Breakout Room \n\nBHS 105 - Breakout Room \n\nBHS 103 - Classroom \n\nBHS 104 - Classroom \n\nBHS 106 - Classroom \n\nBHS 107 - Classroom</item>
+        <item>CP 105 - Classroom \n\nCP 106 - Classroom \n\nCP 108 - Classroom \n\nCP 109 - Classroom \n\nCP 303 - Classroom \n\nCP 324A - Breakout Room \n\nCP 324B - Breakout Room \n\nCP 324C - Breakout Room \n\nCP 325 - Classroom \n\nCP 334A - Classroom \n\nCP 007 - Broadcast Room/Theater</item>
+        <item>Court 17 Student Housing</item>
+        <item>DOU 174 - Breakout Room \n\nDOU 160 - Classroom \n\nDOU 201 - Classroom \n\nDOU 260 - Classroom \n\nDOU 270 - Classroom \n\nDOU 280 - Classroom \n\nDOU 101 - Computer Classroom \n\nDOU 110 - Engineering &amp; Technology Lab</item>
+        <item>GWP 101 - Classroom \n\nGWP 212 - Classroom \n\nGWP 216 - Classroom \n\nGWP 220 - Classroom \n\nGWP 030 - Materials Lab \n\nGWP 040 - Mechatronics Lab</item>
+        <item>JOY 001 - Computer Classroom \n\nJOY 009 - Computer Classroom \n\nJOY 104 - Classroom \n\nJOY 105 - Classroom \n\nJOY 106 - Classroom \n\nJOY 109 - Classroom \n\nJOY 110 - Classroom \n\nJOY 113 - Classroom \n\nJOY 114 - Classroom \n\nJOY 117 - Classroom \n\nJOY 205 - Computer Classroom \n\nJOY 206 - Classroom \n\nJOY 207 - Classroom \n\nJOY 210 - Classroom \n\nJOY 211 - Classroom \n\nJOY 215 - Classroom</item>
+        <item>KEY 102 - Carwein Auditorium</item>
+        <item>MAT 214 - Classroom</item>
+        <item>MDS 313 - Classroom \n\nMDS 102 - Breakout Room \n\nMDS 202 - Breakout Room \n\nMDS 302 - Breakout Room</item>
+        <item>MLG 110 - Classroom \n\nMLG 122 - Combustion &amp; Energy Lab \n\nMLG 128 - Concrete Lab \n\nMLG 134 - Machine &amp; Fabrication Shop \n\nMLG 222 - Robotics Lab \n\nMLG 226 - Biomechanics Lab \n\nMLG 227 - Hydrology Lab \n\nMLG 230 - Geotech/Soils Lab \n\nMLG 301 - Classroom \n\nMLG 311 - Classroom \n\nMLG 322 - Financial Wellness &amp; Markets Lab \n\nMLG 330 - Classroom \n\nMLG 333 - Environmental/Air Quality Lab</item>
+        <item>William W. Philip Hall (WPH)</item>
+        <item>PNK 104 - Classroom \n\nPNK 131 - Geographic Information Systems (GIS) Lab</item>
+        <item>SCI 211 - Biology Lab \n\nSCI 217 - Biology Lab \n\nSCI 311 - Chemistry Lab \n\nSCI 309 - Chemistry Lab \n\nSCI 317 - Chemistry Lab \n\nSCI 105 - Classroom \n\nSCI 108 - Computer Classroom \n\nSCI 109 - Computer Classroom \n\nSCI 111 - Computer Classroom \n\nSCI 106 - Computer Lab \n\nSCI 209 - Geology Lab \n\nSCI 236 - Marine Ecology &amp; Invertebrates Lab \n\nSCI 137 - Physics Lab</item>
+        <item>Snoqualmie Building (SNO)</item>
+        <item>TPS 209 - Biomed Lab \n\nTPS 309 - Biomed Lab \n\nTPS 104 - Classroom \n\nTPS 201 - Classroom \n\nTPS 301 - Classroom \n\nTPS 202 - Electrical Engineering Lab \n\nTPS 302 - Electrical Engineering Lab \n\nTPS 016 - Global Innovation &amp; Design Lab \n\nTPS 103 - Urban Design Studio \n\nTPS 105 - Urban Design Studio \n\nTPS 112 - Urban Design Studio</item>
+        <item>TLB 109 - Classroom \n\nTLB 115 - Library Classroom \n\nTLB 400 - Library Collections &amp; Quiet Study</item>
+        <item>University Y Student Center (UWY)</item>
+        <item>WG 210 - Classroom \n\nWG 308 - Classroom \n\nWG 320 - Computer Classroom</item>
+        <item>WCG 103 - Classroom \n\nWCG 110 - Classroom \n\nWCG 209 - Classroom \n\nWCG 060 - Mechanical Engineering Design Lab</item>
+        <item>WHT 004 - Classroom \n\nWHT 104 - Classroom \n\nWHT 102 - Seminar Room</item>
+
     </string-array>
 </resources>
