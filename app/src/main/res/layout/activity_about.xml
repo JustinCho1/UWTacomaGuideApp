@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/ScreenBackground"
     tools:context=".aboutActivity">
 
     <ScrollView
@@ -22,7 +23,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="#4b2e83"
+                style="@style/CardBackground"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Welcome to the UWT Guide App"
@@ -39,7 +40,7 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="The University of Washington Tacoma Guide App is your ultimate companion for navigating campus life. Whether you're a new student, a returning Husky, or a visitor, our app is designed to help you find your way, stay informed, and make the most of your time at UW."
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="20dp" />
 
             <TextView
@@ -47,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
-                android:background="#4b2e83"
+                style="@style/CardBackground"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Our Mission"
@@ -64,7 +65,7 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="This app is proudly developed by students from the University of Washington Tacoma. Our team is passionate about enhancing the Husky experience and making campus life more accessible and enjoyable for everyone."
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="20dp" />
 
             <TextView
@@ -72,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
-                android:background="#4b2e83"
+                style="@style/CardBackground"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Meet Our Team"
@@ -88,7 +89,7 @@
                 android:fontFamily="@font/uwnormal"
                 android:text="Lee Nguyen - Project Manager/Developer"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                style="@style/TextColor" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -98,7 +99,7 @@
                 android:fontFamily="@font/uwnormal"
                 android:text="Justin Cho - Developer"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                style="@style/TextColor" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -108,7 +109,7 @@
                 android:fontFamily="@font/uwnormal"
                 android:text="Michael Tran - UI/UX Designer/Developer"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                style="@style/TextColor" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -118,7 +119,7 @@
                 android:fontFamily="@font/uwnormal"
                 android:text="Yoonis Barre - UX Designer/Devloper"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                style="@style/TextColor" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -128,7 +129,7 @@
                 android:fontFamily="@font/uwnormal"
                 android:text="Charlton Chan - Documentation Engineer/Developer "
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                style="@style/TextColor" />
 
             <TextView
                 android:id="@+id/textView24"
@@ -138,7 +139,7 @@
                 android:fontFamily="@font/uwnormal"
                 android:text="Ibrahim Diis - Documentation Engineer/Developer"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                style="@style/TextColor" />
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -169,6 +170,7 @@
         android:id="@+id/imageView2"
         android:layout_width="0dp"
         android:layout_height="110dp"
+        style="@style/BannerBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -180,7 +182,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/uwbold"
         android:text="About Us"
-        android:textColor="#32006e"
+        style="@style/HeaderTextColor"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"

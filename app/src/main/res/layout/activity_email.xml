@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/ScreenBackground"
     tools:context=".emailActivity">
 
     <ScrollView
@@ -21,7 +22,7 @@
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="#4b2e83"
+                style="@style/CardBackground"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Academic Advising Appointments"
@@ -38,7 +39,7 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="Newly admitted and current UW Tacoma students can schedule an appointment online with their assigned pre-major academic advisor. "
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="20dp" />
 
             <TextView
@@ -50,7 +51,7 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="➤ Appointments must be scheduled at least one day (24 hours) in advance. "
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="5dp" />
 
             <TextView
@@ -62,7 +63,7 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="➤ During peak periods (e.g. registration), we highly encourage scheduling two weeks in advance. "
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="10dp" />
 
             <TextView
@@ -74,7 +75,7 @@
                 android:fontFamily="@font/uwbold"
                 android:text="How to Connect with Academic Advisor"
                 android:textAlignment="center"
-                android:textColor="#000000"
+                style="@style/TextColor"
                 android:textSize="18sp" />
 
             <TextView
@@ -86,7 +87,7 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="➤ Tap on your advisor's email to copy your advisor's email address. "
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="5dp" />
 
             <TextView
@@ -98,7 +99,7 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="➤ Tap on the Schedule button to schedule an appointment with your advisor. "
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="10dp" />
 
             <TextView
@@ -123,7 +124,7 @@
                 android:fontFamily="@font/uwbold"
                 android:text="Isabella Webb"
                 android:textAlignment="center"
-                android:textColor="#4B2E83"
+                style="@style/SubTextColor"
                 android:textSize="20sp" />
 
             <RelativeLayout
@@ -178,7 +179,7 @@
                 android:fontFamily="@font/uwbold"
                 android:text="Wendy Barajas Cadenas	"
                 android:textAlignment="center"
-                android:textColor="#4B2E83"
+                style="@style/SubTextColor"
                 android:textSize="20sp" />
 
             <RelativeLayout
@@ -233,7 +234,7 @@
                 android:fontFamily="@font/uwbold"
                 android:text="Will Taylor"
                 android:textAlignment="center"
-                android:textColor="#4B2E83"
+                style="@style/SubTextColor"
                 android:textSize="20sp" />
 
             <RelativeLayout
@@ -288,7 +289,7 @@
                 android:fontFamily="@font/uwbold"
                 android:text="Kiko Salas"
                 android:textAlignment="center"
-                android:textColor="#4B2E83"
+                style="@style/SubTextColor"
                 android:textSize="20sp" />
 
             <RelativeLayout
@@ -329,6 +330,7 @@
         android:id="@+id/imageView14"
         android:layout_width="0dp"
         android:layout_height="110dp"
+        style="@style/BannerBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -340,7 +342,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/uwbold"
         android:text="Academic Advising"
-        android:textColor="#32006e"
+        style="@style/HeaderTextColor"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintEnd_toEndOf="parent"

@@ -24,11 +24,6 @@ public class reserveActivity extends AppCompatActivity {
 
     String videoUrl = "https://youtu.be/SIukzM1kBA8";
 
-    SwitchCompat switchMode;
-    boolean nightMode;
-    SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,26 +50,6 @@ public class reserveActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 goToUrl("https://www.tacoma.uw.edu/uuf/study-spaces");
-            }
-        });
-        if (nightMode){
-            switchMode.setChecked(true);
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-        }
-        switchMode = findViewById(R.id.switchMode);
-        switchMode.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (nightMode){
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                    editor = sharedPreferences.edit();
-                    editor.putBoolean("nightMode", false);
-                } else {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-                    editor = sharedPreferences.edit();
-                    editor.putBoolean("nightMode", true);
-                }
-                editor.apply();
             }
         });
         VideoView videoView = findViewById(R.id.videoView);
