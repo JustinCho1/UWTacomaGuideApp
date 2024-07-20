@@ -10,6 +10,13 @@
     <string name="grades_available_autumn">Dec 18, 2024</string>
     <string name="quarter_break_autumn">Dec 14, 2024 – Jan 5, 2025</string>
 
+    <!-- Autumn Holiday -->
+    <string name="labor_day">Sep 2, 2024</string>
+    <string name="veterans_day">Nov 11, 2024</string>
+    <string name="thanksgiving">Nov 28, 2024</string>
+    <string name="heritage_day">Nov 29, 2024</string>
+    <string name="christmas_day">Dec 25, 2024</string>
+
     <!-- Winter -->
     <string name="instruction_begins_winter">Jan 6, 2025</string>
     <string name="instruction_last_day_winter">Mar 14, 2025</string>
@@ -17,12 +24,21 @@
     <string name="grades_available_winter">Mar 26, 2024</string>
     <string name="quarter_break_winter">Mar 22 – 30, 2025</string>
 
+    <!-- Winter Holiday -->
+    <string name="new_years">Jan 1, 2025</string>
+    <string name="mlk_day">Jan 20, 2025</string>
+    <string name="presidents_day">Feb 17, 2025</string>
+
     <!-- Spring -->
     <string name="instruction_begins_spring">Mar 31, 2025</string>
     <string name="instruction_last_day_spring">Jun 6, 2025</string>
     <string name="final_exam_week_spring">Jun 7 – 13, 2025</string>
     <string name="grades_available_spring">Jun 18, 2025</string>
     <string name="quarter_break_spring">Jun 14 – 22, 2025</string>
+    <string name="commencement">Jun 13, 2025</string>
+
+    <!-- Spring Holiday -->
+    <string name="memorial_day">May 26, 2025</string>
 
     <!-- Summer -->
     <string name="instruction_begins_summer">Jun 23, 2025</string>
@@ -31,7 +47,9 @@
     <string name="grades_available_summer">Aug 27, 2025</string>
     <string name="quarter_break_summer">Aug 23 – Sep 23, 2025</string>
 
-
+    <!-- Summer Holiday -->
+    <string name="juneteenth">Jun 19, 2025</string>
+    <string name="independence_day">Jul 4, 2025</string>
 
     <!-- BUILDINGS -->
     <string-array name="building_name">

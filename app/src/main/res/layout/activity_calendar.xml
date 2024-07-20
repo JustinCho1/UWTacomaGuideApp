@@ -35,6 +35,18 @@
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="#85754D"
+                android:fontFamily="@font/uwbold"
+                android:text="Academic Calendar Summary"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
             <TableLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -67,7 +79,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -92,7 +105,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -117,7 +131,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -142,7 +157,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -163,7 +179,129 @@
                         android:text="@string/quarter_break_autumn"
                         android:textAlignment="textEnd"
                         android:textColor="@color/black" />
+
                 </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#85754D"
+                android:fontFamily="@font/uwbold"
+                android:text="Holidays"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Labor Day"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/labor_day"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Veterans Day"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/veterans_day"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Native American Heritage Day"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/heritage_day"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Christmas Day"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/christmas_day"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
             </TableLayout>
 
             <TextView
@@ -177,6 +315,18 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="#85754D"
+                android:fontFamily="@font/uwbold"
+                android:text="Academic Calendar Summary"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
 
             <TableLayout
                 android:layout_width="wrap_content"
@@ -210,7 +360,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -235,7 +386,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -260,7 +412,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -285,7 +438,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -306,7 +460,103 @@
                         android:text="@string/quarter_break_winter"
                         android:textAlignment="textEnd"
                         android:textColor="@color/black" />
+
                 </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#85754D"
+                android:fontFamily="@font/uwbold"
+                android:text="Holidays"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="New Year's Day"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/new_years"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Martin Luther King Jr. Day"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/mlk_day"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Presidents' Day"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/presidents_day"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
             </TableLayout>
 
             <TextView
@@ -320,6 +570,18 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="#85754D"
+                android:fontFamily="@font/uwbold"
+                android:text="Academic Calendar Summary"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
 
             <TableLayout
                 android:layout_width="wrap_content"
@@ -353,7 +615,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -378,7 +641,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -403,7 +667,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -428,7 +693,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -450,6 +716,75 @@
                         android:textAlignment="textEnd"
                         android:textColor="@color/black" />
                 </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Commencement"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/commencement"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#85754D"
+                android:fontFamily="@font/uwbold"
+                android:text="Holidays"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Memorial Day"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/memorial_day"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
             </TableLayout>
 
             <TextView
@@ -463,6 +798,18 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="#85754D"
+                android:fontFamily="@font/uwbold"
+                android:text="Academic Calendar Summary"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
 
             <TableLayout
                 android:layout_width="wrap_content"
@@ -496,7 +843,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -521,7 +869,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -546,7 +895,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -571,7 +921,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -592,8 +943,79 @@
                         android:text="@string/quarter_break_summer"
                         android:textAlignment="textEnd"
                         android:textColor="@color/black" />
+
                 </TableRow>
             </TableLayout>
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#85754D"
+                android:fontFamily="@font/uwbold"
+                android:text="Holidays"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Juneteenth"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/juneteenth"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwbold"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Independence Day"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/uwnormal"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/independence_day"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+            </TableLayout>
+
         </LinearLayout>
     </ScrollView>
 
@@ -626,7 +1048,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/uwbold"
-        android:text="Academic Calendar Dates"
+        android:text="Academic Calendar"
         android:textColor="#32006e"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
