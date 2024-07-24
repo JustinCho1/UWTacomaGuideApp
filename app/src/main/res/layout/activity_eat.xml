@@ -407,13 +407,13 @@
                 app:srcCompat="@drawable/metro" />
 
             <TextView
+                style="@style/SubTextColor"
                 android:layout_width="match_parent"
-                android:layout_height="14dp"
+                android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:fontFamily="@font/encodesansnormal400"
                 android:text="1901 Jefferson Ave # B, Tacoma, WA 98402"
-                android:textAlignment="center"
-                style="@style/SubTextColor" />
+                android:textAlignment="center" />
 
             <TextView
                 android:layout_width="match_parent"
