@@ -14,7 +14,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical" >
 
             <TextView
@@ -38,7 +38,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
-                android:text="If this is your first time reserving study rooms, please refer to the tutorial below. Otherwise, tap on the Reserve Space button to reserve a room."
+                android:text="If this is your first time reserving study rooms, please refer to the tutorial video below and use the steps as a reference. Otherwise, tap on the Reserve Space button to reserve a room."
                 tools:layout_marginBottom="10dp" />
 
             <TextView
@@ -66,18 +66,12 @@
                 android:text="Reserve Space"
                 android:textColor="@color/white" />
 
-            <ImageView
-                android:id="@+id/imageView25"
+            <WebView
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="230dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/link_to_tutorial" />
-
-            <VideoView
-                android:id="@+id/videoView"
-                android:layout_width="match_parent"
-                android:layout_height="229dp" />
+                android:id="@+id/webView" />
 
             <TextView
                 android:id="@+id/textView49"
@@ -101,16 +95,8 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="Tap Course Catalogue to complete the online training using the 25Live reservation system."
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="10dp" />
-
-            <ImageView
-                android:id="@+id/imageView24"
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/start_training" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -133,16 +119,8 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="Refresh your web browser to enable express scheduling. Check your UW email for a direct link to the 25Live website."
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="10dp" />
-
-            <ImageView
-                android:id="@+id/imageView28"
-                android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/user_training_complete" />
 
             <TextView
                 android:id="@+id/textView52"
@@ -166,32 +144,8 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="Select a study space from the Express Locations dropdown menu. Select a date and time to reserve this study space. Create an event name. Then, press the save button."
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="10dp" />
-
-            <ImageView
-                android:id="@+id/imageView27"
-                android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/reserve_room_page" />
-
-            <ImageView
-                android:id="@+id/imageView30"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/select_space" />
-
-            <ImageView
-                android:id="@+id/imageView31"
-                android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/save_space" />
 
             <TextView
                 android:id="@+id/textView30"
@@ -215,16 +169,8 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="You will receive confirmation that the study space has been successfully reserved on the 25Live page and in your UW email."
-                android:textColor="#000000"
+                style="@style/TextColor"
                 tools:layout_marginBottom="10dp" />
-
-            <ImageView
-                android:id="@+id/imageView32"
-                android:layout_width="match_parent"
-                android:layout_height="380dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                app:srcCompat="@drawable/confirmed_study_space" />
 
 
         </LinearLayout>
