@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/ScreenBackground"
     tools:context=".calendarActivity">
 
     <ScrollView
@@ -64,7 +65,7 @@
                         android:paddingEnd="10dp"
                         android:text="Instruction Begins"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -74,7 +75,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/instruction_begins_autumn"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -90,7 +91,7 @@
                         android:paddingEnd="10dp"
                         android:text="Last Day of Instruction"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -100,7 +101,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/instruction_last_day_autumn"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -116,7 +117,7 @@
                         android:paddingEnd="10dp"
                         android:text="Final Examination Week"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -126,7 +127,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/final_exam_week_autumn"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -142,7 +143,7 @@
                         android:paddingEnd="10dp"
                         android:text="Grades Available on MyUW"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -152,7 +153,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/grades_available_autumn"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -168,7 +169,7 @@
                         android:paddingEnd="10dp"
                         android:text="Quarter Break"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -178,7 +179,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/quarter_break_autumn"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                 </TableRow>
             </TableLayout>
@@ -211,7 +212,7 @@
                         android:paddingEnd="10dp"
                         android:text="Labor Day"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -221,7 +222,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/labor_day"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -237,7 +238,7 @@
                         android:paddingEnd="10dp"
                         android:text="Veterans Day"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -247,7 +248,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/veterans_day"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -263,7 +264,7 @@
                         android:paddingEnd="10dp"
                         android:text="Native American Heritage Day"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -273,7 +274,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/heritage_day"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -289,7 +290,7 @@
                         android:paddingEnd="10dp"
                         android:text="Christmas Day"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -299,7 +300,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/christmas_day"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
             </TableLayout>
@@ -345,7 +346,7 @@
                         android:paddingEnd="10dp"
                         android:text="Instruction Begins"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -355,7 +356,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/instruction_begins_winter"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -371,7 +372,7 @@
                         android:paddingEnd="10dp"
                         android:text="Last Day of Instruction"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -381,7 +382,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/instruction_last_day_winter"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -397,7 +398,7 @@
                         android:paddingEnd="10dp"
                         android:text="Final Examination Week"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -407,7 +408,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/final_exam_week_winter"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -423,7 +424,7 @@
                         android:paddingEnd="10dp"
                         android:text="Grades Available on MyUW"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -433,7 +434,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/grades_available_winter"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -449,7 +450,7 @@
                         android:paddingEnd="10dp"
                         android:text="Quarter Break"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -459,7 +460,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/quarter_break_winter"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                 </TableRow>
             </TableLayout>
@@ -492,7 +493,7 @@
                         android:paddingEnd="10dp"
                         android:text="New Year's Day"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -502,7 +503,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/new_years"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -518,7 +519,7 @@
                         android:paddingEnd="10dp"
                         android:text="Martin Luther King Jr. Day"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -528,7 +529,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/mlk_day"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -544,7 +545,7 @@
                         android:paddingEnd="10dp"
                         android:text="Presidents' Day"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -554,7 +555,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/presidents_day"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
             </TableLayout>
@@ -600,7 +601,7 @@
                         android:paddingEnd="10dp"
                         android:text="Instruction Begins"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -610,7 +611,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/instruction_begins_spring"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -626,7 +627,7 @@
                         android:paddingEnd="10dp"
                         android:text="Last Day of Instruction"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -636,7 +637,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/instruction_last_day_spring"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -652,7 +653,7 @@
                         android:paddingEnd="10dp"
                         android:text="Final Examination Week"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -662,7 +663,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/final_exam_week_spring"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -678,7 +679,7 @@
                         android:paddingEnd="10dp"
                         android:text="Grades Available on MyUW"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -688,7 +689,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/grades_available_spring"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -704,7 +705,7 @@
                         android:paddingEnd="10dp"
                         android:text="Quarter Break"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -714,7 +715,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/quarter_break_spring"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -730,7 +731,7 @@
                         android:paddingEnd="10dp"
                         android:text="Commencement"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -740,7 +741,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/commencement"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
             </TableLayout>
 
@@ -772,7 +773,7 @@
                         android:paddingEnd="10dp"
                         android:text="Memorial Day"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -782,7 +783,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/memorial_day"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
             </TableLayout>
@@ -828,7 +829,7 @@
                         android:paddingEnd="10dp"
                         android:text="Instruction Begins"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -838,7 +839,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/instruction_begins_summer"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -854,7 +855,7 @@
                         android:paddingEnd="10dp"
                         android:text="Last Day of Instruction"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -864,7 +865,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/instruction_last_day_summer"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -880,7 +881,7 @@
                         android:paddingEnd="10dp"
                         android:text="Final Examination Week"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -890,7 +891,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/final_exam_week_summer"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -906,7 +907,7 @@
                         android:paddingEnd="10dp"
                         android:text="Grades Available on MyUW"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -916,7 +917,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/grades_available_summer"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -932,7 +933,7 @@
                         android:paddingEnd="10dp"
                         android:text="Quarter Break"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -942,7 +943,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/quarter_break_summer"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                 </TableRow>
             </TableLayout>
@@ -975,7 +976,7 @@
                         android:paddingEnd="10dp"
                         android:text="Juneteenth"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -985,7 +986,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/juneteenth"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
                 <TableRow
@@ -1001,7 +1002,7 @@
                         android:paddingEnd="10dp"
                         android:text="Independence Day"
                         android:textAlignment="textStart"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -1011,7 +1012,7 @@
                         android:paddingEnd="10dp"
                         android:text="@string/independence_day"
                         android:textAlignment="textEnd"
-                        android:textColor="@color/black" />
+                        style="@style/TextColor" />
                 </TableRow>
 
             </TableLayout>
@@ -1023,6 +1024,7 @@
         android:id="@+id/imageView2"
         android:layout_width="0dp"
         android:layout_height="110dp"
+        style="@style/BannerBackground"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -1049,7 +1051,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/uwbold"
         android:text="Academic Calendar"
-        android:textColor="#32006e"
+        style="@style/HeaderTextColor"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"

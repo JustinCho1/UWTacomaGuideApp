@@ -22,7 +22,7 @@
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                style="@style/CardBackground"
+                android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
                 android:text="Academic Advising Appointments"
