@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/uwbold"
-        android:text="Map (Feel Free to Delete Header)"
+        android:text="Map"
         android:textColor="#32006e"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
@@ -45,24 +45,23 @@
 
     <fragment
         android:id="@+id/map"
-        xmlns:map="http://schemas.android.com/apk/res-auto"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.9"
-        app:layout_constraintWidth_percent="0.9"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="80dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        map:cameraTargetLat="47.24498395484582"
-        map:cameraTargetLng="-122.43815599094076"
-        map:cameraZoom="17"
-        map:uiRotateGestures="true"
-        map:uiScrollGestures="true"
-        map:uiZoomGestures="true"
+        app:cameraTargetLat="47.24498395484582"
+        app:cameraTargetLng="-122.43815599094076"
+        app:cameraZoom="17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.85"
 
-        />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintWidth_percent="1"
+        app:uiRotateGestures="true"
+        app:uiScrollGestures="true"
+        app:uiZoomGestures="true" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
