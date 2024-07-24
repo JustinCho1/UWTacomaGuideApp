@@ -140,17 +140,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row1column1))
                 .position(uwt1, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap1);
-        LatLng uwt2 = new LatLng(47.24700159629406, -122.439345650138451);
+        LatLng uwt2 = new LatLng(47.24700159629406, -122.439205650138451);
         GroundOverlayOptions uwtmap2 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row1column2))
                 .position(uwt2, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap2);
-        LatLng uwt3 = new LatLng(47.24700159629406, -122.437145650138451);
+        LatLng uwt3 = new LatLng(47.24700159629406, -122.436955650138451);
         GroundOverlayOptions uwtmap3 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row1column3))
                 .position(uwt3, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap3);
-        LatLng uwt4 = new LatLng(47.24700159629406, -122.435145650138451);
+        LatLng uwt4 = new LatLng(47.24700159629406, -122.434705650138451);
         GroundOverlayOptions uwtmap4 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row1column4))
                 .position(uwt4, 170f, 150f);
@@ -160,17 +160,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row2column1))
                 .position(uwt5, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap5);
-        LatLng uwt6 = new LatLng(47.24565159629406, -122.439345650138451);
+        LatLng uwt6 = new LatLng(47.24565159629406, -122.439205650138451);
         GroundOverlayOptions uwtmap6 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row2column2))
                 .position(uwt6, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap6);
-        LatLng uwt7 = new LatLng(47.24565159629406, -122.437145650138451);
+        LatLng uwt7 = new LatLng(47.24565159629406, -122.436955650138451);
         GroundOverlayOptions uwtmap7 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row2column3))
                 .position(uwt7, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap7);
-        LatLng uwt8 = new LatLng(47.24565159629406, -122.435145650138451);
+        LatLng uwt8 = new LatLng(47.24565159629406, -122.434705650138451);
         GroundOverlayOptions uwtmap8 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row2column4))
                 .position(uwt8, 170f, 150f);
@@ -180,17 +180,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row3column1))
                 .position(uwt9, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap9);
-        LatLng uwt10 = new LatLng(47.24435159629406, -122.439345650138451);
+        LatLng uwt10 = new LatLng(47.24435159629406, -122.439205650138451);
         GroundOverlayOptions uwtmap10 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row3column2))
                 .position(uwt10, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap10);
-        LatLng uwt11 = new LatLng(47.24435159629406, -122.437145650138451);
+        LatLng uwt11 = new LatLng(47.24435159629406, -122.436955650138451);
         GroundOverlayOptions uwtmap11 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row3column3))
                 .position(uwt11, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap11);
-        LatLng uwt12 = new LatLng(47.24435159629406, -122.435145650138451);
+        LatLng uwt12 = new LatLng(47.24435159629406, -122.434705650138451);
         GroundOverlayOptions uwtmap12 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row3column4))
                 .position(uwt12, 170f, 150f);
@@ -200,17 +200,17 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row4column1))
                 .position(uwt13, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap13);
-        LatLng uwt14 = new LatLng(47.24305159629406, -122.439345650138451);
+        LatLng uwt14 = new LatLng(47.24305159629406, -122.439205650138451);
         GroundOverlayOptions uwtmap14 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row4column2))
                 .position(uwt14, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap14);
-        LatLng uwt15 = new LatLng(47.24305159629406, -122.437145650138451);
+        LatLng uwt15 = new LatLng(47.24305159629406, -122.436905650138451);
         GroundOverlayOptions uwtmap15 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row4column3))
                 .position(uwt15, 170f, 150f);
         globalGoogleMap.addGroundOverlay(uwtmap15);
-        LatLng uwt16 = new LatLng(47.24305159629406, -122.435145650138451);
+        LatLng uwt16 = new LatLng(47.24305159629406, -122.434705650138451);
         GroundOverlayOptions uwtmap16 = new GroundOverlayOptions()
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.row4column4))
                 .position(uwt16, 170f, 150f);
