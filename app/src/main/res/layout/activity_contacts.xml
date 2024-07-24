@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/ScreenBackground"
     tools:context=".contactsActivity">
 
     <ScrollView
@@ -50,7 +51,7 @@
                 android:fontFamily="@font/uwnormal"
                 android:padding="10dp"
                 android:text="The following is a list of frequently contacted departments.\n\n➤ Tap on a phone number or email to copy a department's phone number or email address.\n\n➤ These will be saved to your device's clipboard."
-                android:textColor="#000000" />
+                style="@style/TextColor" />
 
             <TextView
                 android:id="@+id/textView14"
@@ -61,7 +62,7 @@
                 android:fontFamily="@font/uwbold"
                 android:text="Phone"
                 android:textAlignment="center"
-                android:textColor="#4B2E83"
+                style="@style/SubTextColor"
                 android:textSize="20sp" />
 
             <RelativeLayout
@@ -107,7 +108,7 @@
                 android:fontFamily="@font/uwbold"
                 android:text="Email"
                 android:textAlignment="center"
-                android:textColor="#4B2E83"
+                style="@style/SubTextColor"
                 android:textSize="20sp" />
 
             <Button
@@ -134,7 +135,7 @@
                 android:fontFamily="@font/uwbold"
                 android:text="Mailing Address"
                 android:textAlignment="center"
-                android:textColor="#4B2E83"
+                style="@style/SubTextColor"
                 android:textSize="20sp" />
 
             <Button
@@ -289,7 +290,7 @@
                 android:padding="10dp"
                 android:text="(Student records, transcripts, course registration)"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                style="@style/TextColor" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -353,7 +354,7 @@
                 android:padding="10dp"
                 android:text="(Student computer labs, IT support)"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                style="@style/TextColor" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -508,6 +509,7 @@
         android:id="@+id/imageView2"
         android:layout_width="0dp"
         android:layout_height="110dp"
+        style="@style/BannerBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -519,7 +521,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/uwbold"
         android:text="Contacts"
-        android:textColor="#32006e"
+        style="@style/HeaderTextColor"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"

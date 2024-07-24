@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/ScreenBackground"
     tools:context=".BuildingInfoActivity">
 
     <ScrollView
@@ -42,7 +43,7 @@
                 android:fontFamily="@font/uwbold"
                 android:text="Physical Address"
                 android:textAlignment="center"
-                android:textColor="#4B2E83"
+                style="@style/SubTextColor"
                 android:textSize="20sp" />
 
             <TextView
@@ -55,7 +56,7 @@
                 android:padding="10dp"
                 android:text="Address"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                style="@style/SubTextColor" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -78,7 +79,7 @@
                 android:fontFamily="@font/uwnormal"
                 android:padding="10dp"
                 android:text="Room"
-                android:textColor="#000000" />
+                style="@style/SubTextColor" />
 
         </LinearLayout>
 
@@ -89,6 +90,7 @@
         android:id="@+id/imageView2"
         android:layout_width="0dp"
         android:layout_height="110dp"
+        style="@style/BannerBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -100,7 +102,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/uwbold"
         android:text="Building Name"
-        android:textColor="#32006e"
+        style="@style/HeaderTextColor"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
