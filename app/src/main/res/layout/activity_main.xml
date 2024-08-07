@@ -136,28 +136,6 @@
                 android:text="About Us"
                 android:textColor="#FFFFFF" />
 
-            <EditText
-                android:id="@+id/editTextTextEmailAddress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textEmailAddress"
-                android:hint="username"/>
-
-            <EditText
-                android:id="@+id/editTextTextPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPassword"
-                android:hint="password"/>
-
-            <Button
-                android:id="@+id/signInButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sign In" />
-
         </LinearLayout>
     </ScrollView>
 
