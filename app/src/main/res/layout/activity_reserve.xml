@@ -24,7 +24,7 @@
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
-                android:text="Step 1"
+                android:text="How to Reserve Study Rooms"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -39,18 +39,6 @@
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/uwnormal"
                 android:text="If this is your first time reserving study rooms, please refer to the tutorial video below and use the steps as a reference. Otherwise, tap on the Reserve Space button to reserve a room."
-                tools:layout_marginBottom="10dp" />
-
-            <TextView
-                android:id="@+id/textView51"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="40dp"
-                android:fontFamily="@font/uwnormal"
-                android:text="Tap on the Reserve Space button. Once you arrive at the page, scroll all the way down and click on the link within the purple box labled &quot;Complete the required online tutorial.&quot; After clicking the link, log in using your UW student ID and password."
-                style="@style/TextColor"
                 tools:layout_marginBottom="10dp" />
 
             <Button
@@ -81,10 +69,22 @@
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
-                android:text="Step 2"
+                android:text="Step 1"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                style="@style/TextColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/uwnormal"
+                android:text="Tap on the Reserve Space button. Once you arrive at the page, scroll all the way down and click on the link within the purple box labled &quot;Complete the required online tutorial.&quot; After clicking the link, log in using your UW student ID and password."
+                tools:layout_marginBottom="10dp" />
 
             <TextView
                 android:id="@+id/textView53"
@@ -105,7 +105,7 @@
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
-                android:text="Step 3"
+                android:text="Step 2"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -130,7 +130,7 @@
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
-                android:text="Step 4"
+                android:text="Step 3"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -155,7 +155,7 @@
                 android:background="#4b2e83"
                 android:fontFamily="@font/uwbold"
                 android:padding="10dp"
-                android:text="Step 5"
+                android:text="Step 4"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
