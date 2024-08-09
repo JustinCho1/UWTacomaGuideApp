@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
         button7 = (Button) findViewById(R.id.reportBtn);
         button8 = (Button) findViewById(R.id.aboutBtn);
         button9 = (Button) findViewById(R.id.feedbackBtn);
-        button10 = (Button) findViewById(R.id.signInButton);
         button11 = (Button) findViewById(R.id.buildingBtn);
         GlobalVars.mAuth = FirebaseAuth.getInstance();
 
@@ -170,31 +169,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, feedbackActivity.class);
                 startActivity(intent);
-            }
-        });
-        button10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                email = findViewById(R.id.editTextTextEmailAddress);
-                password = findViewById(R.id.editTextTextPassword);
-                String email1 = email.getText().toString();
-                String password1 = password.getText().toString();
-                AuthCredential credential = EmailAuthProvider.getCredential(email1, password1);
-                Log.d("Email", email1);
-                Log.d("Password", password1);
-                Log.d("credential", credential.toString());
-                GlobalVars.mAuth.signInWithCredential(credential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful()){
-                            Log.d("login", "success");
-                            GlobalVars.user = GlobalVars.mAuth.getCurrentUser();
-                        }
-                        else{
-                            Log.d("login", "failure");
-                        }
-                    }
-                });
             }
         });
     }
