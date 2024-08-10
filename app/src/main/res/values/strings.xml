@@ -85,9 +85,9 @@
         <item>1754 Pacific Avenue</item>
         <item>1718 Pacific Avenue</item>
         <item>1754 Commerce Street</item>
-        <item>1953 S. C Street</item>
+        <item>1953 S C Street</item>
         <item>1932 Pacific Avenue</item>
-        <item>1950 South C Street</item>
+        <item>1950 S C Street</item>
         <item>1918 Pacific Avenue</item>
         <item>1702 Broadway Avenue</item>
         <item>1745 Jefferson Avenue</item>
@@ -97,9 +97,33 @@
         <item>1710 Market Street</item>
         <item>1908 Pacific Avenue</item>
         <item>1732-38 Pacific Avenue</item>
-        <item>1901 S. Fawcett Avenue</item>
+        <item>1901 Fawcett Avenue</item>
     </string-array>
-
+    
+    <string-array name="building_detail">
+        <item>The small Birmingham Block is just three classrooms and you almost don\&apos;t realize it\&apos;s there as you walk from GWP to WCG. But walking along Pacific, its importance becomes more apparent. It is home to the campus\&apos;s first coffee shop (a Starbucks, of course), that opened with the campus in 1997.</item>
+        <item>Like the Birmingham Block, Birmingham Hay &amp; Seed is primarily a set of classrooms. But it has a secret. If you walk the narrow hallway that leads around behind BHS 106, you\&apos;ll find a small two-story atrium lounge looking over Pacific Avenue that makes a quiet place to study or hang out because so few people know it\&apos;s there.</item>
+        <item>Actually three buildings connected together, Cherry Parkes was original warehouses for merchants supplying the Alaskan Gold Rush. Now it houses classrooms and faculty offices. It is the home of three academic programs:\n\n➤ School of Engineering &amp; Technology\n\n➤ School of Nursing &amp; Healthcare\n\n➤ Institute for Innovation &amp; Global Engagement (home of the Global Honors program)</item>
+        <item>As a resident in UW Tacoma\&apos;s Court 17 Residence Hall, you will have the opportunity to live with other UW Tacoma students in a vibrant and engaging community at the heart of campus.\n\n➤ Built-in community\n\n➤ Exciting programs and events\n\n➤ Convenient and close to classes\n\n➤ Live-in housing staff available 24/7\n\n➤ Safe and secure living environment\n\n➤ Walking distance to shops, restaurants and parks\n\n➤ Convenient access to major bus routes serving the greater Puget Sound area\n\n➤ Amenities including full kitchen, fully-furnished units and secure parking</item>
+        <item>Home to the Milgard School of Business and the Milgard Success Center, the Dougan Building also includes a number of classrooms and the Campus Safety office.</item>
+        <item>One of the original warehouse buildings to be renovated for the UW Tacoma campus, GWP is home to University Academic Advising and the Office of Global Affairs along with classrooms and the University Bookstore. A four-story atrium includes spaces to study or hang out.</item>
+        <item>Do you like taking classes? Then the Joy Building will live up to its name. Named for its original developer in 1912, Russell T. Joy, and not the euphoric feeling learning may give you, the building is home to more classrooms than any other UW Tacoma building.\n\nChances are good, you will have at least one class in the Joy Building. We hope you graduate feeling some joy.</item>
+        <item>The Keystone Building is home to the Carwein Auditorium, UW Tacoma\&apos;s largest classroom (it holds 160). The room is named after our first chancellor, Vicky L. Carwein, who led the campus from 1995-2004. The top floor is home to faculty offices.</item>
+        <item>The Mattress Factory is where most students start their UW Tacoma journey -- the Office of Admissions is located on the 2nd floor. A number of other student services also make their home here including the Office of the Registrar, Financial Aid, Disability Resources, Career Development and Psychological &amp; Wellness Services. The Dawghouse Student Lounge is located on the first floor.</item>
+        <item>Connected to (and accessed through) the Cherry Parkes building, McDonald Smith is home to classrooms and faculty and staff offices. In addition, the UW Autism Center has an office on the main floor.</item>
+        <item>Milgard Hall is a home for innovation at UW Tacoma. It features labs for mechanical and civil engineering, along with new homes for the Milgard School of Business and the Global Innovation &amp; Design Lab.</item>
+        <item>William W. Philip Hall is an events space that hosts lectures, conferences, career fairs, celebrations and more. There is also a student lounge on the 2nd floor that looks out over Gillenwater Plaza.\n\nThanks to a gift from philanthropist and businessman James A. Milgard, this building is named in honor of William W. Philip, a community leader and businessman, who had a seminal role in establishing UW Tacoma.</item>
+        <item>Pinkerton is technically the oldest building on any UW campus. Originally constructed as a hotel to serve the Union Station train depot in 1889, it is one year older than Denny Hall on the Seattle campus.</item>
+        <item>The name kind of gives it away. The Science Buildings is home to labs for all kinds of science, from environmental to biomedical to computer. A lot of the science faculty also have their offices here.</item>
+        <item>Probably the most iconic building on campus, the former Snoqualmie Powerhouse that housed transformers to power streetcars in the early 20th century now houses the Learning Commons to empower students. Home to the Teaching &amp; Learning Center, Center for Equity &amp; Inclusion and the UW Tacoma Library, the building includes a makerspace.</item>
+        <item>Tacoma Paper &amp; Stationery includes classrooms, computer and engineering labs, the Urban Design Lab and the Global Innovation &amp; Design Lab.\n\nWe also honor the campus\&apos;s biggest supporters in a display on the main floor made from old wood beams recovered in the renovation of the building in 2016.\n\nThe main floor was home to the Old Spaghetti Factory in Tacoma for over 40 years and some say you can still smell the pasta sauce on a hot day.</item>
+        <item>True to its name, the Tioga Library Building contains the UW Tacoma Library\&apos;s collection and services. It is also part of the Learning Commons (with the Snoqualmie Building) that includes the Writing Center. On the 3rd floor, you will find the Veteran and Military Resource Center and the VIBE Business Incubator.</item>
+        <item>The University YMCA Student Center is UW Tacoma\&apos;s student recreation center. It is a fully operational YMCA, with recreation and fitness spaces, an NCAA regulation basketball court, cardio and weights equipment, indoor track, personal training, and locker rooms. Beyond the recreation center, the UWY serves as a social space for students too. Home to the Center for Student Involvement and student government, campus meeting and event spaces, and a game room, the UWY is a hub of student life at UW Tacoma.</item>
+        <item>The small Walsh Gardner building is home to Information Technology services and a few classrooms. It also houses one of two student computer labs on campus in WG 108.</item>
+        <item>Yes, West Coast Grocery really did start out life as a grocery warehouse. And today there\&apos;s still a grocery store here -- the West Coast Grocery convenience store.\n\nAlong with classrooms, WCG is also home to several academic schools:\n\nIt is home to the new Office of the Tribal Liaison and the "Family Room."\n\n➤ School of Education\n\n➤ School of Interdisciplinary Arts and Sciences\n\n➤ School of Social Work &amp; Criminal Justice</item>
+        <item>A former methodist church, the Whitney is now used as classrooms, primarily for the arts.</item>
+    </string-array>
+    
     <string-array name="building_room">
         <item>BB 104 - Classroom \n\nBB 106 - Classroom \n\nBB 107 - Classroom \n\nBB 040 - Fluids &amp; Heat Transfer Lab</item>
         <item>BHS 101 - Breakout Room \n\nBHS 105 - Breakout Room \n\nBHS 103 - Classroom \n\nBHS 104 - Classroom \n\nBHS 106 - Classroom \n\nBHS 107 - Classroom</item>
@@ -122,6 +146,5 @@
         <item>WG 210 - Classroom \n\nWG 308 - Classroom \n\nWG 320 - Computer Classroom</item>
         <item>WCG 103 - Classroom \n\nWCG 110 - Classroom \n\nWCG 209 - Classroom \n\nWCG 060 - Mechanical Engineering Design Lab</item>
         <item>WHT 004 - Classroom \n\nWHT 104 - Classroom \n\nWHT 102 - Seminar Room</item>
-
     </string-array>
 </resources>

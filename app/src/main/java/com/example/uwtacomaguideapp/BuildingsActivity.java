@@ -53,10 +53,11 @@ public class BuildingsActivity extends AppCompatActivity implements BuildingRecy
     private void setUpBuildings(){
         String[] buildingNames = getResources().getStringArray(R.array.building_name);
         String[] buildingAddress = getResources().getStringArray(R.array.building_address);
+        String[] buildingDetail = getResources().getStringArray(R.array.building_detail);
         String[] buildingRoom = getResources().getStringArray(R.array.building_room);
 
         for (int i = 0; i< buildingNames.length; i++) {
-            buildingNameModels.add(new BuildingNames(buildingNames[i], buildingAddress[i], buildingRoom[i]));
+            buildingNameModels.add(new BuildingNames(buildingNames[i], buildingAddress[i], buildingDetail[i], buildingRoom[i]));
         }
     }
 
@@ -66,6 +67,7 @@ public class BuildingsActivity extends AppCompatActivity implements BuildingRecy
 
         intent.putExtra("NAME", buildingNameModels.get(position).buildingName);
         intent.putExtra("ADDRESS", buildingNameModels.get(position).buildingAddress);
+        intent.putExtra("DETAIL", buildingNameModels.get(position).buildingDetail);
         intent.putExtra("ROOM", buildingNameModels.get(position).buildingRoom);
 
         startActivity(intent);

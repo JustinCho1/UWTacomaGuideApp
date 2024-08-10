@@ -30,14 +30,17 @@ public class BuildingInfoActivity extends AppCompatActivity {
 
         String name = getIntent().getStringExtra("NAME");
         String address = getIntent().getStringExtra("ADDRESS");
+        String detail = getIntent().getStringExtra("DETAIL");
         String room = getIntent().getStringExtra("ROOM");
 
         TextView buildingTextView = findViewById(R.id.BuildingID);
         TextView addressTextView = findViewById(R.id.AddressID);
+        TextView detailTextView = findViewById(R.id.DetailID);
         TextView roomTextView = findViewById(R.id.RoomID);
 
         buildingTextView.setText(name);
         addressTextView.setText(address);
+        detailTextView.setText(detail);
         roomTextView.setText(room);
 
         button1 = (Button) findViewById(R.id.backBtn);
