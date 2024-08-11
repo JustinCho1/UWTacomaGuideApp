@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-
+// used to display building buttons
 public class BR_RecyclerViewAdapter extends RecyclerView.Adapter<BR_RecyclerViewAdapter.MyViewHolder> {
     private final BuildingRecyclerInterface buildingRecyclerInterface;
 

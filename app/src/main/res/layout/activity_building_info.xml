@@ -83,7 +83,7 @@
                 android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/SpaceID"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="#4b2e83"
@@ -96,6 +96,7 @@
 
             <TextView
                 android:id="@+id/RoomID"
+                style="@style/SubTextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
@@ -103,7 +104,55 @@
                 android:fontFamily="@font/uwnormal"
                 android:padding="10dp"
                 android:text="Room"
-                style="@style/SubTextColor" />
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/ServicesID"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Offices &amp; Services"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ServicesRoomID"
+                style="@style/SubTextColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/uwnormal"
+                android:padding="10dp"
+                android:text="Offices"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/MeetingID"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4b2e83"
+                android:fontFamily="@font/uwbold"
+                android:padding="10dp"
+                android:text="Meeting &amp; Event Spaces"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/MeetingRoomID"
+                style="@style/SubTextColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/uwnormal"
+                android:padding="10dp"
+                android:text="Meeting"
+                android:textAlignment="center" />
 
         </LinearLayout>
 
