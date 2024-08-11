@@ -5,12 +5,16 @@ public class BuildingNames {
     String buildingAddress;
     String buildingDetail;
     String buildingRoom;
+    String buildingOffice;
+    String buildingMeeting;
 
-    public BuildingNames(String buildingName, String buildingAddress, String buildingDetail, String buildingRoom) {
+    public BuildingNames(String buildingName, String buildingAddress, String buildingDetail, String buildingRoom, String buildingOffice, String buildingMeeting) {
         this.buildingName = buildingName;
         this.buildingAddress = buildingAddress;
         this.buildingDetail = buildingDetail;
         this.buildingRoom = buildingRoom;
+        this.buildingOffice = buildingOffice;
+        this.buildingMeeting = buildingMeeting;
     }
 
     public String getBuildingName(String buildingName) {
@@ -25,7 +29,15 @@ public class BuildingNames {
         return buildingName;
     }
 
-    public String getBuildingRoom(String buildingName) {
+    public String getBuildingRoom(String buildingRoom) {
+        return buildingName;
+    }
+
+    public String getBuildingOffice(String buildingOffice) {
+        return buildingName;
+    }
+
+    public String getBuildingMeeting(String buildingMeeting) {
         return buildingName;
     }
 }

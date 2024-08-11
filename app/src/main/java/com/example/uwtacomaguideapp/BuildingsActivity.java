@@ -55,9 +55,11 @@ public class BuildingsActivity extends AppCompatActivity implements BuildingRecy
         String[] buildingAddress = getResources().getStringArray(R.array.building_address);
         String[] buildingDetail = getResources().getStringArray(R.array.building_detail);
         String[] buildingRoom = getResources().getStringArray(R.array.building_room);
+        String[] buildingOffice = getResources().getStringArray(R.array.building_office);
+        String[] buildingMeeting = getResources().getStringArray(R.array.building_meeting);
 
         for (int i = 0; i< buildingNames.length; i++) {
-            buildingNameModels.add(new BuildingNames(buildingNames[i], buildingAddress[i], buildingDetail[i], buildingRoom[i]));
+            buildingNameModels.add(new BuildingNames(buildingNames[i], buildingAddress[i], buildingDetail[i], buildingRoom[i], buildingOffice[i], buildingMeeting[i]));
         }
     }
 
@@ -69,6 +71,8 @@ public class BuildingsActivity extends AppCompatActivity implements BuildingRecy
         intent.putExtra("ADDRESS", buildingNameModels.get(position).buildingAddress);
         intent.putExtra("DETAIL", buildingNameModels.get(position).buildingDetail);
         intent.putExtra("ROOM", buildingNameModels.get(position).buildingRoom);
+        intent.putExtra("OFFICE", buildingNameModels.get(position).buildingOffice);
+        intent.putExtra("MEETING", buildingNameModels.get(position).buildingMeeting);
 
         startActivity(intent);
     }

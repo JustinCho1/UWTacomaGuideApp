@@ -34,6 +34,9 @@ public class BuildingInfoActivity extends AppCompatActivity {
         String address = getIntent().getStringExtra("ADDRESS");
         String detail = getIntent().getStringExtra("DETAIL");
         String room = getIntent().getStringExtra("ROOM");
+        String office = getIntent().getStringExtra("OFFICE");
+        String meeting = getIntent().getStringExtra("MEETING");
+
 
         // Searches for textview ID
         TextView buildingTextView = findViewById(R.id.BuildingID);
@@ -56,6 +59,8 @@ public class BuildingInfoActivity extends AppCompatActivity {
         addressTextView.setText(address);
         detailTextView.setText(detail);
         roomTextView.setText(room);
+        serviceRoomTextView.setText(office);
+        meetingRoomTextView.setText(meeting);
 
         // Grabs text about a room and turns it into a string
         String spaceChange = buildingTextView.getText().toString();
