@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">UWTacomaGuideApp</string>
+    <string name="app_name">UW Tacoma Guide App</string>
 
     <!-- CALENDAR -->
 
     <!-- Autumn -->
     <string name="instruction_begins_autumn">Sep 25, 2024</string>
     <string name="instruction_last_day_autumn">Dec 6, 2024</string>
-    <string name="final_exam_week_autumn">Dec 7 – 13, 2024</string>
+    <string name="final_exam_week_autumn">Dec 7 - 13, 2024</string>
     <string name="grades_available_autumn">Dec 18, 2024</string>
-    <string name="quarter_break_autumn">Dec 14, 2024 – Jan 5, 2025</string>
+    <string name="quarter_break_autumn">Dec 14, 2024 - Jan 5, 2025</string>
 
     <!-- Autumn Holiday -->
     <string name="labor_day">Sep 2, 2024</string>
@@ -20,9 +20,9 @@
     <!-- Winter -->
     <string name="instruction_begins_winter">Jan 6, 2025</string>
     <string name="instruction_last_day_winter">Mar 14, 2025</string>
-    <string name="final_exam_week_winter">Mar 15 – 21, 2025</string>
+    <string name="final_exam_week_winter">Mar 15 - 21, 2025</string>
     <string name="grades_available_winter">Mar 26, 2024</string>
-    <string name="quarter_break_winter">Mar 22 – 30, 2025</string>
+    <string name="quarter_break_winter">Mar 22 - 30, 2025</string>
 
     <!-- Winter Holiday -->
     <string name="new_years">Jan 1, 2025</string>
@@ -32,9 +32,9 @@
     <!-- Spring -->
     <string name="instruction_begins_spring">Mar 31, 2025</string>
     <string name="instruction_last_day_spring">Jun 6, 2025</string>
-    <string name="final_exam_week_spring">Jun 7 – 13, 2025</string>
+    <string name="final_exam_week_spring">Jun 7 - 13, 2025</string>
     <string name="grades_available_spring">Jun 18, 2025</string>
-    <string name="quarter_break_spring">Jun 14 – 22, 2025</string>
+    <string name="quarter_break_spring">Jun 14 - 22, 2025</string>
     <string name="commencement">Jun 13, 2025</string>
 
     <!-- Spring Holiday -->
@@ -45,7 +45,7 @@
     <string name="instruction_last_day_summer">Aug 22, 2025</string>
     <string name="final_exam_week_summer">Typically the last day of class</string>
     <string name="grades_available_summer">Aug 27, 2025</string>
-    <string name="quarter_break_summer">Aug 23 – Sep 23, 2025</string>
+    <string name="quarter_break_summer">Aug 23 - Sep 23, 2025</string>
 
     <!-- Summer Holiday -->
     <string name="juneteenth">Jun 19, 2025</string>
@@ -161,7 +161,7 @@
         <item>MDS 113 - Transportation Services\n\nMDS 110 - UW Autism Center\n\nMDS 105 - Center for Applied Social Cognition Research</item>
         <item>MLG 101 - Accounting Hub\n\nMLG 101 - Center for Leadership &amp; Social Responsibility\n\nMLG 101 - Center for Business Analytics\n\nMLG 101 - Center for Financial Wellness\n\nMLG 203 - Global Innovation &amp; Design Lab\n\nMLG 325 - Milgard School of Business\n\nMLG 101 - Milgard Success Center</item>
         <item>WPH 201 - Conference Services\n\nWPH 205 - Professional Development Center\n\nWPH 010 - The Pantry</item>
-        <item> PNK 300 – School of Urban Studies\n\nPNK 221 - Urban Studies Academic Advising</item>
+        <item>PNK 300 - School of Urban Studies\n\nPNK 221 - Urban Studies Academic Advising</item>
         <item>None</item>
         <item>SNO 150 - Center for Equity &amp; Inclusion\n\nSNO 150 - Office of Equity &amp; Inclusion\n\nSNO 260 - TLC: Quantitative Services</item>
         <item>None</item>
@@ -178,11 +178,11 @@
         <item>CP 103 - Seminar Room</item>
         <item>None</item>
         <item>None</item>
-        <item>GWP 320 – Dawn Lucien Boardroom</item>
-        <item>JOY 201 – Conference Room</item>
+        <item>GWP 320 - Dawn Lucien Boardroom</item>
+        <item>JOY 201 - Conference Room</item>
         <item>None</item>
-        <item>MAT 104 – Meeting Room\n\nMAT 153 - Dawghouse Student Lounge</item>
-        <item>MDS 312 – Conference Room</item>
+        <item>MAT 104 - Meeting Room\n\nMAT 153 - Dawghouse Student Lounge</item>
+        <item>MDS 312 - Conference Room</item>
         <item>None</item>
         <item>1st floor - Columbia Bank Lobby\n\nWPH 202 - Forest Foundation Collaboration Room I\n\nWPH 204 - Forest Foundation Collaboration Room II\n\nWPH 101 - James A. Milgard Family Assembly Room\n\nWPH 101A - Jane Thompson Russell Commons\n\n1st floor - Judith Graubard Kopp Gallery\n\n</item>
         <item>PNK 212 - Conference Room</item>
@@ -192,7 +192,7 @@
         <item>None</item>
         <item>UWY 303/304 - Event Space\n\nUWY 205 - Game Room\n\nUWY 103 - Meeting Room\n\nUWY 105 - Meeting Room\n\nUWY 307 - Meeting Room</item>
         <item>None</item>
-        <item>WCG – 309\n\nWCG 322 - Conference Room</item>
+        <item>WCG - 309\n\nWCG 322 - Conference Room</item>
         <item>None</item>
     </string-array>
 
