@@ -147,4 +147,53 @@
         <item>WCG 103 - Classroom \n\nWCG 110 - Classroom \n\nWCG 209 - Classroom \n\nWCG 060 - Mechanical Engineering Design Lab</item>
         <item>WHT 004 - Classroom \n\nWHT 104 - Classroom \n\nWHT 102 - Seminar Room</item>
     </string-array>
+
+    <string-array name="building_office">
+        <item>None</item>
+        <item>None</item>
+        <item>CP 133 - School of Engineering &amp; Technology\n\nCP 311 - Global Honors Program\n\nCP 311 - Institute for Innovation &amp; Global Engagement\n\nCP 005 - Multimedia Lab\n\nCP 326 - Nursing &amp; Healthcare Leadership, School of\n\nCP 005 - Student Computer Lab</item>
+        <item>Room 106 - Housing &amp; Residence Office</item>
+        <item>DOU 210 - Office of Community Partnerships\n\nDOU 204 - Milgard School Undergraduate Advising Center\n\nDOU 180 - Campus Safety and Security\n\n</item>
+        <item>GWP 312 - Academic Affairs\n\nGWP 312 - Office of the Chancellor\n\nGWP 102 - Office of Global Affairs\n\nGWP 102 - International Student &amp; Scholar Services\n\nGWP 102 - Study Abroad\n\nGWP 102 - University Academic Advising\n\nGWP 102 - Office of Undergraduate Education\n\nGWP 001 - UW Tacoma Shop (textbooks &amp; gear)</item>
+        <item>None</item>
+        <item>None</item>
+        <item>MAT 251 - Admissions\n\nMAT 106 - Career Development and Education\n\nMAT 053 - Copy and Mail Center\n\nMAT 107 - Disability Resources for Students\n\nMAT 251 - Financial Aid\n\nMAT 152 - Husky Post Prison Pathways\n\nMAT 004 - Integrated Facilities Management\n\nMAT 151 - Ledger, The\n\nMAT 106 - New Student &amp; Family Programs\n\nMAT 354 - Psychological &amp; Wellness Services\n\nMAT 251 - Registrar, Office of the\n\nMAT 203 - Student Advocacy &amp; Support\n\nMAT 352 - Student Affairs, Division of\n\nMAT 103 - Student Life\n\nMAT 106 - Student Transitions Programs </item>
+        <item>MDS 113 - Transportation Services\n\nMDS 110 - UW Autism Center\n\nMDS 105 - Center for Applied Social Cognition Research</item>
+        <item>MLG 101 - Accounting Hub\n\nMLG 101 - Center for Leadership &amp; Social Responsibility\n\nMLG 101 - Center for Business Analytics\n\nMLG 101 - Center for Financial Wellness\n\nMLG 203 - Global Innovation &amp; Design Lab\n\nMLG 325 - Milgard School of Business\n\nMLG 101 - Milgard Success Center</item>
+        <item>WPH 201 - Conference Services\n\nWPH 205 - Professional Development Center\n\nWPH 010 - The Pantry</item>
+        <item> PNK 300 – School of Urban Studies\n\nPNK 221 - Urban Studies Academic Advising</item>
+        <item>None</item>
+        <item>SNO 150 - Center for Equity &amp; Inclusion\n\nSNO 150 - Office of Equity &amp; Inclusion\n\nSNO 260 - TLC: Quantitative Services</item>
+        <item>None</item>
+        <item>TLB 307C - Alumni Relations\n\nTLB 307C - Office of Advancement\n\nTLB 307B - Finance &amp; Administration\n\nTLB 307B - Human Resources\n\nTLB 208 - Library Administration\n\nTLB 100 - Library Checkout and Services\n\nTLB 200 - Library Research Help Desk\n\nTLB 307C - Marketing &amp; Communications\n\nTLB 210 - TLC Writing Center\n\nTLB 307A - Veteran &amp; Military Resource Center\n\nTLB 307A - Veterans Incubator for Better Entrepreneurship (VIBE)</item>
+        <item>UWY 107 - ASUWT (student government)\n\nUWY 107 - Center for Student Involvement\n\nUWY 203 - Reflection Room\n\nUWY 107 - Student Activities Board\n\nUWY 100 - University Y Fitness Center</item>
+        <item>WG 208 - Office of Digital Learning\n\nWG 208 - Faculty Resource Center\n\nWG 320A - Information Technology\n\nWG 116 - Media Services\n\nWG 108 - Student Computer Lab </item>
+        <item>WCG 324 - Education, School of\n\nWCG 424 - Interdisciplinary Arts and Sciences, School of\n\nWCG 405 - Office of the Ombud\n\nWCG 203 - Social Work &amp; Criminal Justice, School of\n\nWCG 105 - West Coast Grocery Convenience Store </item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="building_meeting">
+        <item>None</item>
+        <item>None</item>
+        <item>CP 103 - Seminar Room</item>
+        <item>None</item>
+        <item>None</item>
+        <item>GWP 320 – Dawn Lucien Boardroom</item>
+        <item>JOY 201 – Conference Room</item>
+        <item>None</item>
+        <item>MAT 104 – Meeting Room\n\nMAT 153 - Dawghouse Student Lounge</item>
+        <item>MDS 312 – Conference Room</item>
+        <item>None</item>
+        <item>1st floor - Columbia Bank Lobby\n\nWPH 202 - Forest Foundation Collaboration Room I\n\nWPH 204 - Forest Foundation Collaboration Room II\n\nWPH 101 - James A. Milgard Family Assembly Room\n\nWPH 101A - Jane Thompson Russell Commons\n\n1st floor - Judith Graubard Kopp Gallery\n\n</item>
+        <item>PNK 212 - Conference Room</item>
+        <item>SCI 104 - Conference Room</item>
+        <item>None</item>
+        <item>TPS 110 - Port of Tacoma Room</item>
+        <item>None</item>
+        <item>UWY 303/304 - Event Space\n\nUWY 205 - Game Room\n\nUWY 103 - Meeting Room\n\nUWY 105 - Meeting Room\n\nUWY 307 - Meeting Room</item>
+        <item>None</item>
+        <item>WCG – 309\n\nWCG 322 - Conference Room</item>
+        <item>None</item>
+    </string-array>
+
 </resources>
